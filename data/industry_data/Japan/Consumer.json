@@ -21,6 +21,29 @@
       "既存店売上、営業利益率、在庫回転率、海外市場での事業遂行力を評価しましょう。"
     ]
   },
+  "representativeGroups": [
+    {
+      "groupName": { "zh-TW": "成長股", "en": "Growth Stocks", "ja": "成長株" },
+      "companies": [
+        { "name": { "zh-TW": "迅銷", "en": "Fast Retailing", "ja": "ファーストリテイリング" }, "ticker": "9983", "exchange": "TSE" },
+        { "name": { "zh-TW": "資生堂", "en": "Shiseido", "ja": "資生堂" }, "ticker": "4911", "exchange": "TSE" }
+      ]
+    },
+    {
+      "groupName": { "zh-TW": "價值股", "en": "Value Stocks", "ja": "価値株" },
+      "companies": [
+        { "name": { "zh-TW": "花王", "en": "Kao", "ja": "花王" }, "ticker": "4452", "exchange": "TSE" },
+        { "name": { "zh-TW": "永旺", "en": "AEON", "ja": "イオン" }, "ticker": "8267", "exchange": "TSE" }
+      ]
+    },
+    {
+      "groupName": { "zh-TW": "股息股", "en": "Dividend Stocks", "ja": "配当株" },
+      "companies": [
+        { "name": { "zh-TW": "味之素", "en": "Ajinomoto", "ja": "味の素" }, "ticker": "2802", "exchange": "TSE" },
+        { "name": { "zh-TW": "朝日集團控股", "en": "Asahi Group Holdings", "ja": "アサヒグループホールディングス" }, "ticker": "2502", "exchange": "TSE" }
+      ]
+    }
+  ],
   "representativeCompanies": [
     {
       "name": { "zh-TW": "迅銷", "en": "Fast Retailing", "ja": "ファーストリテイリング" },

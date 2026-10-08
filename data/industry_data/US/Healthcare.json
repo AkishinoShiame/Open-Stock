@@ -21,6 +21,29 @@
       "業界全体を低リスクと考えず、開発品目、製品への依存度、償還政策、財務状況を評価しましょう。"
     ]
   },
+  "representativeGroups": [
+    {
+      "groupName": { "zh-TW": "成長股", "en": "Growth Stocks", "ja": "成長株" },
+      "companies": [
+        { "name": { "zh-TW": "禮來", "en": "Eli Lilly and Company", "ja": "イーライリリー" }, "ticker": "LLY", "exchange": "NYSE" },
+        { "name": { "zh-TW": "艾伯維", "en": "AbbVie", "ja": "アッヴィ" }, "ticker": "ABBV", "exchange": "NYSE" }
+      ]
+    },
+    {
+      "groupName": { "zh-TW": "價值股", "en": "Value Stocks", "ja": "価値株" },
+      "companies": [
+        { "name": { "zh-TW": "默克", "en": "Merck & Co.", "ja": "メルク" }, "ticker": "MRK", "exchange": "NYSE" },
+        { "name": { "zh-TW": "亞培", "en": "Abbott Laboratories", "ja": "アボット・ラボラトリーズ" }, "ticker": "ABT", "exchange": "NYSE" }
+      ]
+    },
+    {
+      "groupName": { "zh-TW": "股息股", "en": "Dividend Stocks", "ja": "配当株" },
+      "companies": [
+        { "name": { "zh-TW": "嬌生", "en": "Johnson & Johnson", "ja": "ジョンソン・エンド・ジョンソン" }, "ticker": "JNJ", "exchange": "NYSE" },
+        { "name": { "zh-TW": "聯合健康集團", "en": "UnitedHealth Group", "ja": "ユナイテッドヘルス・グループ" }, "ticker": "UNH", "exchange": "NYSE" }
+      ]
+    }
+  ],
   "representativeCompanies": [
     {
       "name": { "zh-TW": "嬌生", "en": "Johnson & Johnson", "ja": "ジョンソン・エンド・ジョンソン" },

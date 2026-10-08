@@ -21,6 +21,29 @@
       "フリーキャッシュフロー、営業利益率、株式報酬による希薄化、規制リスクを分析しましょう。"
     ]
   },
+  "representativeGroups": [
+    {
+      "groupName": { "zh-TW": "成長股", "en": "Growth Stocks", "ja": "成長株" },
+      "companies": [
+        { "name": { "zh-TW": "輝達", "en": "NVIDIA", "ja": "エヌビディア" }, "ticker": "NVDA", "exchange": "NASDAQ" },
+        { "name": { "zh-TW": "超微半導體", "en": "Advanced Micro Devices", "ja": "アドバンスト・マイクロ・デバイセズ" }, "ticker": "AMD", "exchange": "NASDAQ" }
+      ]
+    },
+    {
+      "groupName": { "zh-TW": "價值股", "en": "Value Stocks", "ja": "価値株" },
+      "companies": [
+        { "name": { "zh-TW": "微軟", "en": "Microsoft", "ja": "マイクロソフト" }, "ticker": "MSFT", "exchange": "NASDAQ" },
+        { "name": { "zh-TW": "甲骨文", "en": "Oracle", "ja": "オラクル" }, "ticker": "ORCL", "exchange": "NYSE" }
+      ]
+    },
+    {
+      "groupName": { "zh-TW": "股息股", "en": "Dividend Stocks", "ja": "配当株" },
+      "companies": [
+        { "name": { "zh-TW": "蘋果", "en": "Apple", "ja": "アップル" }, "ticker": "AAPL", "exchange": "NASDAQ" },
+        { "name": { "zh-TW": "博通", "en": "Broadcom", "ja": "ブロードコム" }, "ticker": "AVGO", "exchange": "NASDAQ" }
+      ]
+    }
+  ],
   "representativeCompanies": [
     {
       "name": { "zh-TW": "蘋果", "en": "Apple", "ja": "アップル" },

@@ -21,6 +21,29 @@
       "株価収益率だけでなく、売上成長率、粗利益率、設備稼働率、フリーキャッシュフローを確認しましょう。"
     ]
   },
+  "representativeGroups": [
+    {
+      "groupName": { "zh-TW": "成長股", "en": "Growth Stocks", "ja": "成長株" },
+      "companies": [
+        { "name": { "zh-TW": "台積電", "en": "TSMC", "ja": "台湾積体電路製造（TSMC）" }, "ticker": "2330", "exchange": "TWSE" },
+        { "name": { "zh-TW": "聯發科", "en": "MediaTek", "ja": "メディアテック" }, "ticker": "2454", "exchange": "TWSE" }
+      ]
+    },
+    {
+      "groupName": { "zh-TW": "價值股", "en": "Value Stocks", "ja": "価値株" },
+      "companies": [
+        { "name": { "zh-TW": "聯華電子", "en": "United Microelectronics", "ja": "聯華電子（UMC）" }, "ticker": "2303", "exchange": "TWSE" },
+        { "name": { "zh-TW": "華碩電腦", "en": "ASUSTeK Computer", "ja": "華碩電脳（ASUS）" }, "ticker": "2357", "exchange": "TWSE" }
+      ]
+    },
+    {
+      "groupName": { "zh-TW": "股息股", "en": "Dividend Stocks", "ja": "配当株" },
+      "companies": [
+        { "name": { "zh-TW": "鴻海精密", "en": "Hon Hai Precision Industry", "ja": "鴻海精密工業" }, "ticker": "2317", "exchange": "TWSE" },
+        { "name": { "zh-TW": "廣達電腦", "en": "Quanta Computer", "ja": "クアンタ・コンピュータ" }, "ticker": "2382", "exchange": "TWSE" }
+      ]
+    }
+  ],
   "representativeCompanies": [
     {
       "name": { "zh-TW": "台積電", "en": "TSMC", "ja": "台湾積体電路製造（TSMC）" },

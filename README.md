@@ -50,7 +50,9 @@ restrict `fetch()` from `file:` URLs, and the app displays an explanatory error.
 - Changing market selects its first industry. Changing either market or industry
   restores the representative view.
 - Each dataset has four localized characteristics, three representative
-  companies with API reference metadata, and six companies in its full list.
+  companies with API reference metadata, three localized representative
+  company groups from JSON, and six companies in its full list. Group names and
+  membership are data-driven; changing the dataset changes the rendered groups.
 - "Full list" means every company in that mock dataset, **not** an exhaustive
   exchange listing. Company identities and tickers are realistic examples, not
   a live or certified listing directory. Japan Consumer is a thematic grouping
@@ -116,7 +118,11 @@ The app loads each industry's content from
 Keep localized values for all three languages, string tickers, unique
 exchange/ticker pairs, and representative companies included in `allCompanies`.
 Each representative also needs `api.price` and `api.fundamental`.
-The app validates these requirements and displays an error for malformed data.
+Each dataset also needs a nonempty `representativeGroups` array. Every group's
+`groupName` and every company's `name` must include `zh-TW`, `en`, and `ja`;
+group companies must have a string ticker and exchange, be present in
+`allCompanies`, and appear in no more than one group. The app validates these
+requirements and displays an error for malformed data.
 To populate a dashed industry, add its matching ID to `data/industries.json`
 and create its matching JSON file. The navigation IDs are `IT`, `Financials`,
 `Healthcare`, `Energy`, `Industrials`, `ConsumerDiscretionary`, `ConsumerStaples`,

@@ -69,6 +69,14 @@
     .characteristics li:last-child { padding-bottom: 0; }
     .characteristics li::before { content: counter(point, decimal-leading-zero); color: var(--green); font-size: 12px; font-weight: 700; padding-top: 3px; }
     .companies { display: grid; gap: 12px; }
+    .representative-group-list { display: grid; gap: 16px; }
+    .group-block { border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+    .group-block h4 { margin: 0 0 12px; font-size: 15px; }
+    .group-companies { list-style: none; display: grid; gap: 10px; margin: 0; padding: 0; }
+    .group-company { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 4px 12px; }
+    .group-company-name { min-width: 0; font-size: 14px; overflow-wrap: anywhere; }
+    .group-company-meta { color: var(--muted); font: 12px/1.5 ui-monospace, Consolas, monospace; text-align: right; }
+    .group-company .quote { grid-column: 1 / -1; margin: 0; }
     .company-card { border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
     .company-top { display: flex; justify-content: space-between; align-items: start; gap: 14px; }
     .company-name { font-size: 16px; margin: 0 0 4px; overflow-wrap: anywhere; }
@@ -165,15 +173,15 @@
         <p id="live-status" class="live-status" role="status" aria-live="polite" aria-atomic="true"></p>
       </section>
       <div id="representative-view" class="overview-grid">
-        <section class="panel" aria-labelledby="characteristics-title">
+        <section id="investment-characteristics" class="panel" aria-labelledby="characteristics-title">
           <h3 id="characteristics-title" data-i18n="characteristics">投資特性</h3>
           <p class="panel-note" data-i18n="characteristicsNote">了解驅動因素，也看見潛在風險。</p>
           <ul id="characteristics-list" class="characteristics"></ul>
         </section>
-        <section class="panel" aria-labelledby="representative-title">
+        <section id="representative-groups" class="panel" aria-labelledby="representative-title">
           <h3 id="representative-title" data-i18n="representatives">代表企業</h3>
           <p class="panel-note" data-i18n="representativesNote">精選研究起點，非投資推薦。</p>
-          <div id="representative-companies" class="companies"></div>
+          <div id="representative-groups-list" class="representative-group-list"></div>
           <button id="show-all-button" class="primary-button" type="button" data-i18n="showAll">顯示完整公司清單</button>
         </section>
       </div>
@@ -393,6 +401,23 @@
           if (key === "representativeCompanies") requireData(hasAPI(company.api), "company API");
         }
       }
+      requireData(Array.isArray(data.representativeGroups) && data.representativeGroups.length > 0,
+        "representative groups");
+      const groupedCompanies = new Set();
+      for (const group of data.representativeGroups) {
+        requireData(hasLocalizedText(group.groupName) && Array.isArray(group.companies) &&
+          group.companies.length > 0, "representative group");
+        for (const company of group.companies) {
+          requireData(hasLocalizedText(company.name) && typeof company.ticker === "string" &&
+            company.ticker.trim().length > 0 && typeof company.exchange === "string" &&
+            company.exchange.trim().length > 0, "group company");
+          const key = `${company.exchange}:${company.ticker}`;
+          requireData(!groupedCompanies.has(key) &&
+            data.allCompanies.some((entry) => entry.exchange === company.exchange &&
+              entry.ticker === company.ticker), "group company missing or duplicated");
+          groupedCompanies.add(key);
+        }
+      }
       requireData(data.representativeCompanies.every((company) =>
         data.allCompanies.some((entry) => entry.ticker === company.ticker &&
           entry.exchange === company.exchange)), "representatives missing from full list");
@@ -598,7 +623,7 @@
       state.quotes = new Map();
       state.liveFetchedAt = null;
       renderLiveStatus();
-      renderRepresentativeCompanies();
+      renderRepresentativeGroups();
       renderAllCompanies();
       const quotes = new Map();
       const errors = [];
@@ -637,24 +662,30 @@
       state.livePhase = quotes.size ? "complete" : "error";
       state.liveFetchedAt = quotes.size ? new Date() : null;
       state.liveController = null;
-      renderRepresentativeCompanies();
+      renderRepresentativeGroups();
       renderAllCompanies();
       renderLiveStatus();
     }
 
-    function renderRepresentativeCompanies() {
-      byId("representative-companies").replaceChildren(...state.data.representativeCompanies.map((company) => {
-        const card = element("article", "company-card");
-        const top = element("div", "company-top");
-        const identity = element("div");
-        identity.append(element("h4", "company-name", localized(company.name)),
-          element("p", "exchange", `${t("exchange")}: ${company.exchange}`));
-        top.append(identity, element("span", "ticker", company.ticker));
-        const api = element("dl", "api-info");
-        api.append(element("dt", "", t("priceAPI")), element("dd", "", company.api.price),
-          element("dt", "", t("fundamentalAPI")), element("dd", "", company.api.fundamental));
-        card.append(top, api, renderQuote(company));
-        return card;
+    function renderRepresentativeGroups() {
+      const container = byId("representative-groups-list");
+      if (!state.data) {
+        container.replaceChildren();
+        return;
+      }
+      container.replaceChildren(...state.data.representativeGroups.map((group) => {
+        const block = element("div", "group-block");
+        block.append(element("h4", "", localized(group.groupName)));
+        const companies = element("ul", "group-companies");
+        for (const company of group.companies) {
+          const item = element("li", "group-company");
+          item.append(element("span", "group-company-name", localized(company.name)),
+            element("span", "group-company-meta", `${company.ticker} · ${company.exchange}`),
+            renderQuote(company));
+          companies.append(item);
+        }
+        block.append(companies);
+        return block;
       }));
     }
 
@@ -697,7 +728,7 @@
       byId("industry-title").textContent = localized(industry.name);
       byId("characteristics-list").replaceChildren(...state.data.investmentCharacteristics[state.language]
         .map((text) => element("li", "", text)));
-      renderRepresentativeCompanies();
+      renderRepresentativeGroups();
       renderAllCompanies();
       byId("sources").replaceChildren(
         element("span", "", `${t("source")}: ${industry.source}`),

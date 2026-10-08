@@ -21,6 +21,29 @@
       "技術的優位性、営業利益率、研究開発投資、資本効率を評価しましょう。"
     ]
   },
+  "representativeGroups": [
+    {
+      "groupName": { "zh-TW": "成長股", "en": "Growth Stocks", "ja": "成長株" },
+      "companies": [
+        { "name": { "zh-TW": "基恩士", "en": "Keyence", "ja": "キーエンス" }, "ticker": "6861", "exchange": "TSE" },
+        { "name": { "zh-TW": "村田製作所", "en": "Murata Manufacturing", "ja": "村田製作所" }, "ticker": "6981", "exchange": "TSE" }
+      ]
+    },
+    {
+      "groupName": { "zh-TW": "價值股", "en": "Value Stocks", "ja": "価値株" },
+      "companies": [
+        { "name": { "zh-TW": "日立製作所", "en": "Hitachi", "ja": "日立製作所" }, "ticker": "6501", "exchange": "TSE" },
+        { "name": { "zh-TW": "三菱電機", "en": "Mitsubishi Electric", "ja": "三菱電機" }, "ticker": "6503", "exchange": "TSE" }
+      ]
+    },
+    {
+      "groupName": { "zh-TW": "股息股", "en": "Dividend Stocks", "ja": "配当株" },
+      "companies": [
+        { "name": { "zh-TW": "索尼集團", "en": "Sony Group", "ja": "ソニーグループ" }, "ticker": "6758", "exchange": "TSE" },
+        { "name": { "zh-TW": "松下控股", "en": "Panasonic Holdings", "ja": "パナソニック ホールディングス" }, "ticker": "6752", "exchange": "TSE" }
+      ]
+    }
+  ],
   "representativeCompanies": [
     {
       "name": { "zh-TW": "索尼集團", "en": "Sony Group", "ja": "ソニーグループ" },

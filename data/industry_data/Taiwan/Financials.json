@@ -21,6 +21,29 @@
       "不良債権比率、信用コスト、為替ヘッジ費用、自己資本利益率を確認しましょう。"
     ]
   },
+  "representativeGroups": [
+    {
+      "groupName": { "zh-TW": "成長股", "en": "Growth Stocks", "ja": "成長株" },
+      "companies": [
+        { "name": { "zh-TW": "中信金控", "en": "CTBC Financial Holding", "ja": "中国信託金融控股" }, "ticker": "2891", "exchange": "TWSE" },
+        { "name": { "zh-TW": "玉山金控", "en": "E.SUN Financial Holding", "ja": "玉山金融控股" }, "ticker": "2884", "exchange": "TWSE" }
+      ]
+    },
+    {
+      "groupName": { "zh-TW": "價值股", "en": "Value Stocks", "ja": "価値株" },
+      "companies": [
+        { "name": { "zh-TW": "兆豐金控", "en": "Mega Financial Holding", "ja": "兆豊金融控股" }, "ticker": "2886", "exchange": "TWSE" },
+        { "name": { "zh-TW": "第一金控", "en": "First Financial Holding", "ja": "第一金融控股" }, "ticker": "2892", "exchange": "TWSE" }
+      ]
+    },
+    {
+      "groupName": { "zh-TW": "股息股", "en": "Dividend Stocks", "ja": "配当株" },
+      "companies": [
+        { "name": { "zh-TW": "富邦金控", "en": "Fubon Financial Holding", "ja": "富邦金融控股" }, "ticker": "2881", "exchange": "TWSE" },
+        { "name": { "zh-TW": "國泰金控", "en": "Cathay Financial Holding", "ja": "国泰金融控股" }, "ticker": "2882", "exchange": "TWSE" }
+      ]
+    }
+  ],
   "representativeCompanies": [
     {
       "name": { "zh-TW": "富邦金控", "en": "Fubon Financial Holding", "ja": "富邦金融控股" },
