@@ -1,0 +1,327 @@
+{
+  "market": "Japan",
+  "industry": "Industrials",
+  "industryName": {
+    "zh-TW": "工業",
+    "en": "Industrials",
+    "ja": "工業"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "基礎建設、製造業投資及國防支出推動需求，訂單具有景氣循環性。",
+      "觀察訂單能見度、積壓訂單、供應鏈成本、執行能力與自由現金流。"
+    ],
+    "en": [
+      "Infrastructure, manufacturing investment, and defense spending support demand, but orders are cyclical.",
+      "Monitor order visibility, backlogs, supply-chain costs, execution, and free cash flow."
+    ],
+    "ja": [
+      "インフラ、製造業投資、防衛支出が需要を支える一方、受注は景気循環の影響を受けます。",
+      "受注見通し、受注残、供給網コスト、遂行力、フリーキャッシュフローを確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "三菱重工",
+            "en": "Mitsubishi Heavy Industries, Ltd.",
+            "ja": "三菱重工業"
+          },
+          "ticker": "7011",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Mitsubishi Heavy Industries, Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/7011.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "小松製作所",
+            "en": "Komatsu Ltd.",
+            "ja": "コマツ"
+          },
+          "ticker": "6301",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Komatsu Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/6301.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "發那科",
+            "en": "Fanuc Corporation",
+            "ja": "ファナック"
+          },
+          "ticker": "6954",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Fanuc Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:55.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/6954.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "電裝",
+            "en": "DENSO Corporation",
+            "ja": "デンソー"
+          },
+          "ticker": "6902",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "DENSO Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/6902.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "日立製作所",
+            "en": "Hitachi, Ltd.",
+            "ja": "日立製作所"
+          },
+          "ticker": "6501",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Hitachi, Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/6501.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "大金工業",
+            "en": "Daikin Industries,Ltd.",
+            "ja": "ダイキン工業"
+          },
+          "ticker": "6367",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Daikin Industries,Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:56.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/6367.T"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "三菱重工",
+        "en": "Mitsubishi Heavy Industries, Ltd.",
+        "ja": "三菱重工業"
+      },
+      "ticker": "7011",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "小松製作所",
+        "en": "Komatsu Ltd.",
+        "ja": "コマツ"
+      },
+      "ticker": "6301",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "發那科",
+        "en": "Fanuc Corporation",
+        "ja": "ファナック"
+      },
+      "ticker": "6954",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "電裝",
+        "en": "DENSO Corporation",
+        "ja": "デンソー"
+      },
+      "ticker": "6902",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "日立製作所",
+        "en": "Hitachi, Ltd.",
+        "ja": "日立製作所"
+      },
+      "ticker": "6501",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "大金工業",
+        "en": "Daikin Industries,Ltd.",
+        "ja": "ダイキン工業"
+      },
+      "ticker": "6367",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "三菱重工",
+        "en": "Mitsubishi Heavy Industries, Ltd.",
+        "ja": "三菱重工業"
+      },
+      "ticker": "7011",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Mitsubishi Heavy Industries, Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/7011.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "小松製作所",
+        "en": "Komatsu Ltd.",
+        "ja": "コマツ"
+      },
+      "ticker": "6301",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Komatsu Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/6301.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "發那科",
+        "en": "Fanuc Corporation",
+        "ja": "ファナック"
+      },
+      "ticker": "6954",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Fanuc Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:55.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/6954.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "電裝",
+        "en": "DENSO Corporation",
+        "ja": "デンソー"
+      },
+      "ticker": "6902",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "DENSO Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/6902.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "日立製作所",
+        "en": "Hitachi, Ltd.",
+        "ja": "日立製作所"
+      },
+      "ticker": "6501",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Hitachi, Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/6501.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "大金工業",
+        "en": "Daikin Industries,Ltd.",
+        "ja": "ダイキン工業"
+      },
+      "ticker": "6367",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Daikin Industries,Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:56.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/6367.T"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "Yahoo Finance chart (delayed market quote and listing profile)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}.T?interval=1d&range=1d"
+    },
+    {
+      "name": "EDINET documents API (requires registered API key)",
+      "url": "https://disclosure.edinet-fsa.go.jp/api/v1/documents.json?date=YYYY-MM-DD"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "Industrials",
+  "generatedAt": "2026-10-08T03:50:52.020Z"
+}

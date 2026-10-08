@@ -1,0 +1,526 @@
+{
+  "market": "US",
+  "industry": "Energy",
+  "industryName": {
+    "zh-TW": "能源",
+    "en": "Energy",
+    "ja": "エネルギー"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "能源需求與商品價格、地緣政治及能源轉型進度密切相關。",
+      "資本支出、儲量或產能、負債與股東回饋政策是重要評估項目。"
+    ],
+    "en": [
+      "Energy demand is tied to commodity prices, geopolitics, and the pace of the transition.",
+      "Capital spending, reserves or capacity, leverage, and shareholder-return policies are key factors."
+    ],
+    "ja": [
+      "エネルギー需要は商品価格、地政学、エネルギー転換の進捗に左右されます。",
+      "設備投資、埋蔵量・供給能力、負債、株主還元方針が重要です。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "康菲石油",
+            "en": "ConocoPhillips",
+            "ja": "コノコフィリップス"
+          },
+          "ticker": "COP",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "CONOCOPHILLIPS",
+            "cik": "0001163165",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001163165.json",
+            "delayedQuoteProfile": {
+              "companyName": "ConocoPhillips",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/COP"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "EOG資源",
+            "en": "EOG Resources",
+            "ja": "EOGリソーシズ"
+          },
+          "ticker": "EOG",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "EOG RESOURCES INC",
+            "cik": "0000821189",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000821189.json",
+            "delayedQuoteProfile": {
+              "companyName": "EOG Resources, Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/EOG"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "埃克森美孚",
+            "en": "Exxon Mobil",
+            "ja": "エクソンモービル"
+          },
+          "ticker": "XOM",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "ExxonMobil Holdings Corp",
+            "cik": "0002115436",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002115436.json",
+            "delayedQuoteProfile": {
+              "companyName": "ExxonMobil Holdings Corporation",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:03:36.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/XOM"
+            },
+            "companyFacts": {
+              "entityName": "ExxonMobil Holdings Corp",
+              "usGaapConceptCount": 94,
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002115436.json"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "雪佛龍",
+            "en": "Chevron",
+            "ja": "シェブロン"
+          },
+          "ticker": "CVX",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "CHEVRON CORP",
+            "cik": "0000093410",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000093410.json",
+            "delayedQuoteProfile": {
+              "companyName": "Chevron Corporation",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:03:59.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/CVX"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "斯倫貝謝",
+            "en": "SLB",
+            "ja": "SLB"
+          },
+          "ticker": "SLB",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "SLB LIMITED/NV",
+            "cik": "0000087347",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000087347.json",
+            "delayedQuoteProfile": {
+              "companyName": "SLB N.V.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/SLB"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "西方石油",
+            "en": "Occidental Petroleum",
+            "ja": "オキシデンタル・ペトロリアム"
+          },
+          "ticker": "OXY",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "OCCIDENTAL PETROLEUM CORP /DE/",
+            "cik": "0000797468",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000797468.json",
+            "delayedQuoteProfile": {
+              "companyName": "Occidental Petroleum Corporation",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/OXY"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "康菲石油",
+        "en": "ConocoPhillips",
+        "ja": "コノコフィリップス"
+      },
+      "ticker": "COP",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "CONOCOPHILLIPS",
+        "cik": "0001163165",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001163165.json",
+        "delayedQuoteProfile": {
+          "companyName": "ConocoPhillips",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/COP"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "EOG資源",
+        "en": "EOG Resources",
+        "ja": "EOGリソーシズ"
+      },
+      "ticker": "EOG",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "EOG RESOURCES INC",
+        "cik": "0000821189",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000821189.json",
+        "delayedQuoteProfile": {
+          "companyName": "EOG Resources, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/EOG"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "埃克森美孚",
+        "en": "Exxon Mobil",
+        "ja": "エクソンモービル"
+      },
+      "ticker": "XOM",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "ExxonMobil Holdings Corp",
+        "cik": "0002115436",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002115436.json",
+        "delayedQuoteProfile": {
+          "companyName": "ExxonMobil Holdings Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:03:36.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/XOM"
+        },
+        "companyFacts": {
+          "entityName": "ExxonMobil Holdings Corp",
+          "usGaapConceptCount": 94,
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002115436.json"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "雪佛龍",
+        "en": "Chevron",
+        "ja": "シェブロン"
+      },
+      "ticker": "CVX",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "CHEVRON CORP",
+        "cik": "0000093410",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000093410.json",
+        "delayedQuoteProfile": {
+          "companyName": "Chevron Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:03:59.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/CVX"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "斯倫貝謝",
+        "en": "SLB",
+        "ja": "SLB"
+      },
+      "ticker": "SLB",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "SLB LIMITED/NV",
+        "cik": "0000087347",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000087347.json",
+        "delayedQuoteProfile": {
+          "companyName": "SLB N.V.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/SLB"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "西方石油",
+        "en": "Occidental Petroleum",
+        "ja": "オキシデンタル・ペトロリアム"
+      },
+      "ticker": "OXY",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "OCCIDENTAL PETROLEUM CORP /DE/",
+        "cik": "0000797468",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000797468.json",
+        "delayedQuoteProfile": {
+          "companyName": "Occidental Petroleum Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/OXY"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "康菲石油",
+        "en": "ConocoPhillips",
+        "ja": "コノコフィリップス"
+      },
+      "ticker": "COP",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "CONOCOPHILLIPS",
+        "cik": "0001163165",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001163165.json",
+        "delayedQuoteProfile": {
+          "companyName": "ConocoPhillips",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/COP"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "EOG資源",
+        "en": "EOG Resources",
+        "ja": "EOGリソーシズ"
+      },
+      "ticker": "EOG",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "EOG RESOURCES INC",
+        "cik": "0000821189",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000821189.json",
+        "delayedQuoteProfile": {
+          "companyName": "EOG Resources, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/EOG"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "埃克森美孚",
+        "en": "Exxon Mobil",
+        "ja": "エクソンモービル"
+      },
+      "ticker": "XOM",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "ExxonMobil Holdings Corp",
+        "cik": "0002115436",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002115436.json",
+        "delayedQuoteProfile": {
+          "companyName": "ExxonMobil Holdings Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:03:36.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/XOM"
+        },
+        "companyFacts": {
+          "entityName": "ExxonMobil Holdings Corp",
+          "usGaapConceptCount": 94,
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002115436.json"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "雪佛龍",
+        "en": "Chevron",
+        "ja": "シェブロン"
+      },
+      "ticker": "CVX",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "CHEVRON CORP",
+        "cik": "0000093410",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000093410.json",
+        "delayedQuoteProfile": {
+          "companyName": "Chevron Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:03:59.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/CVX"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "斯倫貝謝",
+        "en": "SLB",
+        "ja": "SLB"
+      },
+      "ticker": "SLB",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "SLB LIMITED/NV",
+        "cik": "0000087347",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000087347.json",
+        "delayedQuoteProfile": {
+          "companyName": "SLB N.V.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/SLB"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "西方石油",
+        "en": "Occidental Petroleum",
+        "ja": "オキシデンタル・ペトロリアム"
+      },
+      "ticker": "OXY",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "OCCIDENTAL PETROLEUM CORP /DE/",
+        "cik": "0000797468",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000797468.json",
+        "delayedQuoteProfile": {
+          "companyName": "Occidental Petroleum Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/OXY"
+        }
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "SEC EDGAR company ticker/exchange directory",
+      "url": "https://www.sec.gov/files/company_tickers_exchange.json"
+    },
+    {
+      "name": "SEC EDGAR company facts (sample entities)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK{10-digit-CIK}.json"
+    },
+    {
+      "name": "Yahoo Finance chart (delayed market quote)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "generatedAt": "2026-10-08T03:50:32.210Z",
+  "industryId": "Energy"
+}

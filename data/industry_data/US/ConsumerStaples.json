@@ -1,0 +1,511 @@
+{
+  "market": "US",
+  "industry": "Consumer Staples",
+  "industryName": {
+    "zh-TW": "必需消費",
+    "en": "Consumer Staples",
+    "ja": "生活必需品"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "日常必需品需求通常較穩定，但原料、運輸與零售競爭會影響利潤。",
+      "評估品牌忠誠、通路議價能力、銷量成長及股利覆蓋能力。"
+    ],
+    "en": [
+      "Demand is often resilient, while input, freight, and retail competition can pressure margins.",
+      "Assess brand loyalty, channel bargaining power, volume growth, and dividend coverage."
+    ],
+    "ja": [
+      "需要は比較的安定していますが、原材料、物流、小売競争が利益率を圧迫する場合があります。",
+      "ブランド忠誠度、販路交渉力、販売数量の成長、配当余力を評価しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "沃爾瑪",
+            "en": "Walmart",
+            "ja": "ウォルマート"
+          },
+          "ticker": "WMT",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "Walmart Inc.",
+            "cik": "0000104169",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json",
+            "delayedQuoteProfile": {
+              "companyName": "Walmart Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/WMT"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "好市多",
+            "en": "Costco",
+            "ja": "コストコ"
+          },
+          "ticker": "COST",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "COSTCO WHOLESALE CORP /NEW",
+            "cik": "0000909832",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json",
+            "delayedQuoteProfile": {
+              "companyName": "Costco Wholesale Corporation",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/COST"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "寶僑",
+            "en": "Procter & Gamble",
+            "ja": "プロクター・アンド・ギャンブル"
+          },
+          "ticker": "PG",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "PROCTER & GAMBLE Co",
+            "cik": "0000080424",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000080424.json",
+            "delayedQuoteProfile": {
+              "companyName": "The Procter & Gamble Company",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/PG"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "可口可樂",
+            "en": "Coca-Cola",
+            "ja": "コカ・コーラ"
+          },
+          "ticker": "KO",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "COCA COLA CO",
+            "cik": "0000021344",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000021344.json",
+            "delayedQuoteProfile": {
+              "companyName": "The Coca-Cola Company",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/KO"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "百事公司",
+            "en": "PepsiCo",
+            "ja": "ペプシコ"
+          },
+          "ticker": "PEP",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "PEPSICO INC",
+            "cik": "0000077476",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000077476.json",
+            "delayedQuoteProfile": {
+              "companyName": "PepsiCo, Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/PEP"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "菲利普莫里斯",
+            "en": "Philip Morris International",
+            "ja": "フィリップ・モリス・インターナショナル"
+          },
+          "ticker": "PM",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "Philip Morris International Inc.",
+            "cik": "0001413329",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001413329.json",
+            "delayedQuoteProfile": {
+              "companyName": "Philip Morris International Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/PM"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "沃爾瑪",
+        "en": "Walmart",
+        "ja": "ウォルマート"
+      },
+      "ticker": "WMT",
+      "exchange": "NASDAQ",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "Walmart Inc.",
+        "cik": "0000104169",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json",
+        "delayedQuoteProfile": {
+          "companyName": "Walmart Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/WMT"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "好市多",
+        "en": "Costco",
+        "ja": "コストコ"
+      },
+      "ticker": "COST",
+      "exchange": "NASDAQ",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "COSTCO WHOLESALE CORP /NEW",
+        "cik": "0000909832",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json",
+        "delayedQuoteProfile": {
+          "companyName": "Costco Wholesale Corporation",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/COST"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "寶僑",
+        "en": "Procter & Gamble",
+        "ja": "プロクター・アンド・ギャンブル"
+      },
+      "ticker": "PG",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "PROCTER & GAMBLE Co",
+        "cik": "0000080424",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000080424.json",
+        "delayedQuoteProfile": {
+          "companyName": "The Procter & Gamble Company",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/PG"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "可口可樂",
+        "en": "Coca-Cola",
+        "ja": "コカ・コーラ"
+      },
+      "ticker": "KO",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "COCA COLA CO",
+        "cik": "0000021344",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000021344.json",
+        "delayedQuoteProfile": {
+          "companyName": "The Coca-Cola Company",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/KO"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "百事公司",
+        "en": "PepsiCo",
+        "ja": "ペプシコ"
+      },
+      "ticker": "PEP",
+      "exchange": "NASDAQ",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "PEPSICO INC",
+        "cik": "0000077476",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000077476.json",
+        "delayedQuoteProfile": {
+          "companyName": "PepsiCo, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/PEP"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "菲利普莫里斯",
+        "en": "Philip Morris International",
+        "ja": "フィリップ・モリス・インターナショナル"
+      },
+      "ticker": "PM",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "Philip Morris International Inc.",
+        "cik": "0001413329",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001413329.json",
+        "delayedQuoteProfile": {
+          "companyName": "Philip Morris International Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/PM"
+        }
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "沃爾瑪",
+        "en": "Walmart",
+        "ja": "ウォルマート"
+      },
+      "ticker": "WMT",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "Walmart Inc.",
+        "cik": "0000104169",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json",
+        "delayedQuoteProfile": {
+          "companyName": "Walmart Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/WMT"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "好市多",
+        "en": "Costco",
+        "ja": "コストコ"
+      },
+      "ticker": "COST",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "COSTCO WHOLESALE CORP /NEW",
+        "cik": "0000909832",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json",
+        "delayedQuoteProfile": {
+          "companyName": "Costco Wholesale Corporation",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/COST"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "寶僑",
+        "en": "Procter & Gamble",
+        "ja": "プロクター・アンド・ギャンブル"
+      },
+      "ticker": "PG",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "PROCTER & GAMBLE Co",
+        "cik": "0000080424",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000080424.json",
+        "delayedQuoteProfile": {
+          "companyName": "The Procter & Gamble Company",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/PG"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "可口可樂",
+        "en": "Coca-Cola",
+        "ja": "コカ・コーラ"
+      },
+      "ticker": "KO",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "COCA COLA CO",
+        "cik": "0000021344",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000021344.json",
+        "delayedQuoteProfile": {
+          "companyName": "The Coca-Cola Company",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/KO"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "百事公司",
+        "en": "PepsiCo",
+        "ja": "ペプシコ"
+      },
+      "ticker": "PEP",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "PEPSICO INC",
+        "cik": "0000077476",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000077476.json",
+        "delayedQuoteProfile": {
+          "companyName": "PepsiCo, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/PEP"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "菲利普莫里斯",
+        "en": "Philip Morris International",
+        "ja": "フィリップ・モリス・インターナショナル"
+      },
+      "ticker": "PM",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "Philip Morris International Inc.",
+        "cik": "0001413329",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001413329.json",
+        "delayedQuoteProfile": {
+          "companyName": "Philip Morris International Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/PM"
+        }
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "SEC EDGAR company ticker/exchange directory",
+      "url": "https://www.sec.gov/files/company_tickers_exchange.json"
+    },
+    {
+      "name": "SEC EDGAR company facts (sample entities)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK{10-digit-CIK}.json"
+    },
+    {
+      "name": "Yahoo Finance chart (delayed market quote)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "generatedAt": "2026-10-08T03:50:32.210Z",
+  "industryId": "ConsumerStaples"
+}

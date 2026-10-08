@@ -1,0 +1,511 @@
+{
+  "market": "US",
+  "industry": "Consumer Discretionary",
+  "industryName": {
+    "zh-TW": "非必需消費",
+    "en": "Consumer Discretionary",
+    "ja": "一般消費財"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "消費者信心、可支配所得與就業情況影響非必需商品和服務需求。",
+      "品牌、定價能力、庫存管理及產品週期是重要的競爭因素。"
+    ],
+    "en": [
+      "Consumer confidence, disposable income, and employment influence demand for discretionary goods and services.",
+      "Brands, pricing power, inventory management, and product cycles are important competitive factors."
+    ],
+    "ja": [
+      "消費者心理、可処分所得、雇用状況が裁量的な商品・サービスの需要を左右します。",
+      "ブランド、価格決定力、在庫管理、製品サイクルが競争力を左右します。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "亞馬遜",
+            "en": "Amazon",
+            "ja": "アマゾン"
+          },
+          "ticker": "AMZN",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "AMAZON COM INC",
+            "cik": "0001018724",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+            "delayedQuoteProfile": {
+              "companyName": "Amazon.com, Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "特斯拉",
+            "en": "Tesla",
+            "ja": "テスラ"
+          },
+          "ticker": "TSLA",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "Tesla, Inc.",
+            "cik": "0001318605",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001318605.json",
+            "delayedQuoteProfile": {
+              "companyName": "Tesla, Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSLA"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "家得寶",
+            "en": "Home Depot",
+            "ja": "ホーム・デポ"
+          },
+          "ticker": "HD",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "HOME DEPOT, INC.",
+            "cik": "0000354950",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000354950.json",
+            "delayedQuoteProfile": {
+              "companyName": "The Home Depot, Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/HD"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "麥當勞",
+            "en": "McDonald’s",
+            "ja": "マクドナルド"
+          },
+          "ticker": "MCD",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "MCDONALDS CORP",
+            "cik": "0000063908",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000063908.json",
+            "delayedQuoteProfile": {
+              "companyName": "McDonald's Corporation",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/MCD"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "耐吉",
+            "en": "Nike",
+            "ja": "ナイキ"
+          },
+          "ticker": "NKE",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "NIKE, Inc.",
+            "cik": "0000320187",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320187.json",
+            "delayedQuoteProfile": {
+              "companyName": "NIKE, Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/NKE"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "TJX公司",
+            "en": "TJX Companies",
+            "ja": "TJXカンパニーズ"
+          },
+          "ticker": "TJX",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "TJX COMPANIES INC /DE/",
+            "cik": "0000109198",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000109198.json",
+            "delayedQuoteProfile": {
+              "companyName": "The TJX Companies, Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:02:29.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/TJX"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "亞馬遜",
+        "en": "Amazon",
+        "ja": "アマゾン"
+      },
+      "ticker": "AMZN",
+      "exchange": "NASDAQ",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "AMAZON COM INC",
+        "cik": "0001018724",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+        "delayedQuoteProfile": {
+          "companyName": "Amazon.com, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "特斯拉",
+        "en": "Tesla",
+        "ja": "テスラ"
+      },
+      "ticker": "TSLA",
+      "exchange": "NASDAQ",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "Tesla, Inc.",
+        "cik": "0001318605",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001318605.json",
+        "delayedQuoteProfile": {
+          "companyName": "Tesla, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSLA"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "家得寶",
+        "en": "Home Depot",
+        "ja": "ホーム・デポ"
+      },
+      "ticker": "HD",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "HOME DEPOT, INC.",
+        "cik": "0000354950",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000354950.json",
+        "delayedQuoteProfile": {
+          "companyName": "The Home Depot, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/HD"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "麥當勞",
+        "en": "McDonald’s",
+        "ja": "マクドナルド"
+      },
+      "ticker": "MCD",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "MCDONALDS CORP",
+        "cik": "0000063908",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000063908.json",
+        "delayedQuoteProfile": {
+          "companyName": "McDonald's Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/MCD"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "耐吉",
+        "en": "Nike",
+        "ja": "ナイキ"
+      },
+      "ticker": "NKE",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "NIKE, Inc.",
+        "cik": "0000320187",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320187.json",
+        "delayedQuoteProfile": {
+          "companyName": "NIKE, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/NKE"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "TJX公司",
+        "en": "TJX Companies",
+        "ja": "TJXカンパニーズ"
+      },
+      "ticker": "TJX",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "TJX COMPANIES INC /DE/",
+        "cik": "0000109198",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000109198.json",
+        "delayedQuoteProfile": {
+          "companyName": "The TJX Companies, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:02:29.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/TJX"
+        }
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "亞馬遜",
+        "en": "Amazon",
+        "ja": "アマゾン"
+      },
+      "ticker": "AMZN",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "AMAZON COM INC",
+        "cik": "0001018724",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+        "delayedQuoteProfile": {
+          "companyName": "Amazon.com, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "特斯拉",
+        "en": "Tesla",
+        "ja": "テスラ"
+      },
+      "ticker": "TSLA",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "Tesla, Inc.",
+        "cik": "0001318605",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001318605.json",
+        "delayedQuoteProfile": {
+          "companyName": "Tesla, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/TSLA"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "家得寶",
+        "en": "Home Depot",
+        "ja": "ホーム・デポ"
+      },
+      "ticker": "HD",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "HOME DEPOT, INC.",
+        "cik": "0000354950",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000354950.json",
+        "delayedQuoteProfile": {
+          "companyName": "The Home Depot, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/HD"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "麥當勞",
+        "en": "McDonald’s",
+        "ja": "マクドナルド"
+      },
+      "ticker": "MCD",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "MCDONALDS CORP",
+        "cik": "0000063908",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000063908.json",
+        "delayedQuoteProfile": {
+          "companyName": "McDonald's Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/MCD"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "耐吉",
+        "en": "Nike",
+        "ja": "ナイキ"
+      },
+      "ticker": "NKE",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "NIKE, Inc.",
+        "cik": "0000320187",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320187.json",
+        "delayedQuoteProfile": {
+          "companyName": "NIKE, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/NKE"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "TJX公司",
+        "en": "TJX Companies",
+        "ja": "TJXカンパニーズ"
+      },
+      "ticker": "TJX",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "TJX COMPANIES INC /DE/",
+        "cik": "0000109198",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000109198.json",
+        "delayedQuoteProfile": {
+          "companyName": "The TJX Companies, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:02:29.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/TJX"
+        }
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "SEC EDGAR company ticker/exchange directory",
+      "url": "https://www.sec.gov/files/company_tickers_exchange.json"
+    },
+    {
+      "name": "SEC EDGAR company facts (sample entities)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK{10-digit-CIK}.json"
+    },
+    {
+      "name": "Yahoo Finance chart (delayed market quote)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "generatedAt": "2026-10-08T03:50:32.210Z",
+  "industryId": "ConsumerDiscretionary"
+}

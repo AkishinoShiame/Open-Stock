@@ -1,0 +1,351 @@
+{
+  "market": "Taiwan",
+  "industry": "Materials",
+  "industryName": {
+    "zh-TW": "原物料",
+    "en": "Materials",
+    "ja": "素材"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "營收及利潤受原物料價格、供需與全球製造活動影響。",
+      "成本曲線、產能利用率、能源密集度及資本紀律影響週期韌性。"
+    ],
+    "en": [
+      "Revenue and margins are exposed to commodity prices, supply-demand balances, and global manufacturing.",
+      "Cost position, capacity utilization, energy intensity, and capital discipline shape resilience."
+    ],
+    "ja": [
+      "売上と利益率は商品価格、需給、世界の製造活動に左右されます。",
+      "コスト競争力、稼働率、エネルギー集約度、資本規律が耐性を左右します。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "台塑",
+            "en": "FPC",
+            "ja": "台湾プラスチック"
+          },
+          "ticker": "1301",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "台灣塑膠工業股份有限公司",
+            "listingDate": "19640727",
+            "industryCode": "03",
+            "website": "http://www.fpc.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "台化",
+            "en": "FCFC",
+            "ja": "台湾化学繊維"
+          },
+          "ticker": "1326",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "台灣化學纖維股份有限公司",
+            "listingDate": "19841220",
+            "industryCode": "03",
+            "website": "http://www.fcfc.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "中鋼",
+            "en": "CSC",
+            "ja": "中国鋼鉄"
+          },
+          "ticker": "2002",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "中國鋼鐵股份有限公司",
+            "listingDate": "19741226",
+            "industryCode": "10",
+            "website": "http://www.csc.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "台泥",
+            "en": "TCC",
+            "ja": "台湾セメント"
+          },
+          "ticker": "1101",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "臺灣水泥股份有限公司",
+            "listingDate": "19620209",
+            "industryCode": "01",
+            "website": "https://www.tccgroupholdings.com/tw/",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "台塑化",
+            "en": "FPCC",
+            "ja": "台湾プラスチック石油化学"
+          },
+          "ticker": "6505",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "台塑石化股份有限公司",
+            "listingDate": "20031226",
+            "industryCode": "23",
+            "website": "WWW.FPCC.COM.TW",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "台肥",
+            "en": "TFC",
+            "ja": "台湾肥料"
+          },
+          "ticker": "1722",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "台灣肥料股份有限公司",
+            "listingDate": "19980324",
+            "industryCode": "21",
+            "website": "www.taifer.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "台塑",
+        "en": "FPC",
+        "ja": "台湾プラスチック"
+      },
+      "ticker": "1301",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台化",
+        "en": "FCFC",
+        "ja": "台湾化学繊維"
+      },
+      "ticker": "1326",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中鋼",
+        "en": "CSC",
+        "ja": "中国鋼鉄"
+      },
+      "ticker": "2002",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台泥",
+        "en": "TCC",
+        "ja": "台湾セメント"
+      },
+      "ticker": "1101",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台塑化",
+        "en": "FPCC",
+        "ja": "台湾プラスチック石油化学"
+      },
+      "ticker": "6505",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台肥",
+        "en": "TFC",
+        "ja": "台湾肥料"
+      },
+      "ticker": "1722",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "台塑",
+        "en": "FPC",
+        "ja": "台湾プラスチック"
+      },
+      "ticker": "1301",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "台灣塑膠工業股份有限公司",
+        "listingDate": "19640727",
+        "industryCode": "03",
+        "website": "http://www.fpc.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台化",
+        "en": "FCFC",
+        "ja": "台湾化学繊維"
+      },
+      "ticker": "1326",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "台灣化學纖維股份有限公司",
+        "listingDate": "19841220",
+        "industryCode": "03",
+        "website": "http://www.fcfc.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中鋼",
+        "en": "CSC",
+        "ja": "中国鋼鉄"
+      },
+      "ticker": "2002",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "中國鋼鐵股份有限公司",
+        "listingDate": "19741226",
+        "industryCode": "10",
+        "website": "http://www.csc.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台泥",
+        "en": "TCC",
+        "ja": "台湾セメント"
+      },
+      "ticker": "1101",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "臺灣水泥股份有限公司",
+        "listingDate": "19620209",
+        "industryCode": "01",
+        "website": "https://www.tccgroupholdings.com/tw/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台塑化",
+        "en": "FPCC",
+        "ja": "台湾プラスチック石油化学"
+      },
+      "ticker": "6505",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "台塑石化股份有限公司",
+        "listingDate": "20031226",
+        "industryCode": "23",
+        "website": "WWW.FPCC.COM.TW",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台肥",
+        "en": "TFC",
+        "ja": "台湾肥料"
+      },
+      "ticker": "1722",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "台灣肥料股份有限公司",
+        "listingDate": "19980324",
+        "industryCode": "21",
+        "website": "www.taifer.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "TWSE issuer profile and daily quote OpenAPI",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L; https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+    },
+    {
+      "name": "TPEx daily quote OpenAPI",
+      "url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "Materials",
+  "generatedAt": "2026-10-08T03:50:47.776Z"
+}

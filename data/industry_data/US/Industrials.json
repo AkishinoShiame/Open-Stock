@@ -1,0 +1,511 @@
+{
+  "market": "US",
+  "industry": "Industrials",
+  "industryName": {
+    "zh-TW": "工業",
+    "en": "Industrials",
+    "ja": "工業"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "基礎建設、製造業投資及國防支出推動需求，訂單具有景氣循環性。",
+      "觀察訂單能見度、積壓訂單、供應鏈成本、執行能力與自由現金流。"
+    ],
+    "en": [
+      "Infrastructure, manufacturing investment, and defense spending support demand, but orders are cyclical.",
+      "Monitor order visibility, backlogs, supply-chain costs, execution, and free cash flow."
+    ],
+    "ja": [
+      "インフラ、製造業投資、防衛支出が需要を支える一方、受注は景気循環の影響を受けます。",
+      "受注見通し、受注残、供給網コスト、遂行力、フリーキャッシュフローを確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "奇異維諾瓦",
+            "en": "GE Vernova",
+            "ja": "GEベルノバ"
+          },
+          "ticker": "GE",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "GENERAL ELECTRIC CO",
+            "cik": "0000040545",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000040545.json",
+            "delayedQuoteProfile": {
+              "companyName": "GE Aerospace",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/GE"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "RTX",
+            "en": "RTX",
+            "ja": "RTX"
+          },
+          "ticker": "RTX",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "RTX Corp",
+            "cik": "0000101829",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000101829.json",
+            "delayedQuoteProfile": {
+              "companyName": "RTX Corporation",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/RTX"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "開特力",
+            "en": "Caterpillar",
+            "ja": "キャタピラー"
+          },
+          "ticker": "CAT",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "CATERPILLAR INC",
+            "cik": "0000018230",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000018230.json",
+            "delayedQuoteProfile": {
+              "companyName": "Caterpillar Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/CAT"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "迪爾",
+            "en": "Deere & Company",
+            "ja": "ディア・アンド・カンパニー"
+          },
+          "ticker": "DE",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "DEERE & CO",
+            "cik": "0000315189",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000315189.json",
+            "delayedQuoteProfile": {
+              "companyName": "Deere & Company",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/DE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "霍尼韋爾",
+            "en": "Honeywell",
+            "ja": "ハネウェル"
+          },
+          "ticker": "HON",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "HONEYWELL INTERNATIONAL INC",
+            "cik": "0000773840",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000773840.json",
+            "delayedQuoteProfile": {
+              "companyName": "Honeywell International Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/HON"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "優比速",
+            "en": "UPS",
+            "ja": "UPS"
+          },
+          "ticker": "UPS",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "UNITED PARCEL SERVICE INC",
+            "cik": "0001090727",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001090727.json",
+            "delayedQuoteProfile": {
+              "companyName": "United Parcel Service, Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:03:08.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/UPS"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "奇異維諾瓦",
+        "en": "GE Vernova",
+        "ja": "GEベルノバ"
+      },
+      "ticker": "GE",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "GENERAL ELECTRIC CO",
+        "cik": "0000040545",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000040545.json",
+        "delayedQuoteProfile": {
+          "companyName": "GE Aerospace",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/GE"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "RTX",
+        "en": "RTX",
+        "ja": "RTX"
+      },
+      "ticker": "RTX",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "RTX Corp",
+        "cik": "0000101829",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000101829.json",
+        "delayedQuoteProfile": {
+          "companyName": "RTX Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/RTX"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "開特力",
+        "en": "Caterpillar",
+        "ja": "キャタピラー"
+      },
+      "ticker": "CAT",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "CATERPILLAR INC",
+        "cik": "0000018230",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000018230.json",
+        "delayedQuoteProfile": {
+          "companyName": "Caterpillar Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/CAT"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "迪爾",
+        "en": "Deere & Company",
+        "ja": "ディア・アンド・カンパニー"
+      },
+      "ticker": "DE",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "DEERE & CO",
+        "cik": "0000315189",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000315189.json",
+        "delayedQuoteProfile": {
+          "companyName": "Deere & Company",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/DE"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "霍尼韋爾",
+        "en": "Honeywell",
+        "ja": "ハネウェル"
+      },
+      "ticker": "HON",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "HONEYWELL INTERNATIONAL INC",
+        "cik": "0000773840",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000773840.json",
+        "delayedQuoteProfile": {
+          "companyName": "Honeywell International Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/HON"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "優比速",
+        "en": "UPS",
+        "ja": "UPS"
+      },
+      "ticker": "UPS",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "UNITED PARCEL SERVICE INC",
+        "cik": "0001090727",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001090727.json",
+        "delayedQuoteProfile": {
+          "companyName": "United Parcel Service, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:03:08.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/UPS"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "奇異維諾瓦",
+        "en": "GE Vernova",
+        "ja": "GEベルノバ"
+      },
+      "ticker": "GE",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "GENERAL ELECTRIC CO",
+        "cik": "0000040545",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000040545.json",
+        "delayedQuoteProfile": {
+          "companyName": "GE Aerospace",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/GE"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "RTX",
+        "en": "RTX",
+        "ja": "RTX"
+      },
+      "ticker": "RTX",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "RTX Corp",
+        "cik": "0000101829",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000101829.json",
+        "delayedQuoteProfile": {
+          "companyName": "RTX Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/RTX"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "開特力",
+        "en": "Caterpillar",
+        "ja": "キャタピラー"
+      },
+      "ticker": "CAT",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "CATERPILLAR INC",
+        "cik": "0000018230",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000018230.json",
+        "delayedQuoteProfile": {
+          "companyName": "Caterpillar Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/CAT"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "迪爾",
+        "en": "Deere & Company",
+        "ja": "ディア・アンド・カンパニー"
+      },
+      "ticker": "DE",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "DEERE & CO",
+        "cik": "0000315189",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000315189.json",
+        "delayedQuoteProfile": {
+          "companyName": "Deere & Company",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/DE"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "霍尼韋爾",
+        "en": "Honeywell",
+        "ja": "ハネウェル"
+      },
+      "ticker": "HON",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "HONEYWELL INTERNATIONAL INC",
+        "cik": "0000773840",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000773840.json",
+        "delayedQuoteProfile": {
+          "companyName": "Honeywell International Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/HON"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "優比速",
+        "en": "UPS",
+        "ja": "UPS"
+      },
+      "ticker": "UPS",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "UNITED PARCEL SERVICE INC",
+        "cik": "0001090727",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001090727.json",
+        "delayedQuoteProfile": {
+          "companyName": "United Parcel Service, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:03:08.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/UPS"
+        }
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "SEC EDGAR company ticker/exchange directory",
+      "url": "https://www.sec.gov/files/company_tickers_exchange.json"
+    },
+    {
+      "name": "SEC EDGAR company facts (sample entities)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK{10-digit-CIK}.json"
+    },
+    {
+      "name": "Yahoo Finance chart (delayed market quote)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "generatedAt": "2026-10-08T03:50:32.210Z",
+  "industryId": "Industrials"
+}

@@ -1,0 +1,351 @@
+{
+  "market": "Taiwan",
+  "industry": "Real Estate",
+  "industryName": {
+    "zh-TW": "房地產",
+    "en": "Real Estate",
+    "ja": "不動産"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "利率、融資環境、租賃需求及資產估值對房地產企業影響顯著。",
+      "追蹤入住率、同店租金、負債到期、NAV折溢價及股利覆蓋。"
+    ],
+    "en": [
+      "Rates, financing conditions, leasing demand, and asset valuations materially affect real estate.",
+      "Track occupancy, same-property rents, debt maturities, NAV discounts, and dividend coverage."
+    ],
+    "ja": [
+      "金利、資金調達環境、賃貸需要、資産評価が不動産企業に大きく影響します。",
+      "稼働率、既存物件賃料、債務期限、NAVとの乖離、配当余力を確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "興富發",
+            "en": "Highwealth",
+            "ja": "興富発建設"
+          },
+          "ticker": "2542",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "興富發建設股份有限公司",
+            "listingDate": "19990503",
+            "industryCode": "14",
+            "website": "http://www.highwealth.com.tw/",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "國建",
+            "en": "CATHAY RED",
+            "ja": "国泰建設"
+          },
+          "ticker": "2501",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "國泰建設股份有限公司",
+            "listingDate": "19671028",
+            "industryCode": "14",
+            "website": "www.cathay-red.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "遠雄",
+            "en": "Farglory",
+            "ja": "遠雄建設"
+          },
+          "ticker": "5522",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "遠雄建設事業股份有限公司",
+            "listingDate": "20070806",
+            "industryCode": "14",
+            "website": "http://www.farglory-land.com.tw/",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "潤泰新",
+            "en": "RUENTEX DEVELOP",
+            "ja": "潤泰創新"
+          },
+          "ticker": "9945",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "潤泰創新國際股份有限公司",
+            "listingDate": "19920430",
+            "industryCode": "20",
+            "website": "www.rt-develop.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "冠德",
+            "en": "KINDOM",
+            "ja": "冠德建設"
+          },
+          "ticker": "2520",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "冠德建設股份有限公司",
+            "listingDate": "19931027",
+            "industryCode": "14",
+            "website": "http://www.kindom.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "華固",
+            "en": "HUAKU　　",
+            "ja": "華固建設"
+          },
+          "ticker": "2548",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "華固建設股份有限公司",
+            "listingDate": "20020826",
+            "industryCode": "14",
+            "website": "https://www.huaku.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "興富發",
+        "en": "Highwealth",
+        "ja": "興富発建設"
+      },
+      "ticker": "2542",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "國建",
+        "en": "CATHAY RED",
+        "ja": "国泰建設"
+      },
+      "ticker": "2501",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "遠雄",
+        "en": "Farglory",
+        "ja": "遠雄建設"
+      },
+      "ticker": "5522",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "潤泰新",
+        "en": "RUENTEX DEVELOP",
+        "ja": "潤泰創新"
+      },
+      "ticker": "9945",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "冠德",
+        "en": "KINDOM",
+        "ja": "冠德建設"
+      },
+      "ticker": "2520",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "華固",
+        "en": "HUAKU　　",
+        "ja": "華固建設"
+      },
+      "ticker": "2548",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "興富發",
+        "en": "Highwealth",
+        "ja": "興富発建設"
+      },
+      "ticker": "2542",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "興富發建設股份有限公司",
+        "listingDate": "19990503",
+        "industryCode": "14",
+        "website": "http://www.highwealth.com.tw/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "國建",
+        "en": "CATHAY RED",
+        "ja": "国泰建設"
+      },
+      "ticker": "2501",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "國泰建設股份有限公司",
+        "listingDate": "19671028",
+        "industryCode": "14",
+        "website": "www.cathay-red.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "遠雄",
+        "en": "Farglory",
+        "ja": "遠雄建設"
+      },
+      "ticker": "5522",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "遠雄建設事業股份有限公司",
+        "listingDate": "20070806",
+        "industryCode": "14",
+        "website": "http://www.farglory-land.com.tw/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "潤泰新",
+        "en": "RUENTEX DEVELOP",
+        "ja": "潤泰創新"
+      },
+      "ticker": "9945",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "潤泰創新國際股份有限公司",
+        "listingDate": "19920430",
+        "industryCode": "20",
+        "website": "www.rt-develop.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "冠德",
+        "en": "KINDOM",
+        "ja": "冠德建設"
+      },
+      "ticker": "2520",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "冠德建設股份有限公司",
+        "listingDate": "19931027",
+        "industryCode": "14",
+        "website": "http://www.kindom.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "華固",
+        "en": "HUAKU　　",
+        "ja": "華固建設"
+      },
+      "ticker": "2548",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "華固建設股份有限公司",
+        "listingDate": "20020826",
+        "industryCode": "14",
+        "website": "https://www.huaku.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "TWSE issuer profile and daily quote OpenAPI",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L; https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+    },
+    {
+      "name": "TPEx daily quote OpenAPI",
+      "url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "RealEstate",
+  "generatedAt": "2026-10-08T03:50:47.776Z"
+}

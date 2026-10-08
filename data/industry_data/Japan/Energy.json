@@ -1,0 +1,327 @@
+{
+  "market": "Japan",
+  "industry": "Energy",
+  "industryName": {
+    "zh-TW": "能源",
+    "en": "Energy",
+    "ja": "エネルギー"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "能源需求與商品價格、地緣政治及能源轉型進度密切相關。",
+      "資本支出、儲量或產能、負債與股東回饋政策是重要評估項目。"
+    ],
+    "en": [
+      "Energy demand is tied to commodity prices, geopolitics, and the pace of the transition.",
+      "Capital spending, reserves or capacity, leverage, and shareholder-return policies are key factors."
+    ],
+    "ja": [
+      "エネルギー需要は商品価格、地政学、エネルギー転換の進捗に左右されます。",
+      "設備投資、埋蔵量・供給能力、負債、株主還元方針が重要です。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "ENEOS控股",
+            "en": "ENEOS Holdings, Inc.",
+            "ja": "ENEOSホールディングス"
+          },
+          "ticker": "5020",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "ENEOS Holdings, Inc.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/5020.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "出光興產",
+            "en": "Idemitsu Kosan Co.,Ltd.",
+            "ja": "出光興産"
+          },
+          "ticker": "5019",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Idemitsu Kosan Co.,Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:50.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/5019.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "INPEX",
+            "en": "Inpex Corporation",
+            "ja": "INPEX"
+          },
+          "ticker": "1605",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Inpex Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/1605.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "東京瓦斯",
+            "en": "Tokyo Gas Co.,Ltd.",
+            "ja": "東京ガス"
+          },
+          "ticker": "9531",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Tokyo Gas Co.,Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:54.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9531.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "大阪瓦斯",
+            "en": "Osaka Gas Co., Ltd.",
+            "ja": "大阪ガス"
+          },
+          "ticker": "9532",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Osaka Gas Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:59.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9532.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "電源開發",
+            "en": "Electric Power Development Co., Ltd.",
+            "ja": "電源開発"
+          },
+          "ticker": "9513",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Electric Power Development Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:51.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9513.T"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "ENEOS控股",
+        "en": "ENEOS Holdings, Inc.",
+        "ja": "ENEOSホールディングス"
+      },
+      "ticker": "5020",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "出光興產",
+        "en": "Idemitsu Kosan Co.,Ltd.",
+        "ja": "出光興産"
+      },
+      "ticker": "5019",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "INPEX",
+        "en": "Inpex Corporation",
+        "ja": "INPEX"
+      },
+      "ticker": "1605",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東京瓦斯",
+        "en": "Tokyo Gas Co.,Ltd.",
+        "ja": "東京ガス"
+      },
+      "ticker": "9531",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "大阪瓦斯",
+        "en": "Osaka Gas Co., Ltd.",
+        "ja": "大阪ガス"
+      },
+      "ticker": "9532",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "電源開發",
+        "en": "Electric Power Development Co., Ltd.",
+        "ja": "電源開発"
+      },
+      "ticker": "9513",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "ENEOS控股",
+        "en": "ENEOS Holdings, Inc.",
+        "ja": "ENEOSホールディングス"
+      },
+      "ticker": "5020",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "ENEOS Holdings, Inc.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/5020.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "出光興產",
+        "en": "Idemitsu Kosan Co.,Ltd.",
+        "ja": "出光興産"
+      },
+      "ticker": "5019",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Idemitsu Kosan Co.,Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:50.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/5019.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "INPEX",
+        "en": "Inpex Corporation",
+        "ja": "INPEX"
+      },
+      "ticker": "1605",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Inpex Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/1605.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東京瓦斯",
+        "en": "Tokyo Gas Co.,Ltd.",
+        "ja": "東京ガス"
+      },
+      "ticker": "9531",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Tokyo Gas Co.,Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:54.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9531.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "大阪瓦斯",
+        "en": "Osaka Gas Co., Ltd.",
+        "ja": "大阪ガス"
+      },
+      "ticker": "9532",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Osaka Gas Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:59.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9532.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "電源開發",
+        "en": "Electric Power Development Co., Ltd.",
+        "ja": "電源開発"
+      },
+      "ticker": "9513",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Electric Power Development Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:51.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9513.T"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "Yahoo Finance chart (delayed market quote and listing profile)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}.T?interval=1d&range=1d"
+    },
+    {
+      "name": "EDINET documents API (requires registered API key)",
+      "url": "https://disclosure.edinet-fsa.go.jp/api/v1/documents.json?date=YYYY-MM-DD"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "Energy",
+  "generatedAt": "2026-10-08T03:50:52.019Z"
+}

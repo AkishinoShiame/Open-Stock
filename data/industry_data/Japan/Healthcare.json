@@ -1,0 +1,327 @@
+{
+  "market": "Japan",
+  "industry": "Healthcare",
+  "industryName": {
+    "zh-TW": "醫療保健",
+    "en": "Healthcare",
+    "ja": "ヘルスケア"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "人口結構及醫療需求提供長期支撐，藥品和醫療服務仍有政策風險。",
+      "臨床試驗、監管核准、專利到期與研發管線會左右個別公司前景。"
+    ],
+    "en": [
+      "Demographics and medical needs support long-term demand, while policy and reimbursement remain risks.",
+      "Clinical trials, approvals, patent expirations, and development pipelines drive company-specific outcomes."
+    ],
+    "ja": [
+      "人口動態と医療需要が長期需要を支えますが、政策や償還制度のリスクがあります。",
+      "臨床試験、承認、特許切れ、開発パイプラインが企業ごとの見通しを左右します。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "武田藥品",
+            "en": "Takeda Pharmaceutical Company Limited",
+            "ja": "武田薬品工業"
+          },
+          "ticker": "4502",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Takeda Pharmaceutical Company Limited",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/4502.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "中外製藥",
+            "en": "Chugai Pharmaceutical Co., Ltd.",
+            "ja": "中外製薬"
+          },
+          "ticker": "4519",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Chugai Pharmaceutical Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:54.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/4519.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "第一三共",
+            "en": "Daiichi Sankyo Company, Limited",
+            "ja": "第一三共"
+          },
+          "ticker": "4568",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Daiichi Sankyo Company, Limited",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:59.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/4568.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "泰爾茂",
+            "en": "Terumo Corporation",
+            "ja": "テルモ"
+          },
+          "ticker": "4543",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Terumo Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/4543.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "衛采",
+            "en": "Eisai Co., Ltd.",
+            "ja": "エーザイ"
+          },
+          "ticker": "4523",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Eisai Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:59.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/4523.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "大塚控股",
+            "en": "Otsuka Holdings Co., Ltd.",
+            "ja": "大塚ホールディングス"
+          },
+          "ticker": "4578",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Otsuka Holdings Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:56.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/4578.T"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "武田藥品",
+        "en": "Takeda Pharmaceutical Company Limited",
+        "ja": "武田薬品工業"
+      },
+      "ticker": "4502",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中外製藥",
+        "en": "Chugai Pharmaceutical Co., Ltd.",
+        "ja": "中外製薬"
+      },
+      "ticker": "4519",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "第一三共",
+        "en": "Daiichi Sankyo Company, Limited",
+        "ja": "第一三共"
+      },
+      "ticker": "4568",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "泰爾茂",
+        "en": "Terumo Corporation",
+        "ja": "テルモ"
+      },
+      "ticker": "4543",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "衛采",
+        "en": "Eisai Co., Ltd.",
+        "ja": "エーザイ"
+      },
+      "ticker": "4523",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "大塚控股",
+        "en": "Otsuka Holdings Co., Ltd.",
+        "ja": "大塚ホールディングス"
+      },
+      "ticker": "4578",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "武田藥品",
+        "en": "Takeda Pharmaceutical Company Limited",
+        "ja": "武田薬品工業"
+      },
+      "ticker": "4502",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Takeda Pharmaceutical Company Limited",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/4502.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中外製藥",
+        "en": "Chugai Pharmaceutical Co., Ltd.",
+        "ja": "中外製薬"
+      },
+      "ticker": "4519",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Chugai Pharmaceutical Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:54.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/4519.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "第一三共",
+        "en": "Daiichi Sankyo Company, Limited",
+        "ja": "第一三共"
+      },
+      "ticker": "4568",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Daiichi Sankyo Company, Limited",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:59.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/4568.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "泰爾茂",
+        "en": "Terumo Corporation",
+        "ja": "テルモ"
+      },
+      "ticker": "4543",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Terumo Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/4543.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "衛采",
+        "en": "Eisai Co., Ltd.",
+        "ja": "エーザイ"
+      },
+      "ticker": "4523",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Eisai Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:59.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/4523.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "大塚控股",
+        "en": "Otsuka Holdings Co., Ltd.",
+        "ja": "大塚ホールディングス"
+      },
+      "ticker": "4578",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Otsuka Holdings Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:56.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/4578.T"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "Yahoo Finance chart (delayed market quote and listing profile)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}.T?interval=1d&range=1d"
+    },
+    {
+      "name": "EDINET documents API (requires registered API key)",
+      "url": "https://disclosure.edinet-fsa.go.jp/api/v1/documents.json?date=YYYY-MM-DD"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "Healthcare",
+  "generatedAt": "2026-10-08T03:50:52.019Z"
+}

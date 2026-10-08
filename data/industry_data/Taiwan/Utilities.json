@@ -1,0 +1,396 @@
+{
+  "market": "Taiwan",
+  "industry": "Utilities",
+  "industryName": {
+    "zh-TW": "公用事業",
+    "en": "Utilities",
+    "ja": "公益事業"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "公用服務需求相對穩定，但監管、費率及燃料成本左右獲利。",
+      "能源轉型需要大量資本支出，需留意負債、資本回收與股利政策。"
+    ],
+    "en": [
+      "Utility demand is relatively stable, but regulation, tariffs, and fuel costs shape profitability.",
+      "The transition requires substantial investment; monitor leverage, cost recovery, and dividends."
+    ],
+    "ja": [
+      "公益サービスの需要は比較的安定していますが、規制、料金、燃料費が利益を左右します。",
+      "エネルギー転換には多額の投資が必要です。負債、投資回収、配当方針を確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "新海",
+            "en": "S.H.",
+            "ja": "新海瓦斯"
+          },
+          "ticker": "9926",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "新海瓦斯股份有限公司",
+            "listingDate": "19980408",
+            "industryCode": "23",
+            "website": "https://www.shinhaigas.com.tw/",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "大台北",
+            "en": "GTG",
+            "ja": "大台北瓦斯"
+          },
+          "ticker": "9908",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "大台北區瓦斯股份有限公司",
+            "listingDate": "19910206",
+            "industryCode": "23",
+            "website": "www.taipeigas.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "中興電",
+            "en": "CHEM",
+            "ja": "中興電工"
+          },
+          "ticker": "1513",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "中興電工機械股份有限公司",
+            "listingDate": "19940308",
+            "industryCode": "05",
+            "website": "WWW.CHEM.COM.TW",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "華城",
+            "en": "FE",
+            "ja": "華城電機"
+          },
+          "ticker": "1519",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "華城電機股份有限公司",
+            "listingDate": "19970416",
+            "industryCode": "05",
+            "website": "www.fortune.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "雲豹能源",
+            "en": "J&V Energy",
+            "ja": "J&V Energy"
+          },
+          "ticker": "6869",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "雲豹能源科技股份有限公司",
+            "listingDate": "20230314",
+            "industryCode": "35",
+            "website": "http://www.jv-holding.com/",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "台塑化",
+            "en": "FPCC",
+            "ja": "台湾プラスチック石油化學"
+          },
+          "ticker": "6505",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "台塑石化股份有限公司",
+            "listingDate": "20031226",
+            "industryCode": "23",
+            "website": "WWW.FPCC.COM.TW",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "新海",
+        "en": "S.H.",
+        "ja": "新海瓦斯"
+      },
+      "ticker": "9926",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "新海瓦斯股份有限公司",
+        "listingDate": "19980408",
+        "industryCode": "23",
+        "website": "https://www.shinhaigas.com.tw/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "大台北",
+        "en": "GTG",
+        "ja": "大台北瓦斯"
+      },
+      "ticker": "9908",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "大台北區瓦斯股份有限公司",
+        "listingDate": "19910206",
+        "industryCode": "23",
+        "website": "www.taipeigas.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中興電",
+        "en": "CHEM",
+        "ja": "中興電工"
+      },
+      "ticker": "1513",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "中興電工機械股份有限公司",
+        "listingDate": "19940308",
+        "industryCode": "05",
+        "website": "WWW.CHEM.COM.TW",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "華城",
+        "en": "FE",
+        "ja": "華城電機"
+      },
+      "ticker": "1519",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "華城電機股份有限公司",
+        "listingDate": "19970416",
+        "industryCode": "05",
+        "website": "www.fortune.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "雲豹能源",
+        "en": "J&V Energy",
+        "ja": "J&V Energy"
+      },
+      "ticker": "6869",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "雲豹能源科技股份有限公司",
+        "listingDate": "20230314",
+        "industryCode": "35",
+        "website": "http://www.jv-holding.com/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台塑化",
+        "en": "FPCC",
+        "ja": "台湾プラスチック石油化學"
+      },
+      "ticker": "6505",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "台塑石化股份有限公司",
+        "listingDate": "20031226",
+        "industryCode": "23",
+        "website": "WWW.FPCC.COM.TW",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "新海",
+        "en": "S.H.",
+        "ja": "新海瓦斯"
+      },
+      "ticker": "9926",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "新海瓦斯股份有限公司",
+        "listingDate": "19980408",
+        "industryCode": "23",
+        "website": "https://www.shinhaigas.com.tw/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "大台北",
+        "en": "GTG",
+        "ja": "大台北瓦斯"
+      },
+      "ticker": "9908",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "大台北區瓦斯股份有限公司",
+        "listingDate": "19910206",
+        "industryCode": "23",
+        "website": "www.taipeigas.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中興電",
+        "en": "CHEM",
+        "ja": "中興電工"
+      },
+      "ticker": "1513",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "中興電工機械股份有限公司",
+        "listingDate": "19940308",
+        "industryCode": "05",
+        "website": "WWW.CHEM.COM.TW",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "華城",
+        "en": "FE",
+        "ja": "華城電機"
+      },
+      "ticker": "1519",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "華城電機股份有限公司",
+        "listingDate": "19970416",
+        "industryCode": "05",
+        "website": "www.fortune.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "雲豹能源",
+        "en": "J&V Energy",
+        "ja": "J&V Energy"
+      },
+      "ticker": "6869",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "雲豹能源科技股份有限公司",
+        "listingDate": "20230314",
+        "industryCode": "35",
+        "website": "http://www.jv-holding.com/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台塑化",
+        "en": "FPCC",
+        "ja": "台湾プラスチック石油化學"
+      },
+      "ticker": "6505",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "台塑石化股份有限公司",
+        "listingDate": "20031226",
+        "industryCode": "23",
+        "website": "WWW.FPCC.COM.TW",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "TWSE issuer profile and daily quote OpenAPI",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L; https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+    },
+    {
+      "name": "TPEx daily quote OpenAPI",
+      "url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "Utilities",
+  "generatedAt": "2026-10-08T03:50:47.777Z"
+}

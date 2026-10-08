@@ -36,27 +36,28 @@ restrict `fetch()` from `file:` URLs, and the app displays an explanatory error.
   (`zh-TW`), US uses English (`en`), and Japan uses Japanese (`ja`). There is no
   separate language selector. Market changes translate labels, company names,
   characteristics, errors, table headers, and the document title.
-- Markets: Taiwan, US, Japan, each with two industry datasets.
+- Markets: Taiwan, US, and Japan, each with eleven industry datasets (33 total).
 - The sticky header places the Open Stock logo/title on the left and the
   country control on the right. The country label is `Stock Country`,
   `股票市場`, or `株の売り場`; options are ordered US, Japan, Taiwan and localized.
   The English US option uses the requested wording `United State`.
-- The horizontal, scrollable chip bar shows all eleven requested sectors in
-  every market. Solid chips have a dataset; dashed chips show a localized
-  "no dataset" message without fetching a nonexistent file or substituting
-  another sector. Japan's original Electric Appliances and Consumer chips are
-  appended so both original datasets remain accessible. They are not
-  reclassified as GICS sectors. All original JSON files remain unchanged.
+- The horizontal, scrollable chip bar shows all eleven sectors in every market.
+  Each chip loads a matching static JSON file; the legacy Japan Electric and
+  Consumer JSON files are retained but are not extra tabs.
 - Changing market selects its first industry. Changing either market or industry
   restores the representative view.
-- Each dataset has four localized characteristics, three representative
-  companies with API reference metadata, three localized representative
-  company groups from JSON, and six companies in its full list. Group names and
-  membership are data-driven; changing the dataset changes the rendered groups.
-- "Full list" means every company in that mock dataset, **not** an exhaustive
-  exchange listing. Company identities and tickers are realistic examples, not
-  a live or certified listing directory. Japan Consumer is a thematic grouping
-  across official JPX industries.
+- Each dataset has localized investment characteristics, three localized
+  representative groups from JSON, six companies with ticker/exchange details,
+  and provider profile metadata. Group names and membership are data-driven.
+- Company listings are cross-checked against Taiwan exchange listing/quote
+  endpoints, the SEC ticker/exchange directory and Yahoo chart profiles for US
+  companies, and Yahoo chart profiles for Japanese companies. SEC company-facts
+  URLs are recorded for US listings; sample facts were fetched for Apple,
+  Microsoft, NVIDIA, Johnson & Johnson, and ExxonMobil. EDINET's documents
+  endpoint requires a registered API key and was not used to fetch filings.
+  Group assignments and investment characteristics are curated educational
+  classifications, not exchange classifications or investment advice. Verify
+  current listings before trading.
 - API names in the static company cards are the original reference metadata,
   not necessarily the source used for a fetched quote. The quote itself displays
   its actual provider, currency, and source date/time separately.
@@ -100,12 +101,12 @@ Market/industry changes cancel and invalidate pending quote requests and clear
 old quotes. Representative/full-list view changes preserve fetched prices.
 
 **SEC EDGAR** is a free filings/fundamentals API, not a quote source; its
-`data.sec.gov` APIs do not support browser CORS requests.
-**EDINET v2** is a filings API that requires a registered API key.
-Neither is called by this credential-free browser app. Fetching their filings
-would require relaxing the no-backend/no-credentials constraints. Their original
-JSON reference metadata is preserved. Alpha Vantage and J-Quants, also mentioned
-in the original JSON metadata, are **not called**.
+`data.sec.gov` APIs do not support browser CORS requests. Static US profiles
+include SEC directory identifiers and company-facts URLs. **EDINET v2** requires
+a registered API key to retrieve filing documents, so the static project does
+not fetch Japanese filings; Yahoo chart profiles provide the Japanese company
+identity snapshots. Neither filing API is called by the live quote button.
+Alpha Vantage and J-Quants are not called.
 
 ## Editing the datasets
 
@@ -123,11 +124,10 @@ Each dataset also needs a nonempty `representativeGroups` array. Every group's
 group companies must have a string ticker and exchange, be present in
 `allCompanies`, and appear in no more than one group. The app validates these
 requirements and displays an error for malformed data.
-To populate a dashed industry, add its matching ID to `data/industries.json`
-and create its matching JSON file. The navigation IDs are `IT`, `Financials`,
+Each market currently uses these navigation IDs: `IT`, `Financials`,
 `Healthcare`, `Energy`, `Industrials`, `ConsumerDiscretionary`, `ConsumerStaples`,
-`CommunicationServices`, `Materials`, `RealEstate`, and `Utilities`.
-To add an additional supported-market industry, add its metadata and matching
-JSON file; its chip is appended after the eleven standard sectors.
+`CommunicationServices`, `Materials`, `RealEstate`, and `Utilities`. JSON file
+names use the IDs; `industry` stores the display name and `industryId` preserves
+the loader ID.
 When adding languages or changing dataset totals, also update the translations
 in `index.html`.

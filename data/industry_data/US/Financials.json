@@ -1,0 +1,511 @@
+{
+  "market": "US",
+  "industry": "Financials",
+  "industryName": {
+    "zh-TW": "金融",
+    "en": "Financials",
+    "ja": "金融"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "銀行、保險及資本市場業務受利率、信用週期與監管環境影響。",
+      "評估資產品質、資本適足、承保紀律、淨利差及股利可持續性。"
+    ],
+    "en": [
+      "Banks, insurers, and capital-markets businesses are sensitive to rates, credit cycles, and regulation.",
+      "Assess asset quality, capital adequacy, underwriting discipline, margins, and dividend sustainability."
+    ],
+    "ja": [
+      "銀行、保険、資本市場事業は金利、信用サイクル、規制環境の影響を受けます。",
+      "資産の質、自己資本、引受規律、利ざや、配当の持続性を確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "Visa",
+            "en": "Visa",
+            "ja": "ビザ"
+          },
+          "ticker": "V",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "VISA INC.",
+            "cik": "0001403161",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001403161.json",
+            "delayedQuoteProfile": {
+              "companyName": "Visa Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/V"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "萬事達卡",
+            "en": "Mastercard",
+            "ja": "マスターカード"
+          },
+          "ticker": "MA",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "Mastercard Inc",
+            "cik": "0001141391",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001141391.json",
+            "delayedQuoteProfile": {
+              "companyName": "Mastercard Incorporated",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/MA"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "摩根大通",
+            "en": "JPMorgan Chase",
+            "ja": "JPモルガン・チェース"
+          },
+          "ticker": "JPM",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "JPMORGAN CHASE & CO",
+            "cik": "0000019617",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json",
+            "delayedQuoteProfile": {
+              "companyName": "JPMorgan Chase & Co.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/JPM"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "美國銀行",
+            "en": "Bank of America",
+            "ja": "バンク・オブ・アメリカ"
+          },
+          "ticker": "BAC",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "BANK OF AMERICA CORP /DE/",
+            "cik": "0000070858",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000070858.json",
+            "delayedQuoteProfile": {
+              "companyName": "Bank of America Corporation",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/BAC"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "高盛",
+            "en": "Goldman Sachs",
+            "ja": "ゴールドマン・サックス"
+          },
+          "ticker": "GS",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "GOLDMAN SACHS GROUP INC",
+            "cik": "0000886982",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000886982.json",
+            "delayedQuoteProfile": {
+              "companyName": "The Goldman Sachs Group, Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/GS"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "摩根士丹利",
+            "en": "Morgan Stanley",
+            "ja": "モルガン・スタンレー"
+          },
+          "ticker": "MS",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "MORGAN STANLEY",
+            "cik": "0000895421",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000895421.json",
+            "delayedQuoteProfile": {
+              "companyName": "Morgan Stanley",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/MS"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "Visa",
+        "en": "Visa",
+        "ja": "ビザ"
+      },
+      "ticker": "V",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "VISA INC.",
+        "cik": "0001403161",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001403161.json",
+        "delayedQuoteProfile": {
+          "companyName": "Visa Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/V"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "萬事達卡",
+        "en": "Mastercard",
+        "ja": "マスターカード"
+      },
+      "ticker": "MA",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "Mastercard Inc",
+        "cik": "0001141391",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001141391.json",
+        "delayedQuoteProfile": {
+          "companyName": "Mastercard Incorporated",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/MA"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "摩根大通",
+        "en": "JPMorgan Chase",
+        "ja": "JPモルガン・チェース"
+      },
+      "ticker": "JPM",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "JPMORGAN CHASE & CO",
+        "cik": "0000019617",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json",
+        "delayedQuoteProfile": {
+          "companyName": "JPMorgan Chase & Co.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/JPM"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "美國銀行",
+        "en": "Bank of America",
+        "ja": "バンク・オブ・アメリカ"
+      },
+      "ticker": "BAC",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "BANK OF AMERICA CORP /DE/",
+        "cik": "0000070858",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000070858.json",
+        "delayedQuoteProfile": {
+          "companyName": "Bank of America Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/BAC"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "高盛",
+        "en": "Goldman Sachs",
+        "ja": "ゴールドマン・サックス"
+      },
+      "ticker": "GS",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "GOLDMAN SACHS GROUP INC",
+        "cik": "0000886982",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000886982.json",
+        "delayedQuoteProfile": {
+          "companyName": "The Goldman Sachs Group, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/GS"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "摩根士丹利",
+        "en": "Morgan Stanley",
+        "ja": "モルガン・スタンレー"
+      },
+      "ticker": "MS",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "MORGAN STANLEY",
+        "cik": "0000895421",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000895421.json",
+        "delayedQuoteProfile": {
+          "companyName": "Morgan Stanley",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/MS"
+        }
+      },
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "Visa",
+        "en": "Visa",
+        "ja": "ビザ"
+      },
+      "ticker": "V",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "VISA INC.",
+        "cik": "0001403161",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001403161.json",
+        "delayedQuoteProfile": {
+          "companyName": "Visa Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/V"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "萬事達卡",
+        "en": "Mastercard",
+        "ja": "マスターカード"
+      },
+      "ticker": "MA",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "Mastercard Inc",
+        "cik": "0001141391",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001141391.json",
+        "delayedQuoteProfile": {
+          "companyName": "Mastercard Incorporated",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/MA"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "摩根大通",
+        "en": "JPMorgan Chase",
+        "ja": "JPモルガン・チェース"
+      },
+      "ticker": "JPM",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "JPMORGAN CHASE & CO",
+        "cik": "0000019617",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json",
+        "delayedQuoteProfile": {
+          "companyName": "JPMorgan Chase & Co.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/JPM"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "美國銀行",
+        "en": "Bank of America",
+        "ja": "バンク・オブ・アメリカ"
+      },
+      "ticker": "BAC",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "BANK OF AMERICA CORP /DE/",
+        "cik": "0000070858",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000070858.json",
+        "delayedQuoteProfile": {
+          "companyName": "Bank of America Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/BAC"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "高盛",
+        "en": "Goldman Sachs",
+        "ja": "ゴールドマン・サックス"
+      },
+      "ticker": "GS",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "GOLDMAN SACHS GROUP INC",
+        "cik": "0000886982",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000886982.json",
+        "delayedQuoteProfile": {
+          "companyName": "The Goldman Sachs Group, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/GS"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "摩根士丹利",
+        "en": "Morgan Stanley",
+        "ja": "モルガン・スタンレー"
+      },
+      "ticker": "MS",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "MORGAN STANLEY",
+        "cik": "0000895421",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000895421.json",
+        "delayedQuoteProfile": {
+          "companyName": "Morgan Stanley",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/MS"
+        }
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "SEC EDGAR company ticker/exchange directory",
+      "url": "https://www.sec.gov/files/company_tickers_exchange.json"
+    },
+    {
+      "name": "SEC EDGAR company facts (sample entities)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK{10-digit-CIK}.json"
+    },
+    {
+      "name": "Yahoo Finance chart (delayed market quote)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "generatedAt": "2026-10-08T03:50:32.210Z",
+  "industryId": "Financials"
+}

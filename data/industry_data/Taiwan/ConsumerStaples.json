@@ -1,0 +1,399 @@
+{
+  "market": "Taiwan",
+  "industry": "Consumer Staples",
+  "industryName": {
+    "zh-TW": "必需消費",
+    "en": "Consumer Staples",
+    "ja": "生活必需品"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "日常必需品需求通常較穩定，但原料、運輸與零售競爭會影響利潤。",
+      "評估品牌忠誠、通路議價能力、銷量成長及股利覆蓋能力。"
+    ],
+    "en": [
+      "Demand is often resilient, while input, freight, and retail competition can pressure margins.",
+      "Assess brand loyalty, channel bargaining power, volume growth, and dividend coverage."
+    ],
+    "ja": [
+      "需要は比較的安定していますが、原材料、物流、小売競争が利益率を圧迫する場合があります。",
+      "ブランド忠誠度、販路交渉力、販売数量の成長、配当余力を評価しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "統一",
+            "en": "UNI-PRESIDENT",
+            "ja": "統一企業"
+          },
+          "ticker": "1216",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "統一企業股份有限公司",
+            "listingDate": "19871228",
+            "industryCode": "02",
+            "website": "https://www.uni-president.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "佳格",
+            "en": "SFC",
+            "ja": "佳格食品"
+          },
+          "ticker": "1227",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "佳格食品股份有限公司",
+            "listingDate": "19940409",
+            "industryCode": "02",
+            "website": "https://www.sfworldwide.com/",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "統一超",
+            "en": "PCSC",
+            "ja": "統一超商"
+          },
+          "ticker": "2912",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "統一超商股份有限公司",
+            "listingDate": "19970822",
+            "industryCode": "18",
+            "website": "http://www.7-11.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "大成",
+            "en": "GREATWALL",
+            "ja": "大成長城"
+          },
+          "ticker": "1210",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "大成長城企業股份有限公司",
+            "listingDate": "19780520",
+            "industryCode": "02",
+            "website": "http://www.dachan.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "黑松",
+            "en": "HEY SONG",
+            "ja": "黑松"
+          },
+          "ticker": "1234",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "黑松股份有限公司",
+            "listingDate": "19990312",
+            "industryCode": "02",
+            "website": "www.heysong.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "葡萄王",
+            "en": "GKB",
+            "ja": "葡萄王生技"
+          },
+          "ticker": "1707",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "葡萄王生技股份有限公司",
+            "listingDate": "19821220",
+            "industryCode": "22",
+            "website": "http://www.grapeking.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "統一",
+        "en": "UNI-PRESIDENT",
+        "ja": "統一企業"
+      },
+      "ticker": "1216",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "統一企業股份有限公司",
+        "listingDate": "19871228",
+        "industryCode": "02",
+        "website": "https://www.uni-president.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "佳格",
+        "en": "SFC",
+        "ja": "佳格食品"
+      },
+      "ticker": "1227",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "佳格食品股份有限公司",
+        "listingDate": "19940409",
+        "industryCode": "02",
+        "website": "https://www.sfworldwide.com/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "統一超",
+        "en": "PCSC",
+        "ja": "統一超商"
+      },
+      "ticker": "2912",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "統一超商股份有限公司",
+        "listingDate": "19970822",
+        "industryCode": "18",
+        "website": "http://www.7-11.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "大成",
+        "en": "GREATWALL",
+        "ja": "大成長城"
+      },
+      "ticker": "1210",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "大成長城企業股份有限公司",
+        "listingDate": "19780520",
+        "industryCode": "02",
+        "website": "http://www.dachan.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "黑松",
+        "en": "HEY SONG",
+        "ja": "黑松"
+      },
+      "ticker": "1234",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "黑松股份有限公司",
+        "listingDate": "19990312",
+        "industryCode": "02",
+        "website": "www.heysong.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "葡萄王",
+        "en": "GKB",
+        "ja": "葡萄王生技"
+      },
+      "ticker": "1707",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "葡萄王生技股份有限公司",
+        "listingDate": "19821220",
+        "industryCode": "22",
+        "website": "http://www.grapeking.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "統一",
+        "en": "UNI-PRESIDENT",
+        "ja": "統一企業"
+      },
+      "ticker": "1216",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "統一企業股份有限公司",
+        "listingDate": "19871228",
+        "industryCode": "02",
+        "website": "https://www.uni-president.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "佳格",
+        "en": "SFC",
+        "ja": "佳格食品"
+      },
+      "ticker": "1227",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "佳格食品股份有限公司",
+        "listingDate": "19940409",
+        "industryCode": "02",
+        "website": "https://www.sfworldwide.com/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "統一超",
+        "en": "PCSC",
+        "ja": "統一超商"
+      },
+      "ticker": "2912",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "統一超商股份有限公司",
+        "listingDate": "19970822",
+        "industryCode": "18",
+        "website": "http://www.7-11.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "大成",
+        "en": "GREATWALL",
+        "ja": "大成長城"
+      },
+      "ticker": "1210",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "大成長城企業股份有限公司",
+        "listingDate": "19780520",
+        "industryCode": "02",
+        "website": "http://www.dachan.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "黑松",
+        "en": "HEY SONG",
+        "ja": "黑松"
+      },
+      "ticker": "1234",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "黑松股份有限公司",
+        "listingDate": "19990312",
+        "industryCode": "02",
+        "website": "www.heysong.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "葡萄王",
+        "en": "GKB",
+        "ja": "葡萄王生技"
+      },
+      "ticker": "1707",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "葡萄王生技股份有限公司",
+        "listingDate": "19821220",
+        "industryCode": "22",
+        "website": "http://www.grapeking.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "TWSE issuer profile and daily quote OpenAPI",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L; https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+    },
+    {
+      "name": "TPEx daily quote OpenAPI",
+      "url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "ConsumerStaples",
+  "generatedAt": "2026-10-08T03:50:47.772Z"
+}

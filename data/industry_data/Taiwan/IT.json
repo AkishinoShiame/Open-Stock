@@ -1,75 +1,351 @@
 {
   "market": "Taiwan",
-  "industry": "IT",
+  "industry": "Information Technology",
+  "industryName": {
+    "zh-TW": "資訊科技",
+    "en": "Information Technology",
+    "ja": "情報技術"
+  },
   "investmentCharacteristics": {
     "zh-TW": [
-      "半導體製造與電子代工在全球供應鏈中扮演重要角色，需求受全球科技支出影響。",
-      "AI、高效能運算與先進製程帶來長期機會，但資本支出高且產品週期快速。",
-      "出口比重高，需留意匯率、地緣政治與客戶集中風險。",
-      "評估營收成長、毛利率、產能利用率與自由現金流，不宜只看本益比。"
+      "技術創新與數位化帶動成長，景氣循環和估值波動也較明顯。",
+      "研發、產品週期、競爭及人才成本會影響利潤與現金流。"
     ],
     "en": [
-      "Semiconductor manufacturing and electronics assembly play major roles in global supply chains; demand follows global technology spending.",
-      "AI, high-performance computing, and advanced manufacturing offer long-term opportunities, but capital intensity and rapid product cycles matter.",
-      "High export exposure creates currency, geopolitical, and customer-concentration risks.",
-      "Evaluate revenue growth, gross margins, capacity utilization, and free cash flow rather than relying on valuation multiples alone."
+      "Software, semiconductors, and digital infrastructure can grow quickly, but valuations and demand are cyclical.",
+      "Research costs, product cycles, competition, and talent costs affect margins and cash flow."
     ],
     "ja": [
-      "半導体製造と電子機器の受託製造は世界の供給網で重要な役割を担い、需要は世界の技術投資に左右されます。",
-      "AI、高性能計算、先端製造プロセスは長期的な機会を生む一方、多額の設備投資と短い製品周期に注意が必要です。",
-      "輸出依存度が高く、為替、地政学、顧客集中のリスクがあります。",
-      "株価収益率だけでなく、売上成長率、粗利益率、設備稼働率、フリーキャッシュフローを確認しましょう。"
+      "技術革新とデジタル化が成長を支える一方、需要と株価は景気循環の影響を受けます。",
+      "研究開発費、製品サイクル、競争、人材コストが利益率とキャッシュフローに影響します。"
     ]
   },
   "representativeGroups": [
     {
-      "groupName": { "zh-TW": "成長股", "en": "Growth Stocks", "ja": "成長株" },
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
       "companies": [
-        { "name": { "zh-TW": "台積電", "en": "TSMC", "ja": "台湾積体電路製造（TSMC）" }, "ticker": "2330", "exchange": "TWSE" },
-        { "name": { "zh-TW": "聯發科", "en": "MediaTek", "ja": "メディアテック" }, "ticker": "2454", "exchange": "TWSE" }
+        {
+          "name": {
+            "zh-TW": "台積電",
+            "en": "TSMC",
+            "ja": "台湾積体電路製造（TSMC）"
+          },
+          "ticker": "2330",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "台灣積體電路製造股份有限公司",
+            "listingDate": "19940905",
+            "industryCode": "24",
+            "website": "https://www.tsmc.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "聯發科",
+            "en": "MediaTek",
+            "ja": "メディアテック"
+          },
+          "ticker": "2454",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "聯發科技股份有限公司",
+            "listingDate": "20010723",
+            "industryCode": "24",
+            "website": "http://www.mediatek.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
       ]
     },
     {
-      "groupName": { "zh-TW": "價值股", "en": "Value Stocks", "ja": "価値株" },
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
       "companies": [
-        { "name": { "zh-TW": "聯華電子", "en": "United Microelectronics", "ja": "聯華電子（UMC）" }, "ticker": "2303", "exchange": "TWSE" },
-        { "name": { "zh-TW": "華碩電腦", "en": "ASUSTeK Computer", "ja": "華碩電脳（ASUS）" }, "ticker": "2357", "exchange": "TWSE" }
+        {
+          "name": {
+            "zh-TW": "鴻海",
+            "en": "HON HAI",
+            "ja": "鴻海精密工業"
+          },
+          "ticker": "2317",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "鴻海精密工業股份有限公司",
+            "listingDate": "19910618",
+            "industryCode": "31",
+            "website": "https://www.honhai.com/zh-tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "聯電",
+            "en": "UMC",
+            "ja": "聯華電子（UMC）"
+          },
+          "ticker": "2303",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "聯華電子股份有限公司",
+            "listingDate": "19850716",
+            "industryCode": "24",
+            "website": "WWW.UMC.COM",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
       ]
     },
     {
-      "groupName": { "zh-TW": "股息股", "en": "Dividend Stocks", "ja": "配当株" },
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
       "companies": [
-        { "name": { "zh-TW": "鴻海精密", "en": "Hon Hai Precision Industry", "ja": "鴻海精密工業" }, "ticker": "2317", "exchange": "TWSE" },
-        { "name": { "zh-TW": "廣達電腦", "en": "Quanta Computer", "ja": "クアンタ・コンピュータ" }, "ticker": "2382", "exchange": "TWSE" }
+        {
+          "name": {
+            "zh-TW": "廣達",
+            "en": "QCI",
+            "ja": "クアンタ・コンピュータ"
+          },
+          "ticker": "2382",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "廣達電腦股份有限公司",
+            "listingDate": "19990108",
+            "industryCode": "25",
+            "website": "www.quantatw.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "華碩",
+            "en": "ASUSTEK",
+            "ja": "華碩電脳（ASUS）"
+          },
+          "ticker": "2357",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "華碩電腦股份有限公司",
+            "listingDate": "19961114",
+            "industryCode": "25",
+            "website": "https://www.asus.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
       ]
     }
   ],
   "representativeCompanies": [
     {
-      "name": { "zh-TW": "台積電", "en": "TSMC", "ja": "台湾積体電路製造（TSMC）" },
+      "name": {
+        "zh-TW": "台積電",
+        "en": "TSMC",
+        "ja": "台湾積体電路製造（TSMC）"
+      },
       "ticker": "2330",
       "exchange": "TWSE",
-      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
     },
     {
-      "name": { "zh-TW": "聯發科", "en": "MediaTek", "ja": "メディアテック" },
+      "name": {
+        "zh-TW": "聯發科",
+        "en": "MediaTek",
+        "ja": "メディアテック"
+      },
       "ticker": "2454",
       "exchange": "TWSE",
-      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
     },
     {
-      "name": { "zh-TW": "鴻海精密", "en": "Hon Hai Precision Industry", "ja": "鴻海精密工業" },
+      "name": {
+        "zh-TW": "鴻海",
+        "en": "HON HAI",
+        "ja": "鴻海精密工業"
+      },
       "ticker": "2317",
       "exchange": "TWSE",
-      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "聯電",
+        "en": "UMC",
+        "ja": "聯華電子（UMC）"
+      },
+      "ticker": "2303",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "廣達",
+        "en": "QCI",
+        "ja": "クアンタ・コンピュータ"
+      },
+      "ticker": "2382",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "華碩",
+        "en": "ASUSTEK",
+        "ja": "華碩電脳（ASUS）"
+      },
+      "ticker": "2357",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
     }
   ],
   "allCompanies": [
-    { "name": { "zh-TW": "台積電", "en": "TSMC", "ja": "台湾積体電路製造（TSMC）" }, "ticker": "2330", "exchange": "TWSE" },
-    { "name": { "zh-TW": "聯發科", "en": "MediaTek", "ja": "メディアテック" }, "ticker": "2454", "exchange": "TWSE" },
-    { "name": { "zh-TW": "鴻海精密", "en": "Hon Hai Precision Industry", "ja": "鴻海精密工業" }, "ticker": "2317", "exchange": "TWSE" },
-    { "name": { "zh-TW": "聯華電子", "en": "United Microelectronics", "ja": "聯華電子（UMC）" }, "ticker": "2303", "exchange": "TWSE" },
-    { "name": { "zh-TW": "廣達電腦", "en": "Quanta Computer", "ja": "クアンタ・コンピュータ" }, "ticker": "2382", "exchange": "TWSE" },
-    { "name": { "zh-TW": "華碩電腦", "en": "ASUSTeK Computer", "ja": "華碩電脳（ASUS）" }, "ticker": "2357", "exchange": "TWSE" }
-  ]
+    {
+      "name": {
+        "zh-TW": "台積電",
+        "en": "TSMC",
+        "ja": "台湾積体電路製造（TSMC）"
+      },
+      "ticker": "2330",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "台灣積體電路製造股份有限公司",
+        "listingDate": "19940905",
+        "industryCode": "24",
+        "website": "https://www.tsmc.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "聯發科",
+        "en": "MediaTek",
+        "ja": "メディアテック"
+      },
+      "ticker": "2454",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "聯發科技股份有限公司",
+        "listingDate": "20010723",
+        "industryCode": "24",
+        "website": "http://www.mediatek.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "鴻海",
+        "en": "HON HAI",
+        "ja": "鴻海精密工業"
+      },
+      "ticker": "2317",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "鴻海精密工業股份有限公司",
+        "listingDate": "19910618",
+        "industryCode": "31",
+        "website": "https://www.honhai.com/zh-tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "聯電",
+        "en": "UMC",
+        "ja": "聯華電子（UMC）"
+      },
+      "ticker": "2303",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "聯華電子股份有限公司",
+        "listingDate": "19850716",
+        "industryCode": "24",
+        "website": "WWW.UMC.COM",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "廣達",
+        "en": "QCI",
+        "ja": "クアンタ・コンピュータ"
+      },
+      "ticker": "2382",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "廣達電腦股份有限公司",
+        "listingDate": "19990108",
+        "industryCode": "25",
+        "website": "www.quantatw.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "華碩",
+        "en": "ASUSTEK",
+        "ja": "華碩電脳（ASUS）"
+      },
+      "ticker": "2357",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "華碩電腦股份有限公司",
+        "listingDate": "19961114",
+        "industryCode": "25",
+        "website": "https://www.asus.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "TWSE issuer profile and daily quote OpenAPI",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L; https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+    },
+    {
+      "name": "TPEx daily quote OpenAPI",
+      "url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "IT",
+  "generatedAt": "2026-10-08T03:50:47.775Z"
 }

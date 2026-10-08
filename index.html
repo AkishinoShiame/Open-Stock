@@ -149,7 +149,6 @@
     <p class="eyebrow" data-i18n="eyebrow">跨市場・產業指南</p>
     <h1 data-i18n="title">從產業出發，探索投資世界。</h1>
     <p class="intro" data-i18n="intro">認識台灣、美國與日本的產業特性與代表企業，建立你的研究起點。</p>
-    <p class="panel-note" data-i18n="industryAvailability">虛線產業尚無靜態資料；日本保留原有分類。</p>
     <div id="status" class="status" role="status" aria-live="polite" aria-atomic="true">
       <p id="status-message">正在載入資料…</p>
       <button id="retry-button" class="secondary-button" type="button" data-i18n="retry" hidden>重試</button>
@@ -209,8 +208,7 @@
         pageTitle: "產業探索 | Open Stock", skip: "跳至主要內容",
         eyebrow: "跨市場・產業指南", title: "從產業出發，探索投資世界。",
         intro: "認識台灣、美國與日本的產業特性與代表企業，建立你的研究起點。",
-        market: "股票市場", industry: "產業", mockBadge: "示範資料",
-        industryAvailability: "虛線產業尚無靜態資料；日本保留原有分類。",
+        market: "股票市場", industry: "產業", mockBadge: "參考範例",
         noDataset: "此市場的所選產業尚無靜態資料。請選擇實線產業；不會以其他產業的資料替代。",
         fetchLive: "取得最新資料", liveTitle: "最新行情", latestPrice: "最新價格",
         liveNote: "台灣為最近交易日收盤價；美日為 Yahoo 非官方行情，可能延遲。僅更新畫面，不更動 JSON。",
@@ -230,14 +228,13 @@
         fileProtocol: "請透過 HTTP 靜態伺服器或 GitHub Pages 開啟此頁；直接開啟本機檔案無法載入 JSON。",
         retry: "重試", count: "此示範資料集共 {count} 家公司",
         disclaimer: "僅供學習與示範，非投資建議。完整清單僅涵蓋本示範資料集，並非所有上市公司。行情按需載入，可能延遲或受 API 限制；靜態分類與上市資訊未即時更新。",
-        footer: "3 個市場・6 個產業資料集・一個研究起點"
+        footer: "3 個市場・33 個產業資料集・一個研究起點"
       },
       en: {
         pageTitle: "Industry Explorer | Open Stock", skip: "Skip to main content",
         eyebrow: "CROSS-MARKET INDUSTRY GUIDE", title: "A world of investing. An industry at a time.",
         intro: "Explore industry characteristics and representative companies in Taiwan, the US, and Japan. Find your starting point for research.",
-        market: "Stock Country", industry: "Industry", mockBadge: "Demo data",
-        industryAvailability: "Dashed chips have no static dataset yet. Japan retains its original categories.",
+        market: "Stock Country", industry: "Industry", mockBadge: "Reference examples",
         noDataset: "No static dataset exists for this market and industry yet. Select a solid chip; another industry's data will not be substituted.",
         fetchLive: "Fetch Live Data", liveTitle: "Latest quotes", latestPrice: "Latest price",
         liveNote: "Taiwan: latest trading-day closing prices. US/Japan: unofficial Yahoo quotes, possibly delayed. Updates the UI only; JSON stays unchanged.",
@@ -257,14 +254,13 @@
         fileProtocol: "Serve this page over HTTP or GitHub Pages; opening a local file directly cannot load the JSON data.",
         retry: "Retry", count: "{count} companies in this demo dataset",
         disclaimer: "For education and demonstration only, not investment advice. The full list covers this demo dataset, not every listed company. Quotes are fetched on demand and may be delayed or unavailable due to API restrictions. Static classifications and listings are not updated in real time.",
-        footer: "3 markets · 6 industry datasets · One research starting point"
+        footer: "3 markets · 33 industry datasets · One research starting point"
       },
       ja: {
         pageTitle: "業種エクスプローラー | Open Stock", skip: "メインコンテンツへ移動",
         eyebrow: "市場を横断する業種ガイド", title: "業種から、投資の世界を広げよう。",
         intro: "台湾、米国、日本の業種特性と代表企業を知り、企業研究の第一歩を踏み出しましょう。",
-        market: "株の売り場", industry: "業種", mockBadge: "デモデータ",
-        industryAvailability: "破線の業種には静的データがありません。日本の元の分類も維持しています。",
+        market: "株の売り場", industry: "業種", mockBadge: "参考例",
         noDataset: "この市場と業種の静的データはまだありません。実線の業種を選択してください。他の業種のデータで代用しません。",
         fetchLive: "最新データを取得", liveTitle: "最新の株価", latestPrice: "最新価格",
         liveNote: "台湾は直近取引日の終値、米国と日本はYahoo非公式の株価で、遅延する場合があります。画面のみを更新し、JSONは変更しません。",
@@ -284,7 +280,7 @@
         fileProtocol: "HTTP の静的サーバーまたは GitHub Pages で開いてください。ローカルファイルを直接開くと JSON を読み込めません。",
         retry: "再試行", count: "このデモデータには {count} 社が含まれます",
         disclaimer: "学習・デモ用であり、投資助言ではありません。全リストはこのデモデータの全企業であり、全上場企業ではありません。株価は手動取得で、遅延やAPI制限により利用できない場合があります。静的な分類と上場情報はリアルタイムでは更新されません。",
-        footer: "3 市場・6 業種データセット・企業研究の第一歩"
+        footer: "3 市場・33 業種データセット・企業研究の第一歩"
       }
     };
     const marketLanguages = { Taiwan: "zh-TW", US: "en", Japan: "ja" };
@@ -382,7 +378,9 @@
     }
 
     function validateIndustryData(data, market, industry) {
-      requireData(data.market === market && data.industry === industry, "market/industry mismatch");
+      requireData(data.market === market &&
+        (data.industry === industry || (data.industryId === industry &&
+          data.industry === data.industryName?.en)), "market/industry mismatch");
       requireData(data.investmentCharacteristics && state.languages.every((language) => {
         const items = data.investmentCharacteristics[language];
         return Array.isArray(items) && items.length > 0 &&

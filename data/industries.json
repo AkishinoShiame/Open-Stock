@@ -2,43 +2,436 @@
   "Taiwan": [
     {
       "id": "IT",
-      "name": { "zh-TW": "資訊科技", "en": "Information Technology", "ja": "情報技術" },
+      "name": {
+        "zh-TW": "資訊科技",
+        "en": "Information Technology",
+        "ja": "情報技術"
+      },
       "source": "TWSE/TPEx",
-      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+      "api": {
+        "price": "TWSE OpenAPI / TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
     },
     {
       "id": "Financials",
-      "name": { "zh-TW": "金融", "en": "Financials", "ja": "金融" },
+      "name": {
+        "zh-TW": "金融",
+        "en": "Financials",
+        "ja": "金融"
+      },
       "source": "TWSE/TPEx",
-      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+      "api": {
+        "price": "TWSE OpenAPI / TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "id": "Healthcare",
+      "name": {
+        "zh-TW": "醫療保健",
+        "en": "Healthcare",
+        "ja": "ヘルスケア"
+      },
+      "source": "TWSE/TPEx",
+      "api": {
+        "price": "TWSE OpenAPI / TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "id": "Energy",
+      "name": {
+        "zh-TW": "能源",
+        "en": "Energy",
+        "ja": "エネルギー"
+      },
+      "source": "TWSE/TPEx",
+      "api": {
+        "price": "TWSE OpenAPI / TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "id": "Industrials",
+      "name": {
+        "zh-TW": "工業",
+        "en": "Industrials",
+        "ja": "工業"
+      },
+      "source": "TWSE/TPEx",
+      "api": {
+        "price": "TWSE OpenAPI / TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "id": "ConsumerDiscretionary",
+      "name": {
+        "zh-TW": "非必需消費",
+        "en": "Consumer Discretionary",
+        "ja": "一般消費財"
+      },
+      "source": "TWSE/TPEx",
+      "api": {
+        "price": "TWSE OpenAPI / TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "id": "ConsumerStaples",
+      "name": {
+        "zh-TW": "必需消費",
+        "en": "Consumer Staples",
+        "ja": "生活必需品"
+      },
+      "source": "TWSE/TPEx",
+      "api": {
+        "price": "TWSE OpenAPI / TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "id": "CommunicationServices",
+      "name": {
+        "zh-TW": "通訊服務",
+        "en": "Communication Services",
+        "ja": "通信サービス"
+      },
+      "source": "TWSE/TPEx",
+      "api": {
+        "price": "TWSE OpenAPI / TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "id": "Materials",
+      "name": {
+        "zh-TW": "原物料",
+        "en": "Materials",
+        "ja": "素材"
+      },
+      "source": "TWSE/TPEx",
+      "api": {
+        "price": "TWSE OpenAPI / TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "id": "RealEstate",
+      "name": {
+        "zh-TW": "房地產",
+        "en": "Real Estate",
+        "ja": "不動産"
+      },
+      "source": "TWSE/TPEx",
+      "api": {
+        "price": "TWSE OpenAPI / TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "id": "Utilities",
+      "name": {
+        "zh-TW": "公用事業",
+        "en": "Utilities",
+        "ja": "公益事業"
+      },
+      "source": "TWSE/TPEx",
+      "api": {
+        "price": "TWSE OpenAPI / TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
     }
   ],
   "US": [
     {
       "id": "IT",
-      "name": { "zh-TW": "資訊科技", "en": "Information Technology", "ja": "情報技術" },
+      "name": {
+        "zh-TW": "資訊科技",
+        "en": "Information Technology",
+        "ja": "情報技術"
+      },
       "source": "GICS",
-      "api": { "price": "Alpha Vantage", "fundamental": "SEC EDGAR" }
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "id": "Financials",
+      "name": {
+        "zh-TW": "金融",
+        "en": "Financials",
+        "ja": "金融"
+      },
+      "source": "GICS",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
     },
     {
       "id": "Healthcare",
-      "name": { "zh-TW": "醫療保健", "en": "Healthcare", "ja": "ヘルスケア" },
+      "name": {
+        "zh-TW": "醫療保健",
+        "en": "Healthcare",
+        "ja": "ヘルスケア"
+      },
       "source": "GICS",
-      "api": { "price": "Alpha Vantage", "fundamental": "SEC EDGAR" }
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "id": "Energy",
+      "name": {
+        "zh-TW": "能源",
+        "en": "Energy",
+        "ja": "エネルギー"
+      },
+      "source": "GICS",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "id": "Industrials",
+      "name": {
+        "zh-TW": "工業",
+        "en": "Industrials",
+        "ja": "工業"
+      },
+      "source": "GICS",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "id": "ConsumerDiscretionary",
+      "name": {
+        "zh-TW": "非必需消費",
+        "en": "Consumer Discretionary",
+        "ja": "一般消費財"
+      },
+      "source": "GICS",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "id": "ConsumerStaples",
+      "name": {
+        "zh-TW": "必需消費",
+        "en": "Consumer Staples",
+        "ja": "生活必需品"
+      },
+      "source": "GICS",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "id": "CommunicationServices",
+      "name": {
+        "zh-TW": "通訊服務",
+        "en": "Communication Services",
+        "ja": "通信サービス"
+      },
+      "source": "GICS",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "id": "Materials",
+      "name": {
+        "zh-TW": "原物料",
+        "en": "Materials",
+        "ja": "素材"
+      },
+      "source": "GICS",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "id": "RealEstate",
+      "name": {
+        "zh-TW": "房地產",
+        "en": "Real Estate",
+        "ja": "不動産"
+      },
+      "source": "GICS",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
+    },
+    {
+      "id": "Utilities",
+      "name": {
+        "zh-TW": "公用事業",
+        "en": "Utilities",
+        "ja": "公益事業"
+      },
+      "source": "GICS",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      }
     }
   ],
   "Japan": [
     {
-      "id": "Electric",
-      "name": { "zh-TW": "電氣機器", "en": "Electric Appliances", "ja": "電気機器" },
+      "id": "IT",
+      "name": {
+        "zh-TW": "資訊科技",
+        "en": "Information Technology",
+        "ja": "情報技術"
+      },
       "source": "JPX",
-      "api": { "price": "J-Quants", "fundamental": "EDINET" }
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (registered API key required)"
+      }
     },
     {
-      "id": "Consumer",
-      "name": { "zh-TW": "消費", "en": "Consumer", "ja": "消費" },
+      "id": "Financials",
+      "name": {
+        "zh-TW": "金融",
+        "en": "Financials",
+        "ja": "金融"
+      },
       "source": "JPX",
-      "api": { "price": "J-Quants", "fundamental": "EDINET" }
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (registered API key required)"
+      }
+    },
+    {
+      "id": "Healthcare",
+      "name": {
+        "zh-TW": "醫療保健",
+        "en": "Healthcare",
+        "ja": "ヘルスケア"
+      },
+      "source": "JPX",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (registered API key required)"
+      }
+    },
+    {
+      "id": "Energy",
+      "name": {
+        "zh-TW": "能源",
+        "en": "Energy",
+        "ja": "エネルギー"
+      },
+      "source": "JPX",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (registered API key required)"
+      }
+    },
+    {
+      "id": "Industrials",
+      "name": {
+        "zh-TW": "工業",
+        "en": "Industrials",
+        "ja": "工業"
+      },
+      "source": "JPX",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (registered API key required)"
+      }
+    },
+    {
+      "id": "ConsumerDiscretionary",
+      "name": {
+        "zh-TW": "非必需消費",
+        "en": "Consumer Discretionary",
+        "ja": "一般消費財"
+      },
+      "source": "JPX",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (registered API key required)"
+      }
+    },
+    {
+      "id": "ConsumerStaples",
+      "name": {
+        "zh-TW": "必需消費",
+        "en": "Consumer Staples",
+        "ja": "生活必需品"
+      },
+      "source": "JPX",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (registered API key required)"
+      }
+    },
+    {
+      "id": "CommunicationServices",
+      "name": {
+        "zh-TW": "通訊服務",
+        "en": "Communication Services",
+        "ja": "通信サービス"
+      },
+      "source": "JPX",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (registered API key required)"
+      }
+    },
+    {
+      "id": "Materials",
+      "name": {
+        "zh-TW": "原物料",
+        "en": "Materials",
+        "ja": "素材"
+      },
+      "source": "JPX",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (registered API key required)"
+      }
+    },
+    {
+      "id": "RealEstate",
+      "name": {
+        "zh-TW": "房地產",
+        "en": "Real Estate",
+        "ja": "不動産"
+      },
+      "source": "JPX",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (registered API key required)"
+      }
+    },
+    {
+      "id": "Utilities",
+      "name": {
+        "zh-TW": "公用事業",
+        "en": "Utilities",
+        "ja": "公益事業"
+      },
+      "source": "JPX",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (registered API key required)"
+      }
     }
   ]
 }

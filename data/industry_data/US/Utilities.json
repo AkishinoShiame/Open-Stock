@@ -1,0 +1,511 @@
+{
+  "market": "US",
+  "industry": "Utilities",
+  "industryName": {
+    "zh-TW": "公用事業",
+    "en": "Utilities",
+    "ja": "公益事業"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "公用服務需求相對穩定，但監管、費率及燃料成本左右獲利。",
+      "能源轉型需要大量資本支出，需留意負債、資本回收與股利政策。"
+    ],
+    "en": [
+      "Utility demand is relatively stable, but regulation, tariffs, and fuel costs shape profitability.",
+      "The transition requires substantial investment; monitor leverage, cost recovery, and dividends."
+    ],
+    "ja": [
+      "公益サービスの需要は比較的安定していますが、規制、料金、燃料費が利益を左右します。",
+      "エネルギー転換には多額の投資が必要です。負債、投資回収、配当方針を確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "新紀元能源",
+            "en": "NextEra Energy",
+            "ja": "ネクステラ・エナジー"
+          },
+          "ticker": "NEE",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "NEXTERA ENERGY INC",
+            "cik": "0000753308",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000753308.json",
+            "delayedQuoteProfile": {
+              "companyName": "NextEra Energy, Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/NEE"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "南方公司",
+            "en": "Southern Company",
+            "ja": "サザン・カンパニー"
+          },
+          "ticker": "SO",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "SOUTHERN CO",
+            "cik": "0000092122",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000092122.json",
+            "delayedQuoteProfile": {
+              "companyName": "The Southern Company",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:01:45.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/SO"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "杜克能源",
+            "en": "Duke Energy",
+            "ja": "デューク・エナジー"
+          },
+          "ticker": "DUK",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "Duke Energy CORP",
+            "cik": "0001326160",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326160.json",
+            "delayedQuoteProfile": {
+              "companyName": "Duke Energy Corporation",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:50.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/DUK"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "Constellation Energy",
+            "en": "Constellation Energy",
+            "ja": "コンステレーション・エナジー"
+          },
+          "ticker": "CEG",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "Constellation Energy Corp",
+            "cik": "0001868275",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001868275.json",
+            "delayedQuoteProfile": {
+              "companyName": "Constellation Energy Corporation",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/CEG"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "Xcel Energy",
+            "en": "Xcel Energy",
+            "ja": "エクセル・エナジー"
+          },
+          "ticker": "XEL",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "XCEL ENERGY INC",
+            "cik": "0000072903",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000072903.json",
+            "delayedQuoteProfile": {
+              "companyName": "Xcel Energy Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/XEL"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "美國電力",
+            "en": "American Electric Power",
+            "ja": "アメリカン・エレクトリック・パワー"
+          },
+          "ticker": "AEP",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "AMERICAN ELECTRIC POWER CO INC",
+            "cik": "0000004904",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000004904.json",
+            "delayedQuoteProfile": {
+              "companyName": "American Electric Power Company, Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/AEP"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "新紀元能源",
+        "en": "NextEra Energy",
+        "ja": "ネクステラ・エナジー"
+      },
+      "ticker": "NEE",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "NEXTERA ENERGY INC",
+        "cik": "0000753308",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000753308.json",
+        "delayedQuoteProfile": {
+          "companyName": "NextEra Energy, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/NEE"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "南方公司",
+        "en": "Southern Company",
+        "ja": "サザン・カンパニー"
+      },
+      "ticker": "SO",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "SOUTHERN CO",
+        "cik": "0000092122",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000092122.json",
+        "delayedQuoteProfile": {
+          "companyName": "The Southern Company",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:01:45.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/SO"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "杜克能源",
+        "en": "Duke Energy",
+        "ja": "デューク・エナジー"
+      },
+      "ticker": "DUK",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "Duke Energy CORP",
+        "cik": "0001326160",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326160.json",
+        "delayedQuoteProfile": {
+          "companyName": "Duke Energy Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:50.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/DUK"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Constellation Energy",
+        "en": "Constellation Energy",
+        "ja": "コンステレーション・エナジー"
+      },
+      "ticker": "CEG",
+      "exchange": "NASDAQ",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "Constellation Energy Corp",
+        "cik": "0001868275",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001868275.json",
+        "delayedQuoteProfile": {
+          "companyName": "Constellation Energy Corporation",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/CEG"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Xcel Energy",
+        "en": "Xcel Energy",
+        "ja": "エクセル・エナジー"
+      },
+      "ticker": "XEL",
+      "exchange": "NASDAQ",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "XCEL ENERGY INC",
+        "cik": "0000072903",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000072903.json",
+        "delayedQuoteProfile": {
+          "companyName": "Xcel Energy Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/XEL"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "美國電力",
+        "en": "American Electric Power",
+        "ja": "アメリカン・エレクトリック・パワー"
+      },
+      "ticker": "AEP",
+      "exchange": "NASDAQ",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "AMERICAN ELECTRIC POWER CO INC",
+        "cik": "0000004904",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000004904.json",
+        "delayedQuoteProfile": {
+          "companyName": "American Electric Power Company, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/AEP"
+        }
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "新紀元能源",
+        "en": "NextEra Energy",
+        "ja": "ネクステラ・エナジー"
+      },
+      "ticker": "NEE",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "NEXTERA ENERGY INC",
+        "cik": "0000753308",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000753308.json",
+        "delayedQuoteProfile": {
+          "companyName": "NextEra Energy, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/NEE"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "南方公司",
+        "en": "Southern Company",
+        "ja": "サザン・カンパニー"
+      },
+      "ticker": "SO",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "SOUTHERN CO",
+        "cik": "0000092122",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000092122.json",
+        "delayedQuoteProfile": {
+          "companyName": "The Southern Company",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:01:45.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/SO"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "杜克能源",
+        "en": "Duke Energy",
+        "ja": "デューク・エナジー"
+      },
+      "ticker": "DUK",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "Duke Energy CORP",
+        "cik": "0001326160",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326160.json",
+        "delayedQuoteProfile": {
+          "companyName": "Duke Energy Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:50.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/DUK"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Constellation Energy",
+        "en": "Constellation Energy",
+        "ja": "コンステレーション・エナジー"
+      },
+      "ticker": "CEG",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "Constellation Energy Corp",
+        "cik": "0001868275",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001868275.json",
+        "delayedQuoteProfile": {
+          "companyName": "Constellation Energy Corporation",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/CEG"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Xcel Energy",
+        "en": "Xcel Energy",
+        "ja": "エクセル・エナジー"
+      },
+      "ticker": "XEL",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "XCEL ENERGY INC",
+        "cik": "0000072903",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000072903.json",
+        "delayedQuoteProfile": {
+          "companyName": "Xcel Energy Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/XEL"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "美國電力",
+        "en": "American Electric Power",
+        "ja": "アメリカン・エレクトリック・パワー"
+      },
+      "ticker": "AEP",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "AMERICAN ELECTRIC POWER CO INC",
+        "cik": "0000004904",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000004904.json",
+        "delayedQuoteProfile": {
+          "companyName": "American Electric Power Company, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/AEP"
+        }
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "SEC EDGAR company ticker/exchange directory",
+      "url": "https://www.sec.gov/files/company_tickers_exchange.json"
+    },
+    {
+      "name": "SEC EDGAR company facts (sample entities)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK{10-digit-CIK}.json"
+    },
+    {
+      "name": "Yahoo Finance chart (delayed market quote)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "generatedAt": "2026-10-08T03:50:32.210Z",
+  "industryId": "Utilities"
+}

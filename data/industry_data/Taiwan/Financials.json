@@ -1,75 +1,351 @@
 {
   "market": "Taiwan",
   "industry": "Financials",
+  "industryName": {
+    "zh-TW": "金融",
+    "en": "Financials",
+    "ja": "金融"
+  },
   "investmentCharacteristics": {
     "zh-TW": [
-      "銀行、保險與證券業務提供不同收益來源；金融控股公司常跨足多種業務。",
-      "利率變動影響銀行淨利差與保險投資部位，升息不一定對所有公司有利。",
-      "部分公司重視股利分配，但股利仍受盈餘、資本適足率與監管要求影響。",
-      "留意逾放比率、信用成本、外匯避險成本與股東權益報酬率。"
+      "銀行、保險及資本市場業務受利率、信用週期與監管環境影響。",
+      "評估資產品質、資本適足、承保紀律、淨利差及股利可持續性。"
     ],
     "en": [
-      "Banking, insurance, and brokerage offer different revenue streams; financial holding companies often combine several businesses.",
-      "Interest rates affect bank net interest margins and insurers' portfolios; higher rates do not benefit every company.",
-      "Some companies emphasize dividends, but payouts depend on earnings, capital adequacy, and regulatory requirements.",
-      "Monitor non-performing loans, credit costs, currency-hedging costs, and return on equity."
+      "Banks, insurers, and capital-markets businesses are sensitive to rates, credit cycles, and regulation.",
+      "Assess asset quality, capital adequacy, underwriting discipline, margins, and dividend sustainability."
     ],
     "ja": [
-      "銀行、保険、証券はそれぞれ異なる収益源を持ち、金融持株会社は複数の事業を展開することが多いです。",
-      "金利変動は銀行の利ざやや保険会社の運用資産に影響し、金利上昇がすべての企業に有利とは限りません。",
-      "配当を重視する企業もありますが、配当は利益、自己資本の健全性、規制要件に左右されます。",
-      "不良債権比率、信用コスト、為替ヘッジ費用、自己資本利益率を確認しましょう。"
+      "銀行、保険、資本市場事業は金利、信用サイクル、規制環境の影響を受けます。",
+      "資産の質、自己資本、引受規律、利ざや、配当の持続性を確認しましょう。"
     ]
   },
   "representativeGroups": [
     {
-      "groupName": { "zh-TW": "成長股", "en": "Growth Stocks", "ja": "成長株" },
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
       "companies": [
-        { "name": { "zh-TW": "中信金控", "en": "CTBC Financial Holding", "ja": "中国信託金融控股" }, "ticker": "2891", "exchange": "TWSE" },
-        { "name": { "zh-TW": "玉山金控", "en": "E.SUN Financial Holding", "ja": "玉山金融控股" }, "ticker": "2884", "exchange": "TWSE" }
+        {
+          "name": {
+            "zh-TW": "富邦金",
+            "en": "Fubon Financial",
+            "ja": "富邦金融控股"
+          },
+          "ticker": "2881",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "富邦金融控股股份有限公司",
+            "listingDate": "20011219",
+            "industryCode": "17",
+            "website": "www.fubon.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "國泰金",
+            "en": "CATHAY FHC",
+            "ja": "国泰金融控股"
+          },
+          "ticker": "2882",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "國泰金融控股股份有限公司",
+            "listingDate": "20011231",
+            "industryCode": "17",
+            "website": "www.cathayholdings.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
       ]
     },
     {
-      "groupName": { "zh-TW": "價值股", "en": "Value Stocks", "ja": "価値株" },
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
       "companies": [
-        { "name": { "zh-TW": "兆豐金控", "en": "Mega Financial Holding", "ja": "兆豊金融控股" }, "ticker": "2886", "exchange": "TWSE" },
-        { "name": { "zh-TW": "第一金控", "en": "First Financial Holding", "ja": "第一金融控股" }, "ticker": "2892", "exchange": "TWSE" }
+        {
+          "name": {
+            "zh-TW": "中信金",
+            "en": "CTBC HOLDING",
+            "ja": "中国信託金融控股"
+          },
+          "ticker": "2891",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "中國信託金融控股股份有限公司",
+            "listingDate": "20020517",
+            "industryCode": "17",
+            "website": "https://www.ctbcholding.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "玉山金",
+            "en": "E.S.F.H",
+            "ja": "玉山金融控股"
+          },
+          "ticker": "2884",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "玉山金融控股股份有限公司",
+            "listingDate": "20020128",
+            "industryCode": "17",
+            "website": "https://www.esunfhc.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
       ]
     },
     {
-      "groupName": { "zh-TW": "股息股", "en": "Dividend Stocks", "ja": "配当株" },
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
       "companies": [
-        { "name": { "zh-TW": "富邦金控", "en": "Fubon Financial Holding", "ja": "富邦金融控股" }, "ticker": "2881", "exchange": "TWSE" },
-        { "name": { "zh-TW": "國泰金控", "en": "Cathay Financial Holding", "ja": "国泰金融控股" }, "ticker": "2882", "exchange": "TWSE" }
+        {
+          "name": {
+            "zh-TW": "兆豐金",
+            "en": "MEGA FHC",
+            "ja": "兆豊金融控股"
+          },
+          "ticker": "2886",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "兆豐金融控股股份有限公司",
+            "listingDate": "20020204",
+            "industryCode": "17",
+            "website": "www.megaholdings.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "第一金",
+            "en": "FFHC",
+            "ja": "第一金融控股"
+          },
+          "ticker": "2892",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "第一金融控股股份有限公司",
+            "listingDate": "20030102",
+            "industryCode": "17",
+            "website": "www.firstholding.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
       ]
     }
   ],
   "representativeCompanies": [
     {
-      "name": { "zh-TW": "富邦金控", "en": "Fubon Financial Holding", "ja": "富邦金融控股" },
+      "name": {
+        "zh-TW": "富邦金",
+        "en": "Fubon Financial",
+        "ja": "富邦金融控股"
+      },
       "ticker": "2881",
       "exchange": "TWSE",
-      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
     },
     {
-      "name": { "zh-TW": "國泰金控", "en": "Cathay Financial Holding", "ja": "国泰金融控股" },
+      "name": {
+        "zh-TW": "國泰金",
+        "en": "CATHAY FHC",
+        "ja": "国泰金融控股"
+      },
       "ticker": "2882",
       "exchange": "TWSE",
-      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
     },
     {
-      "name": { "zh-TW": "中信金控", "en": "CTBC Financial Holding", "ja": "中国信託金融控股" },
+      "name": {
+        "zh-TW": "中信金",
+        "en": "CTBC HOLDING",
+        "ja": "中国信託金融控股"
+      },
       "ticker": "2891",
       "exchange": "TWSE",
-      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "玉山金",
+        "en": "E.S.F.H",
+        "ja": "玉山金融控股"
+      },
+      "ticker": "2884",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "兆豐金",
+        "en": "MEGA FHC",
+        "ja": "兆豊金融控股"
+      },
+      "ticker": "2886",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "第一金",
+        "en": "FFHC",
+        "ja": "第一金融控股"
+      },
+      "ticker": "2892",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
     }
   ],
   "allCompanies": [
-    { "name": { "zh-TW": "富邦金控", "en": "Fubon Financial Holding", "ja": "富邦金融控股" }, "ticker": "2881", "exchange": "TWSE" },
-    { "name": { "zh-TW": "國泰金控", "en": "Cathay Financial Holding", "ja": "国泰金融控股" }, "ticker": "2882", "exchange": "TWSE" },
-    { "name": { "zh-TW": "中信金控", "en": "CTBC Financial Holding", "ja": "中国信託金融控股" }, "ticker": "2891", "exchange": "TWSE" },
-    { "name": { "zh-TW": "玉山金控", "en": "E.SUN Financial Holding", "ja": "玉山金融控股" }, "ticker": "2884", "exchange": "TWSE" },
-    { "name": { "zh-TW": "兆豐金控", "en": "Mega Financial Holding", "ja": "兆豊金融控股" }, "ticker": "2886", "exchange": "TWSE" },
-    { "name": { "zh-TW": "第一金控", "en": "First Financial Holding", "ja": "第一金融控股" }, "ticker": "2892", "exchange": "TWSE" }
-  ]
+    {
+      "name": {
+        "zh-TW": "富邦金",
+        "en": "Fubon Financial",
+        "ja": "富邦金融控股"
+      },
+      "ticker": "2881",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "富邦金融控股股份有限公司",
+        "listingDate": "20011219",
+        "industryCode": "17",
+        "website": "www.fubon.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "國泰金",
+        "en": "CATHAY FHC",
+        "ja": "国泰金融控股"
+      },
+      "ticker": "2882",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "國泰金融控股股份有限公司",
+        "listingDate": "20011231",
+        "industryCode": "17",
+        "website": "www.cathayholdings.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中信金",
+        "en": "CTBC HOLDING",
+        "ja": "中国信託金融控股"
+      },
+      "ticker": "2891",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "中國信託金融控股股份有限公司",
+        "listingDate": "20020517",
+        "industryCode": "17",
+        "website": "https://www.ctbcholding.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "玉山金",
+        "en": "E.S.F.H",
+        "ja": "玉山金融控股"
+      },
+      "ticker": "2884",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "玉山金融控股股份有限公司",
+        "listingDate": "20020128",
+        "industryCode": "17",
+        "website": "https://www.esunfhc.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "兆豐金",
+        "en": "MEGA FHC",
+        "ja": "兆豊金融控股"
+      },
+      "ticker": "2886",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "兆豐金融控股股份有限公司",
+        "listingDate": "20020204",
+        "industryCode": "17",
+        "website": "www.megaholdings.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "第一金",
+        "en": "FFHC",
+        "ja": "第一金融控股"
+      },
+      "ticker": "2892",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "第一金融控股股份有限公司",
+        "listingDate": "20030102",
+        "industryCode": "17",
+        "website": "www.firstholding.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "TWSE issuer profile and daily quote OpenAPI",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L; https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+    },
+    {
+      "name": "TPEx daily quote OpenAPI",
+      "url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "Financials",
+  "generatedAt": "2026-10-08T03:50:47.773Z"
 }

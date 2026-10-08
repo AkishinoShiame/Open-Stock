@@ -1,0 +1,511 @@
+{
+  "market": "US",
+  "industry": "Communication Services",
+  "industryName": {
+    "zh-TW": "通訊服務",
+    "en": "Communication Services",
+    "ja": "通信サービス"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "電信、媒體及互動平台的商業模式與資本需求差異很大。",
+      "觀察用戶成長、ARPU、內容成本、頻譜投資及監管風險。"
+    ],
+    "en": [
+      "Telecom, media, and interactive platforms have very different business models and capital needs.",
+      "Monitor user growth, ARPU, content costs, spectrum investment, and regulation."
+    ],
+    "ja": [
+      "通信、メディア、インタラクティブ・プラットフォームでは事業モデルと資本需要が大きく異なります。",
+      "利用者数、ARPU、コンテンツ費用、周波数投資、規制リスクを確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "Alphabet",
+            "en": "Alphabet",
+            "ja": "アルファベット"
+          },
+          "ticker": "GOOGL",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "Alphabet Inc.",
+            "cik": "0001652044",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+            "delayedQuoteProfile": {
+              "companyName": "Alphabet Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "Meta",
+            "en": "Meta Platforms",
+            "ja": "メタ・プラットフォームズ"
+          },
+          "ticker": "META",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "Meta Platforms, Inc.",
+            "cik": "0001326801",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
+            "delayedQuoteProfile": {
+              "companyName": "Meta Platforms, Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/META"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "網飛",
+            "en": "Netflix",
+            "ja": "ネットフリックス"
+          },
+          "ticker": "NFLX",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "NETFLIX INC",
+            "cik": "0001065280",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001065280.json",
+            "delayedQuoteProfile": {
+              "companyName": "Netflix, Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/NFLX"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "迪士尼",
+            "en": "Walt Disney",
+            "ja": "ウォルト・ディズニー"
+          },
+          "ticker": "DIS",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "Walt Disney Co",
+            "cik": "0001744489",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001744489.json",
+            "delayedQuoteProfile": {
+              "companyName": "The Walt Disney Company",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:03:49.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/DIS"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "AT&T",
+            "en": "AT&T",
+            "ja": "AT&T"
+          },
+          "ticker": "T",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "AT&T INC.",
+            "cik": "0000732717",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000732717.json",
+            "delayedQuoteProfile": {
+              "companyName": "AT&T Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:04:05.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/T"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "威訊",
+            "en": "Verizon Communications",
+            "ja": "ベライゾン・コミュニケーションズ"
+          },
+          "ticker": "VZ",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "VERIZON COMMUNICATIONS INC",
+            "cik": "0000732712",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000732712.json",
+            "delayedQuoteProfile": {
+              "companyName": "Verizon Communications Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/VZ"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "Alphabet",
+        "en": "Alphabet",
+        "ja": "アルファベット"
+      },
+      "ticker": "GOOGL",
+      "exchange": "NASDAQ",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "Alphabet Inc.",
+        "cik": "0001652044",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+        "delayedQuoteProfile": {
+          "companyName": "Alphabet Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Meta",
+        "en": "Meta Platforms",
+        "ja": "メタ・プラットフォームズ"
+      },
+      "ticker": "META",
+      "exchange": "NASDAQ",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "Meta Platforms, Inc.",
+        "cik": "0001326801",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
+        "delayedQuoteProfile": {
+          "companyName": "Meta Platforms, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/META"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "網飛",
+        "en": "Netflix",
+        "ja": "ネットフリックス"
+      },
+      "ticker": "NFLX",
+      "exchange": "NASDAQ",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "NETFLIX INC",
+        "cik": "0001065280",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001065280.json",
+        "delayedQuoteProfile": {
+          "companyName": "Netflix, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/NFLX"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "迪士尼",
+        "en": "Walt Disney",
+        "ja": "ウォルト・ディズニー"
+      },
+      "ticker": "DIS",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "Walt Disney Co",
+        "cik": "0001744489",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001744489.json",
+        "delayedQuoteProfile": {
+          "companyName": "The Walt Disney Company",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:03:49.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/DIS"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "AT&T",
+        "en": "AT&T",
+        "ja": "AT&T"
+      },
+      "ticker": "T",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "AT&T INC.",
+        "cik": "0000732717",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000732717.json",
+        "delayedQuoteProfile": {
+          "companyName": "AT&T Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:04:05.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/T"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "威訊",
+        "en": "Verizon Communications",
+        "ja": "ベライゾン・コミュニケーションズ"
+      },
+      "ticker": "VZ",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "VERIZON COMMUNICATIONS INC",
+        "cik": "0000732712",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000732712.json",
+        "delayedQuoteProfile": {
+          "companyName": "Verizon Communications Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/VZ"
+        }
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "Alphabet",
+        "en": "Alphabet",
+        "ja": "アルファベット"
+      },
+      "ticker": "GOOGL",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "Alphabet Inc.",
+        "cik": "0001652044",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+        "delayedQuoteProfile": {
+          "companyName": "Alphabet Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Meta",
+        "en": "Meta Platforms",
+        "ja": "メタ・プラットフォームズ"
+      },
+      "ticker": "META",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "Meta Platforms, Inc.",
+        "cik": "0001326801",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
+        "delayedQuoteProfile": {
+          "companyName": "Meta Platforms, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/META"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "網飛",
+        "en": "Netflix",
+        "ja": "ネットフリックス"
+      },
+      "ticker": "NFLX",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "NETFLIX INC",
+        "cik": "0001065280",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001065280.json",
+        "delayedQuoteProfile": {
+          "companyName": "Netflix, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:00.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/NFLX"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "迪士尼",
+        "en": "Walt Disney",
+        "ja": "ウォルト・ディズニー"
+      },
+      "ticker": "DIS",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "Walt Disney Co",
+        "cik": "0001744489",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001744489.json",
+        "delayedQuoteProfile": {
+          "companyName": "The Walt Disney Company",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:03:49.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/DIS"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "AT&T",
+        "en": "AT&T",
+        "ja": "AT&T"
+      },
+      "ticker": "T",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "AT&T INC.",
+        "cik": "0000732717",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000732717.json",
+        "delayedQuoteProfile": {
+          "companyName": "AT&T Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:04:05.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/T"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "威訊",
+        "en": "Verizon Communications",
+        "ja": "ベライゾン・コミュニケーションズ"
+      },
+      "ticker": "VZ",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "VERIZON COMMUNICATIONS INC",
+        "cik": "0000732712",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000732712.json",
+        "delayedQuoteProfile": {
+          "companyName": "Verizon Communications Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/VZ"
+        }
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "SEC EDGAR company ticker/exchange directory",
+      "url": "https://www.sec.gov/files/company_tickers_exchange.json"
+    },
+    {
+      "name": "SEC EDGAR company facts (sample entities)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK{10-digit-CIK}.json"
+    },
+    {
+      "name": "Yahoo Finance chart (delayed market quote)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "generatedAt": "2026-10-08T03:50:32.210Z",
+  "industryId": "CommunicationServices"
+}

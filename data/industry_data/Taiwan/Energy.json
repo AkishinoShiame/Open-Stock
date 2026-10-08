@@ -1,0 +1,396 @@
+{
+  "market": "Taiwan",
+  "industry": "Energy",
+  "industryName": {
+    "zh-TW": "能源",
+    "en": "Energy",
+    "ja": "エネルギー"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "能源需求與商品價格、地緣政治及能源轉型進度密切相關。",
+      "資本支出、儲量或產能、負債與股東回饋政策是重要評估項目。"
+    ],
+    "en": [
+      "Energy demand is tied to commodity prices, geopolitics, and the pace of the transition.",
+      "Capital spending, reserves or capacity, leverage, and shareholder-return policies are key factors."
+    ],
+    "ja": [
+      "エネルギー需要は商品価格、地政学、エネルギー転換の進捗に左右されます。",
+      "設備投資、埋蔵量・供給能力、負債、株主還元方針が重要です。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "華城",
+            "en": "FE",
+            "ja": "FE"
+          },
+          "ticker": "1519",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "華城電機股份有限公司",
+            "listingDate": "19970416",
+            "industryCode": "05",
+            "website": "www.fortune.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "雲豹能源",
+            "en": "J&V Energy",
+            "ja": "雲豹能源"
+          },
+          "ticker": "6869",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "雲豹能源科技股份有限公司",
+            "listingDate": "20230314",
+            "industryCode": "35",
+            "website": "http://www.jv-holding.com/",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "聯合再生",
+            "en": "URE",
+            "ja": "ユナイテッド・リニューアブル・エナジー"
+          },
+          "ticker": "3576",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "聯合再生能源股份有限公司",
+            "listingDate": "20090112",
+            "industryCode": "26",
+            "website": "http://www.urecorp.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "世紀鋼",
+            "en": "CIS　　",
+            "ja": "センチュリー・アイアン・アンド・スチール"
+          },
+          "ticker": "9958",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "世紀鋼鐵結構股份有限公司",
+            "listingDate": "20080312",
+            "industryCode": "10",
+            "website": "www.century.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "台塑化",
+            "en": "FPCC",
+            "ja": "台湾プラスチック石油化学"
+          },
+          "ticker": "6505",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "台塑石化股份有限公司",
+            "listingDate": "20031226",
+            "industryCode": "23",
+            "website": "WWW.FPCC.COM.TW",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "中興電",
+            "en": "CHEM",
+            "ja": "中興電工"
+          },
+          "ticker": "1513",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "中興電工機械股份有限公司",
+            "listingDate": "19940308",
+            "industryCode": "05",
+            "website": "WWW.CHEM.COM.TW",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "華城",
+        "en": "FE",
+        "ja": "FE"
+      },
+      "ticker": "1519",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "華城電機股份有限公司",
+        "listingDate": "19970416",
+        "industryCode": "05",
+        "website": "www.fortune.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "雲豹能源",
+        "en": "J&V Energy",
+        "ja": "雲豹能源"
+      },
+      "ticker": "6869",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "雲豹能源科技股份有限公司",
+        "listingDate": "20230314",
+        "industryCode": "35",
+        "website": "http://www.jv-holding.com/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "聯合再生",
+        "en": "URE",
+        "ja": "ユナイテッド・リニューアブル・エナジー"
+      },
+      "ticker": "3576",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "聯合再生能源股份有限公司",
+        "listingDate": "20090112",
+        "industryCode": "26",
+        "website": "http://www.urecorp.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "世紀鋼",
+        "en": "CIS　　",
+        "ja": "センチュリー・アイアン・アンド・スチール"
+      },
+      "ticker": "9958",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "世紀鋼鐵結構股份有限公司",
+        "listingDate": "20080312",
+        "industryCode": "10",
+        "website": "www.century.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台塑化",
+        "en": "FPCC",
+        "ja": "台湾プラスチック石油化学"
+      },
+      "ticker": "6505",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "台塑石化股份有限公司",
+        "listingDate": "20031226",
+        "industryCode": "23",
+        "website": "WWW.FPCC.COM.TW",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中興電",
+        "en": "CHEM",
+        "ja": "中興電工"
+      },
+      "ticker": "1513",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "中興電工機械股份有限公司",
+        "listingDate": "19940308",
+        "industryCode": "05",
+        "website": "WWW.CHEM.COM.TW",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "華城",
+        "en": "FE",
+        "ja": "FE"
+      },
+      "ticker": "1519",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "華城電機股份有限公司",
+        "listingDate": "19970416",
+        "industryCode": "05",
+        "website": "www.fortune.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "雲豹能源",
+        "en": "J&V Energy",
+        "ja": "雲豹能源"
+      },
+      "ticker": "6869",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "雲豹能源科技股份有限公司",
+        "listingDate": "20230314",
+        "industryCode": "35",
+        "website": "http://www.jv-holding.com/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "聯合再生",
+        "en": "URE",
+        "ja": "ユナイテッド・リニューアブル・エナジー"
+      },
+      "ticker": "3576",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "聯合再生能源股份有限公司",
+        "listingDate": "20090112",
+        "industryCode": "26",
+        "website": "http://www.urecorp.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "世紀鋼",
+        "en": "CIS　　",
+        "ja": "センチュリー・アイアン・アンド・スチール"
+      },
+      "ticker": "9958",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "世紀鋼鐵結構股份有限公司",
+        "listingDate": "20080312",
+        "industryCode": "10",
+        "website": "www.century.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台塑化",
+        "en": "FPCC",
+        "ja": "台湾プラスチック石油化学"
+      },
+      "ticker": "6505",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "台塑石化股份有限公司",
+        "listingDate": "20031226",
+        "industryCode": "23",
+        "website": "WWW.FPCC.COM.TW",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中興電",
+        "en": "CHEM",
+        "ja": "中興電工"
+      },
+      "ticker": "1513",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "中興電工機械股份有限公司",
+        "listingDate": "19940308",
+        "industryCode": "05",
+        "website": "WWW.CHEM.COM.TW",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "TWSE issuer profile and daily quote OpenAPI",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L; https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+    },
+    {
+      "name": "TPEx daily quote OpenAPI",
+      "url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "Energy",
+  "generatedAt": "2026-10-08T03:50:47.773Z"
+}

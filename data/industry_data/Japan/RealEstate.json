@@ -1,0 +1,327 @@
+{
+  "market": "Japan",
+  "industry": "Real Estate",
+  "industryName": {
+    "zh-TW": "房地產",
+    "en": "Real Estate",
+    "ja": "不動産"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "利率、融資環境、租賃需求及資產估值對房地產企業影響顯著。",
+      "追蹤入住率、同店租金、負債到期、NAV折溢價及股利覆蓋。"
+    ],
+    "en": [
+      "Rates, financing conditions, leasing demand, and asset valuations materially affect real estate.",
+      "Track occupancy, same-property rents, debt maturities, NAV discounts, and dividend coverage."
+    ],
+    "ja": [
+      "金利、資金調達環境、賃貸需要、資産評価が不動産企業に大きく影響します。",
+      "稼働率、既存物件賃料、債務期限、NAVとの乖離、配当余力を確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "三井不動產",
+            "en": "Mitsui Fudosan Co., Ltd.",
+            "ja": "三井不動産"
+          },
+          "ticker": "8801",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Mitsui Fudosan Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:51.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/8801.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "三菱地所",
+            "en": "Mitsubishi Estate Co., Ltd.",
+            "ja": "三菱地所"
+          },
+          "ticker": "8802",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Mitsubishi Estate Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:50.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/8802.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "住友不動產",
+            "en": "Sumitomo Realty & Development Co., Ltd.",
+            "ja": "住友不動産"
+          },
+          "ticker": "8830",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Sumitomo Realty & Development Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:01.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/8830.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "Hulic",
+            "en": "Hulic Co., Ltd.",
+            "ja": "ヒューリック"
+          },
+          "ticker": "3003",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Hulic Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:55.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3003.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "東急不動產控股",
+            "en": "Tokyu Fudosan Holdings Corporation",
+            "ja": "東急不動産ホールディングス"
+          },
+          "ticker": "3289",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Tokyu Fudosan Holdings Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:54.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3289.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "東京建物",
+            "en": "Tokyo Tatemono Co., Ltd.",
+            "ja": "東京建物"
+          },
+          "ticker": "8804",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Tokyo Tatemono Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:48.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/8804.T"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "三井不動產",
+        "en": "Mitsui Fudosan Co., Ltd.",
+        "ja": "三井不動産"
+      },
+      "ticker": "8801",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "三菱地所",
+        "en": "Mitsubishi Estate Co., Ltd.",
+        "ja": "三菱地所"
+      },
+      "ticker": "8802",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "住友不動產",
+        "en": "Sumitomo Realty & Development Co., Ltd.",
+        "ja": "住友不動産"
+      },
+      "ticker": "8830",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Hulic",
+        "en": "Hulic Co., Ltd.",
+        "ja": "ヒューリック"
+      },
+      "ticker": "3003",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東急不動產控股",
+        "en": "Tokyu Fudosan Holdings Corporation",
+        "ja": "東急不動産ホールディングス"
+      },
+      "ticker": "3289",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東京建物",
+        "en": "Tokyo Tatemono Co., Ltd.",
+        "ja": "東京建物"
+      },
+      "ticker": "8804",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "三井不動產",
+        "en": "Mitsui Fudosan Co., Ltd.",
+        "ja": "三井不動産"
+      },
+      "ticker": "8801",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Mitsui Fudosan Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:51.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/8801.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "三菱地所",
+        "en": "Mitsubishi Estate Co., Ltd.",
+        "ja": "三菱地所"
+      },
+      "ticker": "8802",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Mitsubishi Estate Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:50.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/8802.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "住友不動產",
+        "en": "Sumitomo Realty & Development Co., Ltd.",
+        "ja": "住友不動産"
+      },
+      "ticker": "8830",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Sumitomo Realty & Development Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:01.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/8830.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Hulic",
+        "en": "Hulic Co., Ltd.",
+        "ja": "ヒューリック"
+      },
+      "ticker": "3003",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Hulic Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:55.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/3003.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東急不動產控股",
+        "en": "Tokyu Fudosan Holdings Corporation",
+        "ja": "東急不動産ホールディングス"
+      },
+      "ticker": "3289",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Tokyu Fudosan Holdings Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:54.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/3289.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東京建物",
+        "en": "Tokyo Tatemono Co., Ltd.",
+        "ja": "東京建物"
+      },
+      "ticker": "8804",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Tokyo Tatemono Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:48.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/8804.T"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "Yahoo Finance chart (delayed market quote and listing profile)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}.T?interval=1d&range=1d"
+    },
+    {
+      "name": "EDINET documents API (requires registered API key)",
+      "url": "https://disclosure.edinet-fsa.go.jp/api/v1/documents.json?date=YYYY-MM-DD"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "RealEstate",
+  "generatedAt": "2026-10-08T03:50:52.022Z"
+}

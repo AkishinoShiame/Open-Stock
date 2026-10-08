@@ -1,0 +1,327 @@
+{
+  "market": "Japan",
+  "industry": "Utilities",
+  "industryName": {
+    "zh-TW": "公用事業",
+    "en": "Utilities",
+    "ja": "公益事業"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "公用服務需求相對穩定，但監管、費率及燃料成本左右獲利。",
+      "能源轉型需要大量資本支出，需留意負債、資本回收與股利政策。"
+    ],
+    "en": [
+      "Utility demand is relatively stable, but regulation, tariffs, and fuel costs shape profitability.",
+      "The transition requires substantial investment; monitor leverage, cost recovery, and dividends."
+    ],
+    "ja": [
+      "公益サービスの需要は比較的安定していますが、規制、料金、燃料費が利益を左右します。",
+      "エネルギー転換には多額の投資が必要です。負債、投資回収、配当方針を確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "東京電力控股",
+            "en": "Tokyo Electric Power Company Holdings, Incorporated",
+            "ja": "東京電力ホールディングス"
+          },
+          "ticker": "9501",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Tokyo Electric Power Company Holdings, Incorporated",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9501.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "中部電力",
+            "en": "Chubu Electric Power Company, Incorporated",
+            "ja": "中部電力"
+          },
+          "ticker": "9502",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Chubu Electric Power Company, Incorporated",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:01.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9502.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "關西電力",
+            "en": "The Kansai Electric Power Company, Incorporated",
+            "ja": "関西電力"
+          },
+          "ticker": "9503",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "The Kansai Electric Power Company, Incorporated",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9503.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "東京瓦斯",
+            "en": "Tokyo Gas Co.,Ltd.",
+            "ja": "東京ガス"
+          },
+          "ticker": "9531",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Tokyo Gas Co.,Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:54.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9531.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "大阪瓦斯",
+            "en": "Osaka Gas Co., Ltd.",
+            "ja": "大阪ガス"
+          },
+          "ticker": "9532",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Osaka Gas Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:59.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9532.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "九州電力",
+            "en": "KYUDEN Holdings Inc.",
+            "ja": "九州電力"
+          },
+          "ticker": "9508",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "KYUDEN Holdings Inc.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-09-28T06:30:00.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9508.T"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "東京電力控股",
+        "en": "Tokyo Electric Power Company Holdings, Incorporated",
+        "ja": "東京電力ホールディングス"
+      },
+      "ticker": "9501",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中部電力",
+        "en": "Chubu Electric Power Company, Incorporated",
+        "ja": "中部電力"
+      },
+      "ticker": "9502",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "關西電力",
+        "en": "The Kansai Electric Power Company, Incorporated",
+        "ja": "関西電力"
+      },
+      "ticker": "9503",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東京瓦斯",
+        "en": "Tokyo Gas Co.,Ltd.",
+        "ja": "東京ガス"
+      },
+      "ticker": "9531",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "大阪瓦斯",
+        "en": "Osaka Gas Co., Ltd.",
+        "ja": "大阪ガス"
+      },
+      "ticker": "9532",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "九州電力",
+        "en": "KYUDEN Holdings Inc.",
+        "ja": "九州電力"
+      },
+      "ticker": "9508",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "東京電力控股",
+        "en": "Tokyo Electric Power Company Holdings, Incorporated",
+        "ja": "東京電力ホールディングス"
+      },
+      "ticker": "9501",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Tokyo Electric Power Company Holdings, Incorporated",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9501.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中部電力",
+        "en": "Chubu Electric Power Company, Incorporated",
+        "ja": "中部電力"
+      },
+      "ticker": "9502",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Chubu Electric Power Company, Incorporated",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:01.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9502.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "關西電力",
+        "en": "The Kansai Electric Power Company, Incorporated",
+        "ja": "関西電力"
+      },
+      "ticker": "9503",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "The Kansai Electric Power Company, Incorporated",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9503.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東京瓦斯",
+        "en": "Tokyo Gas Co.,Ltd.",
+        "ja": "東京ガス"
+      },
+      "ticker": "9531",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Tokyo Gas Co.,Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:54.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9531.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "大阪瓦斯",
+        "en": "Osaka Gas Co., Ltd.",
+        "ja": "大阪ガス"
+      },
+      "ticker": "9532",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Osaka Gas Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:59.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9532.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "九州電力",
+        "en": "KYUDEN Holdings Inc.",
+        "ja": "九州電力"
+      },
+      "ticker": "9508",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "KYUDEN Holdings Inc.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-09-28T06:30:00.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9508.T"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "Yahoo Finance chart (delayed market quote and listing profile)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}.T?interval=1d&range=1d"
+    },
+    {
+      "name": "EDINET documents API (requires registered API key)",
+      "url": "https://disclosure.edinet-fsa.go.jp/api/v1/documents.json?date=YYYY-MM-DD"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "Utilities",
+  "generatedAt": "2026-10-08T03:50:52.023Z"
+}

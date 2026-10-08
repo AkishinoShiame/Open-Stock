@@ -1,0 +1,327 @@
+{
+  "market": "Japan",
+  "industry": "Communication Services",
+  "industryName": {
+    "zh-TW": "通訊服務",
+    "en": "Communication Services",
+    "ja": "通信サービス"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "電信、媒體及互動平台的商業模式與資本需求差異很大。",
+      "觀察用戶成長、ARPU、內容成本、頻譜投資及監管風險。"
+    ],
+    "en": [
+      "Telecom, media, and interactive platforms have very different business models and capital needs.",
+      "Monitor user growth, ARPU, content costs, spectrum investment, and regulation."
+    ],
+    "ja": [
+      "通信、メディア、インタラクティブ・プラットフォームでは事業モデルと資本需要が大きく異なります。",
+      "利用者数、ARPU、コンテンツ費用、周波数投資、規制リスクを確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "日本電信電話",
+            "en": "NTT, Inc.",
+            "ja": "日本電信電話"
+          },
+          "ticker": "9432",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "NTT, Inc.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9432.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "KDDI",
+            "en": "KDDI Corporation",
+            "ja": "KDDI"
+          },
+          "ticker": "9433",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "KDDI Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:50.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9433.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "軟銀",
+            "en": "SoftBank Corp.",
+            "ja": "ソフトバンク"
+          },
+          "ticker": "9434",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "SoftBank Corp.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9434.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "樂天集團",
+            "en": "Rakuten Group, Inc.",
+            "ja": "楽天グループ"
+          },
+          "ticker": "4755",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Rakuten Group, Inc.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:56.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/4755.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "東寶",
+            "en": "Toho Co., Ltd.",
+            "ja": "東宝"
+          },
+          "ticker": "9602",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Toho Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:01.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/9602.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "LY公司",
+            "en": "LY Corporation",
+            "ja": "LINEヤフー"
+          },
+          "ticker": "4689",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "LY Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:51.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/4689.T"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "日本電信電話",
+        "en": "NTT, Inc.",
+        "ja": "日本電信電話"
+      },
+      "ticker": "9432",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "KDDI",
+        "en": "KDDI Corporation",
+        "ja": "KDDI"
+      },
+      "ticker": "9433",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "軟銀",
+        "en": "SoftBank Corp.",
+        "ja": "ソフトバンク"
+      },
+      "ticker": "9434",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "樂天集團",
+        "en": "Rakuten Group, Inc.",
+        "ja": "楽天グループ"
+      },
+      "ticker": "4755",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東寶",
+        "en": "Toho Co., Ltd.",
+        "ja": "東宝"
+      },
+      "ticker": "9602",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "LY公司",
+        "en": "LY Corporation",
+        "ja": "LINEヤフー"
+      },
+      "ticker": "4689",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "日本電信電話",
+        "en": "NTT, Inc.",
+        "ja": "日本電信電話"
+      },
+      "ticker": "9432",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "NTT, Inc.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9432.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "KDDI",
+        "en": "KDDI Corporation",
+        "ja": "KDDI"
+      },
+      "ticker": "9433",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "KDDI Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:50.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9433.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "軟銀",
+        "en": "SoftBank Corp.",
+        "ja": "ソフトバンク"
+      },
+      "ticker": "9434",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "SoftBank Corp.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9434.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "樂天集團",
+        "en": "Rakuten Group, Inc.",
+        "ja": "楽天グループ"
+      },
+      "ticker": "4755",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Rakuten Group, Inc.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:56.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/4755.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東寶",
+        "en": "Toho Co., Ltd.",
+        "ja": "東宝"
+      },
+      "ticker": "9602",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Toho Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:01.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/9602.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "LY公司",
+        "en": "LY Corporation",
+        "ja": "LINEヤフー"
+      },
+      "ticker": "4689",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "LY Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:51.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/4689.T"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "Yahoo Finance chart (delayed market quote and listing profile)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}.T?interval=1d&range=1d"
+    },
+    {
+      "name": "EDINET documents API (requires registered API key)",
+      "url": "https://disclosure.edinet-fsa.go.jp/api/v1/documents.json?date=YYYY-MM-DD"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "CommunicationServices",
+  "generatedAt": "2026-10-08T03:50:47.785Z"
+}

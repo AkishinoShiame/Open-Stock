@@ -1,0 +1,399 @@
+{
+  "market": "Taiwan",
+  "industry": "Consumer Discretionary",
+  "industryName": {
+    "zh-TW": "非必需消費",
+    "en": "Consumer Discretionary",
+    "ja": "一般消費財"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "消費者信心、可支配所得與就業情況影響非必需商品和服務需求。",
+      "品牌、定價能力、庫存管理及產品週期是重要的競爭因素。"
+    ],
+    "en": [
+      "Consumer confidence, disposable income, and employment influence demand for discretionary goods and services.",
+      "Brands, pricing power, inventory management, and product cycles are important competitive factors."
+    ],
+    "ja": [
+      "消費者心理、可処分所得、雇用状況が裁量的な商品・サービスの需要を左右します。",
+      "ブランド、価格決定力、在庫管理、製品サイクルが競争力を左右します。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "富邦媒",
+            "en": "momo",
+            "ja": "momo.com"
+          },
+          "ticker": "8454",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "富邦媒體科技股份有限公司",
+            "listingDate": "20141219",
+            "industryCode": "36",
+            "website": "https://corp.momo.com.tw/",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "豐泰",
+            "en": "FT",
+            "ja": "豐泰企業"
+          },
+          "ticker": "9910",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "豐泰企業股份有限公司",
+            "listingDate": "19920218",
+            "industryCode": "37",
+            "website": "www.fengtay.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "儒鴻",
+            "en": "ECLAT",
+            "ja": "儒鴻企業"
+          },
+          "ticker": "1476",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "儒鴻企業股份有限公司",
+            "listingDate": "20010418",
+            "industryCode": "04",
+            "website": "http://www.eclat.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "寶成",
+            "en": "PCC",
+            "ja": "宝成工業"
+          },
+          "ticker": "9904",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "寶成工業股份有限公司",
+            "listingDate": "19900119",
+            "industryCode": "37",
+            "website": "www.pouchen.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "美利達",
+            "en": "MIC",
+            "ja": "メリダ工業"
+          },
+          "ticker": "9914",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "美利達工業股份有限公司",
+            "listingDate": "19920930",
+            "industryCode": "37",
+            "website": "https://www.merida-bikes.com/zh-tw/",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "和泰車",
+            "en": "HOTAI MOTOR",
+            "ja": "和泰汽車"
+          },
+          "ticker": "2207",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "和泰汽車股份有限公司",
+            "listingDate": "19970225",
+            "industryCode": "12",
+            "website": "www.hotaimotor.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "富邦媒",
+        "en": "momo",
+        "ja": "momo.com"
+      },
+      "ticker": "8454",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "富邦媒體科技股份有限公司",
+        "listingDate": "20141219",
+        "industryCode": "36",
+        "website": "https://corp.momo.com.tw/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "豐泰",
+        "en": "FT",
+        "ja": "豐泰企業"
+      },
+      "ticker": "9910",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "豐泰企業股份有限公司",
+        "listingDate": "19920218",
+        "industryCode": "37",
+        "website": "www.fengtay.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "儒鴻",
+        "en": "ECLAT",
+        "ja": "儒鴻企業"
+      },
+      "ticker": "1476",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "儒鴻企業股份有限公司",
+        "listingDate": "20010418",
+        "industryCode": "04",
+        "website": "http://www.eclat.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "寶成",
+        "en": "PCC",
+        "ja": "宝成工業"
+      },
+      "ticker": "9904",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "寶成工業股份有限公司",
+        "listingDate": "19900119",
+        "industryCode": "37",
+        "website": "www.pouchen.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "美利達",
+        "en": "MIC",
+        "ja": "メリダ工業"
+      },
+      "ticker": "9914",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "美利達工業股份有限公司",
+        "listingDate": "19920930",
+        "industryCode": "37",
+        "website": "https://www.merida-bikes.com/zh-tw/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "和泰車",
+        "en": "HOTAI MOTOR",
+        "ja": "和泰汽車"
+      },
+      "ticker": "2207",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "和泰汽車股份有限公司",
+        "listingDate": "19970225",
+        "industryCode": "12",
+        "website": "www.hotaimotor.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "富邦媒",
+        "en": "momo",
+        "ja": "momo.com"
+      },
+      "ticker": "8454",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "富邦媒體科技股份有限公司",
+        "listingDate": "20141219",
+        "industryCode": "36",
+        "website": "https://corp.momo.com.tw/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "豐泰",
+        "en": "FT",
+        "ja": "豐泰企業"
+      },
+      "ticker": "9910",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "豐泰企業股份有限公司",
+        "listingDate": "19920218",
+        "industryCode": "37",
+        "website": "www.fengtay.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "儒鴻",
+        "en": "ECLAT",
+        "ja": "儒鴻企業"
+      },
+      "ticker": "1476",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "儒鴻企業股份有限公司",
+        "listingDate": "20010418",
+        "industryCode": "04",
+        "website": "http://www.eclat.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "寶成",
+        "en": "PCC",
+        "ja": "宝成工業"
+      },
+      "ticker": "9904",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "寶成工業股份有限公司",
+        "listingDate": "19900119",
+        "industryCode": "37",
+        "website": "www.pouchen.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "美利達",
+        "en": "MIC",
+        "ja": "メリダ工業"
+      },
+      "ticker": "9914",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "美利達工業股份有限公司",
+        "listingDate": "19920930",
+        "industryCode": "37",
+        "website": "https://www.merida-bikes.com/zh-tw/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "和泰車",
+        "en": "HOTAI MOTOR",
+        "ja": "和泰汽車"
+      },
+      "ticker": "2207",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "和泰汽車股份有限公司",
+        "listingDate": "19970225",
+        "industryCode": "12",
+        "website": "www.hotaimotor.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "TWSE issuer profile and daily quote OpenAPI",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L; https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+    },
+    {
+      "name": "TPEx daily quote OpenAPI",
+      "url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "ConsumerDiscretionary",
+  "generatedAt": "2026-10-08T03:50:47.771Z"
+}

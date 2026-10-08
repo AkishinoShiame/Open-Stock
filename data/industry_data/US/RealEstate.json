@@ -1,0 +1,511 @@
+{
+  "market": "US",
+  "industry": "Real Estate",
+  "industryName": {
+    "zh-TW": "房地產",
+    "en": "Real Estate",
+    "ja": "不動産"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "利率、融資環境、租賃需求及資產估值對房地產企業影響顯著。",
+      "追蹤入住率、同店租金、負債到期、NAV折溢價及股利覆蓋。"
+    ],
+    "en": [
+      "Rates, financing conditions, leasing demand, and asset valuations materially affect real estate.",
+      "Track occupancy, same-property rents, debt maturities, NAV discounts, and dividend coverage."
+    ],
+    "ja": [
+      "金利、資金調達環境、賃貸需要、資産評価が不動産企業に大きく影響します。",
+      "稼働率、既存物件賃料、債務期限、NAVとの乖離、配当余力を確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "普洛斯",
+            "en": "Prologis",
+            "ja": "プロロジス"
+          },
+          "ticker": "PLD",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "Prologis, Inc.",
+            "cik": "0001045609",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045609.json",
+            "delayedQuoteProfile": {
+              "companyName": "Prologis, Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:02:42.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/PLD"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "美國電塔",
+            "en": "American Tower",
+            "ja": "アメリカン・タワー"
+          },
+          "ticker": "AMT",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "AMERICAN TOWER CORP /MA/",
+            "cik": "0001053507",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001053507.json",
+            "delayedQuoteProfile": {
+              "companyName": "American Tower Corporation",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMT"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "Equinix",
+            "en": "Equinix",
+            "ja": "エクイニクス"
+          },
+          "ticker": "EQIX",
+          "exchange": "NASDAQ",
+          "profile": {
+            "legalName": "EQUINIX INC",
+            "cik": "0001101239",
+            "secExchange": "Nasdaq",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001101239.json",
+            "delayedQuoteProfile": {
+              "companyName": "Equinix, Inc.",
+              "exchange": "NasdaqGS",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/EQIX"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "Welltower",
+            "en": "Welltower",
+            "ja": "ウェルタワー"
+          },
+          "ticker": "WELL",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "WELLTOWER INC.",
+            "cik": "0000766704",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000766704.json",
+            "delayedQuoteProfile": {
+              "companyName": "Welltower Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:02:22.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/WELL"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "西蒙地產",
+            "en": "Simon Property Group",
+            "ja": "サイモン・プロパティ・グループ"
+          },
+          "ticker": "SPG",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "SIMON PROPERTY GROUP INC.",
+            "cik": "0001063761",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001063761.json",
+            "delayedQuoteProfile": {
+              "companyName": "Simon Property Group, Inc.",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/SPG"
+            }
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "Realty Income",
+            "en": "Realty Income",
+            "ja": "リアルティ・インカム"
+          },
+          "ticker": "O",
+          "exchange": "NYSE",
+          "profile": {
+            "legalName": "REALTY INCOME CORP",
+            "cik": "0000726728",
+            "secExchange": "NYSE",
+            "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+            "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000726728.json",
+            "delayedQuoteProfile": {
+              "companyName": "Realty Income Corporation",
+              "exchange": "NYSE",
+              "currency": "USD",
+              "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+              "source": "https://query1.finance.yahoo.com/v8/finance/chart/O"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "普洛斯",
+        "en": "Prologis",
+        "ja": "プロロジス"
+      },
+      "ticker": "PLD",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "Prologis, Inc.",
+        "cik": "0001045609",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045609.json",
+        "delayedQuoteProfile": {
+          "companyName": "Prologis, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:02:42.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/PLD"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "美國電塔",
+        "en": "American Tower",
+        "ja": "アメリカン・タワー"
+      },
+      "ticker": "AMT",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "AMERICAN TOWER CORP /MA/",
+        "cik": "0001053507",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001053507.json",
+        "delayedQuoteProfile": {
+          "companyName": "American Tower Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMT"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Equinix",
+        "en": "Equinix",
+        "ja": "エクイニクス"
+      },
+      "ticker": "EQIX",
+      "exchange": "NASDAQ",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "EQUINIX INC",
+        "cik": "0001101239",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001101239.json",
+        "delayedQuoteProfile": {
+          "companyName": "Equinix, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/EQIX"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Welltower",
+        "en": "Welltower",
+        "ja": "ウェルタワー"
+      },
+      "ticker": "WELL",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "WELLTOWER INC.",
+        "cik": "0000766704",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000766704.json",
+        "delayedQuoteProfile": {
+          "companyName": "Welltower Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:02:22.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/WELL"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "西蒙地產",
+        "en": "Simon Property Group",
+        "ja": "サイモン・プロパティ・グループ"
+      },
+      "ticker": "SPG",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "SIMON PROPERTY GROUP INC.",
+        "cik": "0001063761",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001063761.json",
+        "delayedQuoteProfile": {
+          "companyName": "Simon Property Group, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/SPG"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Realty Income",
+        "en": "Realty Income",
+        "ja": "リアルティ・インカム"
+      },
+      "ticker": "O",
+      "exchange": "NYSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "SEC EDGAR company facts"
+      },
+      "profile": {
+        "legalName": "REALTY INCOME CORP",
+        "cik": "0000726728",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000726728.json",
+        "delayedQuoteProfile": {
+          "companyName": "Realty Income Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/O"
+        }
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "普洛斯",
+        "en": "Prologis",
+        "ja": "プロロジス"
+      },
+      "ticker": "PLD",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "Prologis, Inc.",
+        "cik": "0001045609",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045609.json",
+        "delayedQuoteProfile": {
+          "companyName": "Prologis, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:02:42.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/PLD"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "美國電塔",
+        "en": "American Tower",
+        "ja": "アメリカン・タワー"
+      },
+      "ticker": "AMT",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "AMERICAN TOWER CORP /MA/",
+        "cik": "0001053507",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001053507.json",
+        "delayedQuoteProfile": {
+          "companyName": "American Tower Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:03.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMT"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Equinix",
+        "en": "Equinix",
+        "ja": "エクイニクス"
+      },
+      "ticker": "EQIX",
+      "exchange": "NASDAQ",
+      "profile": {
+        "legalName": "EQUINIX INC",
+        "cik": "0001101239",
+        "secExchange": "Nasdaq",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001101239.json",
+        "delayedQuoteProfile": {
+          "companyName": "Equinix, Inc.",
+          "exchange": "NasdaqGS",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:01.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/EQIX"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Welltower",
+        "en": "Welltower",
+        "ja": "ウェルタワー"
+      },
+      "ticker": "WELL",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "WELLTOWER INC.",
+        "cik": "0000766704",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000766704.json",
+        "delayedQuoteProfile": {
+          "companyName": "Welltower Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:02:22.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/WELL"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "西蒙地產",
+        "en": "Simon Property Group",
+        "ja": "サイモン・プロパティ・グループ"
+      },
+      "ticker": "SPG",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "SIMON PROPERTY GROUP INC.",
+        "cik": "0001063761",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001063761.json",
+        "delayedQuoteProfile": {
+          "companyName": "Simon Property Group, Inc.",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/SPG"
+        }
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Realty Income",
+        "en": "Realty Income",
+        "ja": "リアルティ・インカム"
+      },
+      "ticker": "O",
+      "exchange": "NYSE",
+      "profile": {
+        "legalName": "REALTY INCOME CORP",
+        "cik": "0000726728",
+        "secExchange": "NYSE",
+        "source": "https://www.sec.gov/files/company_tickers_exchange.json",
+        "companyFactsUrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000726728.json",
+        "delayedQuoteProfile": {
+          "companyName": "Realty Income Corporation",
+          "exchange": "NYSE",
+          "currency": "USD",
+          "quoteTimestamp": "2026-10-07T20:00:02.000Z",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/O"
+        }
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "SEC EDGAR company ticker/exchange directory",
+      "url": "https://www.sec.gov/files/company_tickers_exchange.json"
+    },
+    {
+      "name": "SEC EDGAR company facts (sample entities)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK{10-digit-CIK}.json"
+    },
+    {
+      "name": "Yahoo Finance chart (delayed market quote)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "generatedAt": "2026-10-08T03:50:32.210Z",
+  "industryId": "RealEstate"
+}

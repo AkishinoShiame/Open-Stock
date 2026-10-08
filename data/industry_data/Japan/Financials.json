@@ -1,0 +1,327 @@
+{
+  "market": "Japan",
+  "industry": "Financials",
+  "industryName": {
+    "zh-TW": "金融",
+    "en": "Financials",
+    "ja": "金融"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "銀行、保險及資本市場業務受利率、信用週期與監管環境影響。",
+      "評估資產品質、資本適足、承保紀律、淨利差及股利可持續性。"
+    ],
+    "en": [
+      "Banks, insurers, and capital-markets businesses are sensitive to rates, credit cycles, and regulation.",
+      "Assess asset quality, capital adequacy, underwriting discipline, margins, and dividend sustainability."
+    ],
+    "ja": [
+      "銀行、保険、資本市場事業は金利、信用サイクル、規制環境の影響を受けます。",
+      "資産の質、自己資本、引受規律、利ざや、配当の持続性を確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "三菱日聯金融",
+            "en": "Mitsubishi UFJ Financial Group, Inc.",
+            "ja": "三菱UFJフィナンシャル・グループ"
+          },
+          "ticker": "8306",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Mitsubishi UFJ Financial Group, Inc.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/8306.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "三井住友金融集團",
+            "en": "Sumitomo Mitsui Financial Group, Inc.",
+            "ja": "三井住友フィナンシャルグループ"
+          },
+          "ticker": "8316",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Sumitomo Mitsui Financial Group, Inc.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/8316.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "瑞穗金融集團",
+            "en": "Mizuho Financial Group, Inc.",
+            "ja": "みずほフィナンシャルグループ"
+          },
+          "ticker": "8411",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Mizuho Financial Group, Inc.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/8411.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "MS&AD保險",
+            "en": "MS&AD Insurance Group Holdings, Inc.",
+            "ja": "MS&ADインシュアランスグループ"
+          },
+          "ticker": "8725",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "MS&AD Insurance Group Holdings, Inc.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/8725.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "東京海上控股",
+            "en": "Tokio Marine Holdings, Inc.",
+            "ja": "東京海上ホールディングス"
+          },
+          "ticker": "8766",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Tokio Marine Holdings, Inc.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/8766.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "SOMPO控股",
+            "en": "Sompo Holdings, Inc.",
+            "ja": "SOMPOホールディングス"
+          },
+          "ticker": "8630",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Sompo Holdings, Inc.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/8630.T"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "三菱日聯金融",
+        "en": "Mitsubishi UFJ Financial Group, Inc.",
+        "ja": "三菱UFJフィナンシャル・グループ"
+      },
+      "ticker": "8306",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "三井住友金融集團",
+        "en": "Sumitomo Mitsui Financial Group, Inc.",
+        "ja": "三井住友フィナンシャルグループ"
+      },
+      "ticker": "8316",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "瑞穗金融集團",
+        "en": "Mizuho Financial Group, Inc.",
+        "ja": "みずほフィナンシャルグループ"
+      },
+      "ticker": "8411",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "MS&AD保險",
+        "en": "MS&AD Insurance Group Holdings, Inc.",
+        "ja": "MS&ADインシュアランスグループ"
+      },
+      "ticker": "8725",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東京海上控股",
+        "en": "Tokio Marine Holdings, Inc.",
+        "ja": "東京海上ホールディングス"
+      },
+      "ticker": "8766",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "SOMPO控股",
+        "en": "Sompo Holdings, Inc.",
+        "ja": "SOMPOホールディングス"
+      },
+      "ticker": "8630",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "三菱日聯金融",
+        "en": "Mitsubishi UFJ Financial Group, Inc.",
+        "ja": "三菱UFJフィナンシャル・グループ"
+      },
+      "ticker": "8306",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Mitsubishi UFJ Financial Group, Inc.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/8306.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "三井住友金融集團",
+        "en": "Sumitomo Mitsui Financial Group, Inc.",
+        "ja": "三井住友フィナンシャルグループ"
+      },
+      "ticker": "8316",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Sumitomo Mitsui Financial Group, Inc.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/8316.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "瑞穗金融集團",
+        "en": "Mizuho Financial Group, Inc.",
+        "ja": "みずほフィナンシャルグループ"
+      },
+      "ticker": "8411",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Mizuho Financial Group, Inc.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/8411.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "MS&AD保險",
+        "en": "MS&AD Insurance Group Holdings, Inc.",
+        "ja": "MS&ADインシュアランスグループ"
+      },
+      "ticker": "8725",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "MS&AD Insurance Group Holdings, Inc.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/8725.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東京海上控股",
+        "en": "Tokio Marine Holdings, Inc.",
+        "ja": "東京海上ホールディングス"
+      },
+      "ticker": "8766",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Tokio Marine Holdings, Inc.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/8766.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "SOMPO控股",
+        "en": "Sompo Holdings, Inc.",
+        "ja": "SOMPOホールディングス"
+      },
+      "ticker": "8630",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Sompo Holdings, Inc.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/8630.T"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "Yahoo Finance chart (delayed market quote and listing profile)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}.T?interval=1d&range=1d"
+    },
+    {
+      "name": "EDINET documents API (requires registered API key)",
+      "url": "https://disclosure.edinet-fsa.go.jp/api/v1/documents.json?date=YYYY-MM-DD"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "Financials",
+  "generatedAt": "2026-10-08T03:50:52.018Z"
+}

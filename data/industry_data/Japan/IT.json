@@ -1,0 +1,327 @@
+{
+  "market": "Japan",
+  "industry": "Information Technology",
+  "industryName": {
+    "zh-TW": "資訊科技",
+    "en": "Information Technology",
+    "ja": "情報技術"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "技術創新與數位化帶動成長，景氣循環和估值波動也較明顯。",
+      "研發、產品週期、競爭及人才成本會影響利潤與現金流。"
+    ],
+    "en": [
+      "Software, semiconductors, and digital infrastructure can grow quickly, but valuations and demand are cyclical.",
+      "Research costs, product cycles, competition, and talent costs affect margins and cash flow."
+    ],
+    "ja": [
+      "技術革新とデジタル化が成長を支える一方、需要と株価は景気循環の影響を受けます。",
+      "研究開発費、製品サイクル、競争、人材コストが利益率とキャッシュフローに影響します。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "東京威力科創",
+            "en": "Tokyo Electron Limited",
+            "ja": "東京エレクトロン"
+          },
+          "ticker": "8035",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Tokyo Electron Limited",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/8035.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "愛德萬測試",
+            "en": "Advantest Corporation",
+            "ja": "アドバンテスト"
+          },
+          "ticker": "6857",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Advantest Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/6857.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "瑞薩電子",
+            "en": "Renesas Electronics Corporation",
+            "ja": "ルネサスエレクトロニクス"
+          },
+          "ticker": "6723",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Renesas Electronics Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:55.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/6723.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "富士通",
+            "en": "Fujitsu Limited",
+            "ja": "富士通"
+          },
+          "ticker": "6702",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Fujitsu Limited",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:56.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/6702.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "基恩士",
+            "en": "Keyence Corporation",
+            "ja": "キーエンス"
+          },
+          "ticker": "6861",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Keyence Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:48.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/6861.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "村田製作所",
+            "en": "Murata Manufacturing Co., Ltd.",
+            "ja": "村田製作所"
+          },
+          "ticker": "6981",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Murata Manufacturing Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/6981.T"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "東京威力科創",
+        "en": "Tokyo Electron Limited",
+        "ja": "東京エレクトロン"
+      },
+      "ticker": "8035",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "愛德萬測試",
+        "en": "Advantest Corporation",
+        "ja": "アドバンテスト"
+      },
+      "ticker": "6857",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "瑞薩電子",
+        "en": "Renesas Electronics Corporation",
+        "ja": "ルネサスエレクトロニクス"
+      },
+      "ticker": "6723",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "富士通",
+        "en": "Fujitsu Limited",
+        "ja": "富士通"
+      },
+      "ticker": "6702",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "基恩士",
+        "en": "Keyence Corporation",
+        "ja": "キーエンス"
+      },
+      "ticker": "6861",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "村田製作所",
+        "en": "Murata Manufacturing Co., Ltd.",
+        "ja": "村田製作所"
+      },
+      "ticker": "6981",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "東京威力科創",
+        "en": "Tokyo Electron Limited",
+        "ja": "東京エレクトロン"
+      },
+      "ticker": "8035",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Tokyo Electron Limited",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/8035.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "愛德萬測試",
+        "en": "Advantest Corporation",
+        "ja": "アドバンテスト"
+      },
+      "ticker": "6857",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Advantest Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/6857.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "瑞薩電子",
+        "en": "Renesas Electronics Corporation",
+        "ja": "ルネサスエレクトロニクス"
+      },
+      "ticker": "6723",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Renesas Electronics Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:55.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/6723.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "富士通",
+        "en": "Fujitsu Limited",
+        "ja": "富士通"
+      },
+      "ticker": "6702",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Fujitsu Limited",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:56.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/6702.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "基恩士",
+        "en": "Keyence Corporation",
+        "ja": "キーエンス"
+      },
+      "ticker": "6861",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Keyence Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:48.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/6861.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "村田製作所",
+        "en": "Murata Manufacturing Co., Ltd.",
+        "ja": "村田製作所"
+      },
+      "ticker": "6981",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Murata Manufacturing Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/6981.T"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "Yahoo Finance chart (delayed market quote and listing profile)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}.T?interval=1d&range=1d"
+    },
+    {
+      "name": "EDINET documents API (requires registered API key)",
+      "url": "https://disclosure.edinet-fsa.go.jp/api/v1/documents.json?date=YYYY-MM-DD"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "IT",
+  "generatedAt": "2026-10-08T03:50:52.017Z"
+}

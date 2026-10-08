@@ -1,0 +1,339 @@
+{
+  "market": "Taiwan",
+  "industry": "Healthcare",
+  "industryName": {
+    "zh-TW": "醫療保健",
+    "en": "Healthcare",
+    "ja": "ヘルスケア"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "人口結構及醫療需求提供長期支撐，藥品和醫療服務仍有政策風險。",
+      "臨床試驗、監管核准、專利到期與研發管線會左右個別公司前景。"
+    ],
+    "en": [
+      "Demographics and medical needs support long-term demand, while policy and reimbursement remain risks.",
+      "Clinical trials, approvals, patent expirations, and development pipelines drive company-specific outcomes."
+    ],
+    "ja": [
+      "人口動態と医療需要が長期需要を支えますが、政策や償還制度のリスクがあります。",
+      "臨床試験、承認、特許切れ、開発パイプラインが企業ごとの見通しを左右します。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "保瑞",
+            "en": "Bora",
+            "ja": "ボラ製薬"
+          },
+          "ticker": "6472",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "保瑞藥業股份有限公司",
+            "listingDate": "20231219",
+            "industryCode": "22",
+            "website": "https://bora-corp.com/",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "藥華藥",
+            "en": "PEC",
+            "ja": "ファーマエッセンシア"
+          },
+          "ticker": "6446",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "藥華醫藥股份有限公司",
+            "listingDate": "20240125",
+            "industryCode": "22",
+            "website": "http://www.PharmaEssentia.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "東洋",
+            "en": "TTY Biopharm",
+            "ja": "TTYバイオファーム"
+          },
+          "ticker": "4105",
+          "exchange": "TPEx",
+          "profile": {
+            "legalName": "東洋",
+            "quoteDate": "1151007",
+            "source": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "美時",
+            "en": "Lotus Pharm",
+            "ja": "美時製薬"
+          },
+          "ticker": "1795",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "美時化學製藥股份有限公司",
+            "listingDate": "20191216",
+            "industryCode": "22",
+            "website": "http://www.lotuspharm.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "高端疫苗",
+            "en": "Medigen Vaccine Biologics",
+            "ja": "メディジェン・ワクチン"
+          },
+          "ticker": "6547",
+          "exchange": "TPEx",
+          "profile": {
+            "legalName": "高端疫苗",
+            "quoteDate": "1151007",
+            "source": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "杏輝",
+            "en": "SINPHAR　",
+            "ja": "台湾バイオテック"
+          },
+          "ticker": "1734",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "杏輝藥品工業股份有限公司",
+            "listingDate": "20020826",
+            "industryCode": "22",
+            "website": "www.sinphar.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "保瑞",
+        "en": "Bora",
+        "ja": "ボラ製薬"
+      },
+      "ticker": "6472",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "藥華藥",
+        "en": "PEC",
+        "ja": "ファーマエッセンシア"
+      },
+      "ticker": "6446",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東洋",
+        "en": "TTY Biopharm",
+        "ja": "TTYバイオファーム"
+      },
+      "ticker": "4105",
+      "exchange": "TPEx",
+      "api": {
+        "price": "TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "美時",
+        "en": "Lotus Pharm",
+        "ja": "美時製薬"
+      },
+      "ticker": "1795",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "高端疫苗",
+        "en": "Medigen Vaccine Biologics",
+        "ja": "メディジェン・ワクチン"
+      },
+      "ticker": "6547",
+      "exchange": "TPEx",
+      "api": {
+        "price": "TPEx OpenAPI",
+        "fundamental": "MOPS"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "杏輝",
+        "en": "SINPHAR　",
+        "ja": "台湾バイオテック"
+      },
+      "ticker": "1734",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "保瑞",
+        "en": "Bora",
+        "ja": "ボラ製薬"
+      },
+      "ticker": "6472",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "保瑞藥業股份有限公司",
+        "listingDate": "20231219",
+        "industryCode": "22",
+        "website": "https://bora-corp.com/",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "藥華藥",
+        "en": "PEC",
+        "ja": "ファーマエッセンシア"
+      },
+      "ticker": "6446",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "藥華醫藥股份有限公司",
+        "listingDate": "20240125",
+        "industryCode": "22",
+        "website": "http://www.PharmaEssentia.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "東洋",
+        "en": "TTY Biopharm",
+        "ja": "TTYバイオファーム"
+      },
+      "ticker": "4105",
+      "exchange": "TPEx",
+      "profile": {
+        "legalName": "東洋",
+        "quoteDate": "1151007",
+        "source": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "美時",
+        "en": "Lotus Pharm",
+        "ja": "美時製薬"
+      },
+      "ticker": "1795",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "美時化學製藥股份有限公司",
+        "listingDate": "20191216",
+        "industryCode": "22",
+        "website": "http://www.lotuspharm.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "高端疫苗",
+        "en": "Medigen Vaccine Biologics",
+        "ja": "メディジェン・ワクチン"
+      },
+      "ticker": "6547",
+      "exchange": "TPEx",
+      "profile": {
+        "legalName": "高端疫苗",
+        "quoteDate": "1151007",
+        "source": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "杏輝",
+        "en": "SINPHAR　",
+        "ja": "台湾バイオテック"
+      },
+      "ticker": "1734",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "杏輝藥品工業股份有限公司",
+        "listingDate": "20020826",
+        "industryCode": "22",
+        "website": "www.sinphar.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "TWSE issuer profile and daily quote OpenAPI",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L; https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+    },
+    {
+      "name": "TPEx daily quote OpenAPI",
+      "url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "Healthcare",
+  "generatedAt": "2026-10-08T03:50:47.774Z"
+}

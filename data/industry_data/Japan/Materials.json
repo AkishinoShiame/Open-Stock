@@ -1,0 +1,327 @@
+{
+  "market": "Japan",
+  "industry": "Materials",
+  "industryName": {
+    "zh-TW": "原物料",
+    "en": "Materials",
+    "ja": "素材"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "營收及利潤受原物料價格、供需與全球製造活動影響。",
+      "成本曲線、產能利用率、能源密集度及資本紀律影響週期韌性。"
+    ],
+    "en": [
+      "Revenue and margins are exposed to commodity prices, supply-demand balances, and global manufacturing.",
+      "Cost position, capacity utilization, energy intensity, and capital discipline shape resilience."
+    ],
+    "ja": [
+      "売上と利益率は商品価格、需給、世界の製造活動に左右されます。",
+      "コスト競争力、稼働率、エネルギー集約度、資本規律が耐性を左右します。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "日本製鐵",
+            "en": "Nippon Steel Corporation",
+            "ja": "日本製鉄"
+          },
+          "ticker": "5401",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Nippon Steel Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:59.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/5401.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "信越化學",
+            "en": "Shin-Etsu Chemical Co., Ltd.",
+            "ja": "信越化学工業"
+          },
+          "ticker": "4063",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Shin-Etsu Chemical Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:50.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/4063.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "三菱化學集團",
+            "en": "Mitsubishi Chemical Group Corporation",
+            "ja": "三菱ケミカルグループ"
+          },
+          "ticker": "4188",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Mitsubishi Chemical Group Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:01.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/4188.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "富士軟片",
+            "en": "FUJIFILM Holdings Corporation",
+            "ja": "富士フイルムホールディングス"
+          },
+          "ticker": "4901",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "FUJIFILM Holdings Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/4901.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "日東電工",
+            "en": "Nitto Denko Corporation",
+            "ja": "日東電工"
+          },
+          "ticker": "6988",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Nitto Denko Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/6988.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "住友金屬礦山",
+            "en": "Sumitomo Metal Mining Co., Ltd.",
+            "ja": "住友金属鉱山"
+          },
+          "ticker": "5713",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Sumitomo Metal Mining Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:53.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/5713.T"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "日本製鐵",
+        "en": "Nippon Steel Corporation",
+        "ja": "日本製鉄"
+      },
+      "ticker": "5401",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "信越化學",
+        "en": "Shin-Etsu Chemical Co., Ltd.",
+        "ja": "信越化学工業"
+      },
+      "ticker": "4063",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "三菱化學集團",
+        "en": "Mitsubishi Chemical Group Corporation",
+        "ja": "三菱ケミカルグループ"
+      },
+      "ticker": "4188",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "富士軟片",
+        "en": "FUJIFILM Holdings Corporation",
+        "ja": "富士フイルムホールディングス"
+      },
+      "ticker": "4901",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "日東電工",
+        "en": "Nitto Denko Corporation",
+        "ja": "日東電工"
+      },
+      "ticker": "6988",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "住友金屬礦山",
+        "en": "Sumitomo Metal Mining Co., Ltd.",
+        "ja": "住友金属鉱山"
+      },
+      "ticker": "5713",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "日本製鐵",
+        "en": "Nippon Steel Corporation",
+        "ja": "日本製鉄"
+      },
+      "ticker": "5401",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Nippon Steel Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:59.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/5401.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "信越化學",
+        "en": "Shin-Etsu Chemical Co., Ltd.",
+        "ja": "信越化学工業"
+      },
+      "ticker": "4063",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Shin-Etsu Chemical Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:50.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/4063.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "三菱化學集團",
+        "en": "Mitsubishi Chemical Group Corporation",
+        "ja": "三菱ケミカルグループ"
+      },
+      "ticker": "4188",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Mitsubishi Chemical Group Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:01.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/4188.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "富士軟片",
+        "en": "FUJIFILM Holdings Corporation",
+        "ja": "富士フイルムホールディングス"
+      },
+      "ticker": "4901",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "FUJIFILM Holdings Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/4901.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "日東電工",
+        "en": "Nitto Denko Corporation",
+        "ja": "日東電工"
+      },
+      "ticker": "6988",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Nitto Denko Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/6988.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "住友金屬礦山",
+        "en": "Sumitomo Metal Mining Co., Ltd.",
+        "ja": "住友金属鉱山"
+      },
+      "ticker": "5713",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Sumitomo Metal Mining Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:53.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/5713.T"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "Yahoo Finance chart (delayed market quote and listing profile)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}.T?interval=1d&range=1d"
+    },
+    {
+      "name": "EDINET documents API (requires registered API key)",
+      "url": "https://disclosure.edinet-fsa.go.jp/api/v1/documents.json?date=YYYY-MM-DD"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "Materials",
+  "generatedAt": "2026-10-08T03:50:52.022Z"
+}

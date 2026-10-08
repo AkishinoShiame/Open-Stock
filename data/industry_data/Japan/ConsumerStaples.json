@@ -1,0 +1,327 @@
+{
+  "market": "Japan",
+  "industry": "Consumer Staples",
+  "industryName": {
+    "zh-TW": "必需消費",
+    "en": "Consumer Staples",
+    "ja": "生活必需品"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "日常必需品需求通常較穩定，但原料、運輸與零售競爭會影響利潤。",
+      "評估品牌忠誠、通路議價能力、銷量成長及股利覆蓋能力。"
+    ],
+    "en": [
+      "Demand is often resilient, while input, freight, and retail competition can pressure margins.",
+      "Assess brand loyalty, channel bargaining power, volume growth, and dividend coverage."
+    ],
+    "ja": [
+      "需要は比較的安定していますが、原材料、物流、小売競争が利益率を圧迫する場合があります。",
+      "ブランド忠誠度、販路交渉力、販売数量の成長、配当余力を評価しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "朝日集團控股",
+            "en": "Asahi Group Holdings, Ltd.",
+            "ja": "アサヒグループホールディングス"
+          },
+          "ticker": "2502",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Asahi Group Holdings, Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2502.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "味之素",
+            "en": "Ajinomoto Co., Inc.",
+            "ja": "味の素"
+          },
+          "ticker": "2802",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Ajinomoto Co., Inc.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:55.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2802.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "日本菸草",
+            "en": "Japan Tobacco Inc.",
+            "ja": "日本たばこ産業"
+          },
+          "ticker": "2914",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Japan Tobacco Inc.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2914.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "花王",
+            "en": "Kao Corporation",
+            "ja": "花王"
+          },
+          "ticker": "4452",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Kao Corporation",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/4452.T"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "麒麟控股",
+            "en": "Kirin Holdings Company, Limited",
+            "ja": "キリンホールディングス"
+          },
+          "ticker": "2503",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Kirin Holdings Company, Limited",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:59.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/2503.T"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "Seven & i控股",
+            "en": "Seven & i Holdings Co., Ltd.",
+            "ja": "セブン＆アイ・ホールディングス"
+          },
+          "ticker": "3382",
+          "exchange": "TSE",
+          "profile": {
+            "legalName": "Seven & i Holdings Co., Ltd.",
+            "quoteCurrency": "JPY",
+            "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+            "source": "https://query1.finance.yahoo.com/v8/finance/chart/3382.T"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "朝日集團控股",
+        "en": "Asahi Group Holdings, Ltd.",
+        "ja": "アサヒグループホールディングス"
+      },
+      "ticker": "2502",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "味之素",
+        "en": "Ajinomoto Co., Inc.",
+        "ja": "味の素"
+      },
+      "ticker": "2802",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "日本菸草",
+        "en": "Japan Tobacco Inc.",
+        "ja": "日本たばこ産業"
+      },
+      "ticker": "2914",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "花王",
+        "en": "Kao Corporation",
+        "ja": "花王"
+      },
+      "ticker": "4452",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "麒麟控股",
+        "en": "Kirin Holdings Company, Limited",
+        "ja": "キリンホールディングス"
+      },
+      "ticker": "2503",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Seven & i控股",
+        "en": "Seven & i Holdings Co., Ltd.",
+        "ja": "セブン＆アイ・ホールディングス"
+      },
+      "ticker": "3382",
+      "exchange": "TSE",
+      "api": {
+        "price": "Yahoo Finance delayed chart",
+        "fundamental": "EDINET (API key required)"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "朝日集團控股",
+        "en": "Asahi Group Holdings, Ltd.",
+        "ja": "アサヒグループホールディングス"
+      },
+      "ticker": "2502",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Asahi Group Holdings, Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/2502.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "味之素",
+        "en": "Ajinomoto Co., Inc.",
+        "ja": "味の素"
+      },
+      "ticker": "2802",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Ajinomoto Co., Inc.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:55.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/2802.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "日本菸草",
+        "en": "Japan Tobacco Inc.",
+        "ja": "日本たばこ産業"
+      },
+      "ticker": "2914",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Japan Tobacco Inc.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:33:00.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/2914.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "花王",
+        "en": "Kao Corporation",
+        "ja": "花王"
+      },
+      "ticker": "4452",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Kao Corporation",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:58.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/4452.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "麒麟控股",
+        "en": "Kirin Holdings Company, Limited",
+        "ja": "キリンホールディングス"
+      },
+      "ticker": "2503",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Kirin Holdings Company, Limited",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:59.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/2503.T"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "Seven & i控股",
+        "en": "Seven & i Holdings Co., Ltd.",
+        "ja": "セブン＆アイ・ホールディングス"
+      },
+      "ticker": "3382",
+      "exchange": "TSE",
+      "profile": {
+        "legalName": "Seven & i Holdings Co., Ltd.",
+        "quoteCurrency": "JPY",
+        "quoteTimestamp": "2026-10-08T03:32:57.000Z",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/3382.T"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "Yahoo Finance chart (delayed market quote and listing profile)",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}.T?interval=1d&range=1d"
+    },
+    {
+      "name": "EDINET documents API (requires registered API key)",
+      "url": "https://disclosure.edinet-fsa.go.jp/api/v1/documents.json?date=YYYY-MM-DD"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "ConsumerStaples",
+  "generatedAt": "2026-10-08T03:50:52.021Z"
+}

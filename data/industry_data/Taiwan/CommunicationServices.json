@@ -1,0 +1,399 @@
+{
+  "market": "Taiwan",
+  "industry": "Communication Services",
+  "industryName": {
+    "zh-TW": "通訊服務",
+    "en": "Communication Services",
+    "ja": "通信サービス"
+  },
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "電信、媒體及互動平台的商業模式與資本需求差異很大。",
+      "觀察用戶成長、ARPU、內容成本、頻譜投資及監管風險。"
+    ],
+    "en": [
+      "Telecom, media, and interactive platforms have very different business models and capital needs.",
+      "Monitor user growth, ARPU, content costs, spectrum investment, and regulation."
+    ],
+    "ja": [
+      "通信、メディア、インタラクティブ・プラットフォームでは事業モデルと資本需要が大きく異なります。",
+      "利用者数、ARPU、コンテンツ費用、周波数投資、規制リスクを確認しましょう。"
+    ]
+  },
+  "representativeGroups": [
+    {
+      "groupName": {
+        "zh-TW": "成長股",
+        "en": "Growth Stocks",
+        "ja": "成長株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "中華電",
+            "en": "CHT",
+            "ja": "中華電信"
+          },
+          "ticker": "2412",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "中華電信股份有限公司",
+            "listingDate": "20001027",
+            "industryCode": "27",
+            "website": "https://www.cht.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "台灣大",
+            "en": "TWM",
+            "ja": "台湾モバイル"
+          },
+          "ticker": "3045",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "台灣大哥大股份有限公司",
+            "listingDate": "20020826",
+            "industryCode": "27",
+            "website": "www.taiwanmobile.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "價值股",
+        "en": "Value Stocks",
+        "ja": "価値株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "遠傳",
+            "en": "Far EasTone　",
+            "ja": "遠傳電信"
+          },
+          "ticker": "4904",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "遠傳電信股份有限公司",
+            "listingDate": "20050824",
+            "industryCode": "27",
+            "website": "www.fareastone.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "中磊",
+            "en": "Sercomm",
+            "ja": "中磊電子"
+          },
+          "ticker": "5388",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "中磊電子股份有限公司",
+            "listingDate": "20071203",
+            "industryCode": "27",
+            "website": "www.sercomm.com",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    },
+    {
+      "groupName": {
+        "zh-TW": "股息股",
+        "en": "Dividend Stocks",
+        "ja": "配当株"
+      },
+      "companies": [
+        {
+          "name": {
+            "zh-TW": "啟碁",
+            "en": "　WNC　",
+            "ja": "啟碁科技"
+          },
+          "ticker": "6285",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "啟碁科技股份有限公司",
+            "listingDate": "20030922",
+            "industryCode": "27",
+            "website": "www.wnc.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        },
+        {
+          "name": {
+            "zh-TW": "神腦",
+            "en": "SENAO",
+            "ja": "神脳国際"
+          },
+          "ticker": "2450",
+          "exchange": "TWSE",
+          "profile": {
+            "legalName": "神腦國際企業股份有限公司",
+            "listingDate": "20010524",
+            "industryCode": "27",
+            "website": "http://www.senao.com.tw",
+            "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+            "quoteDate": "1151007"
+          }
+        }
+      ]
+    }
+  ],
+  "representativeCompanies": [
+    {
+      "name": {
+        "zh-TW": "中華電",
+        "en": "CHT",
+        "ja": "中華電信"
+      },
+      "ticker": "2412",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "中華電信股份有限公司",
+        "listingDate": "20001027",
+        "industryCode": "27",
+        "website": "https://www.cht.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台灣大",
+        "en": "TWM",
+        "ja": "台湾モバイル"
+      },
+      "ticker": "3045",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "台灣大哥大股份有限公司",
+        "listingDate": "20020826",
+        "industryCode": "27",
+        "website": "www.taiwanmobile.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "遠傳",
+        "en": "Far EasTone　",
+        "ja": "遠傳電信"
+      },
+      "ticker": "4904",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "遠傳電信股份有限公司",
+        "listingDate": "20050824",
+        "industryCode": "27",
+        "website": "www.fareastone.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中磊",
+        "en": "Sercomm",
+        "ja": "中磊電子"
+      },
+      "ticker": "5388",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "中磊電子股份有限公司",
+        "listingDate": "20071203",
+        "industryCode": "27",
+        "website": "www.sercomm.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "啟碁",
+        "en": "　WNC　",
+        "ja": "啟碁科技"
+      },
+      "ticker": "6285",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "啟碁科技股份有限公司",
+        "listingDate": "20030922",
+        "industryCode": "27",
+        "website": "www.wnc.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "神腦",
+        "en": "SENAO",
+        "ja": "神脳国際"
+      },
+      "ticker": "2450",
+      "exchange": "TWSE",
+      "api": {
+        "price": "TWSE OpenAPI",
+        "fundamental": "MOPS"
+      },
+      "profile": {
+        "legalName": "神腦國際企業股份有限公司",
+        "listingDate": "20010524",
+        "industryCode": "27",
+        "website": "http://www.senao.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "allCompanies": [
+    {
+      "name": {
+        "zh-TW": "中華電",
+        "en": "CHT",
+        "ja": "中華電信"
+      },
+      "ticker": "2412",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "中華電信股份有限公司",
+        "listingDate": "20001027",
+        "industryCode": "27",
+        "website": "https://www.cht.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "台灣大",
+        "en": "TWM",
+        "ja": "台湾モバイル"
+      },
+      "ticker": "3045",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "台灣大哥大股份有限公司",
+        "listingDate": "20020826",
+        "industryCode": "27",
+        "website": "www.taiwanmobile.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "遠傳",
+        "en": "Far EasTone　",
+        "ja": "遠傳電信"
+      },
+      "ticker": "4904",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "遠傳電信股份有限公司",
+        "listingDate": "20050824",
+        "industryCode": "27",
+        "website": "www.fareastone.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "中磊",
+        "en": "Sercomm",
+        "ja": "中磊電子"
+      },
+      "ticker": "5388",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "中磊電子股份有限公司",
+        "listingDate": "20071203",
+        "industryCode": "27",
+        "website": "www.sercomm.com",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "啟碁",
+        "en": "　WNC　",
+        "ja": "啟碁科技"
+      },
+      "ticker": "6285",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "啟碁科技股份有限公司",
+        "listingDate": "20030922",
+        "industryCode": "27",
+        "website": "www.wnc.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    },
+    {
+      "name": {
+        "zh-TW": "神腦",
+        "en": "SENAO",
+        "ja": "神脳国際"
+      },
+      "ticker": "2450",
+      "exchange": "TWSE",
+      "profile": {
+        "legalName": "神腦國際企業股份有限公司",
+        "listingDate": "20010524",
+        "industryCode": "27",
+        "website": "http://www.senao.com.tw",
+        "source": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+        "quoteDate": "1151007"
+      }
+    }
+  ],
+  "dataSources": [
+    {
+      "name": "TWSE issuer profile and daily quote OpenAPI",
+      "url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L; https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
+    },
+    {
+      "name": "TPEx daily quote OpenAPI",
+      "url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes"
+    }
+  ],
+  "classificationNote": "Industry-to-sector mapping and growth/value/dividend group membership are curated illustrative classifications, not categories published by the market-data provider or investment advice.",
+  "industryId": "CommunicationServices",
+  "generatedAt": "2026-10-08T03:50:47.770Z"
+}
