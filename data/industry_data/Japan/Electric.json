@@ -1,0 +1,52 @@
+{
+  "market": "Japan",
+  "industry": "Electric",
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "涵蓋工業自動化、電子零組件、影像感測與消費電子，公司的終端需求可能差異很大。",
+      "製造業設備投資與半導體週期會影響訂單，需留意庫存與接單趨勢。",
+      "海外營收使日圓匯率影響財報，但實際效果取決於生產地與避險安排。",
+      "評估技術優勢、營業利益率、研發投入與資本效率。"
+    ],
+    "en": [
+      "Industrial automation, electronic components, imaging sensors, and consumer electronics serve very different end markets.",
+      "Manufacturing investment and semiconductor cycles affect orders; monitor inventories and order trends.",
+      "Overseas revenue creates yen exposure, but the actual impact depends on production locations and hedging.",
+      "Evaluate technological advantages, operating margins, research investment, and capital efficiency."
+    ],
+    "ja": [
+      "産業自動化、電子部品、画像センサー、家電などを含み、企業によって最終需要は大きく異なります。",
+      "製造業の設備投資と半導体サイクルが受注に影響するため、在庫と受注動向を確認しましょう。",
+      "海外売上は円相場の影響を受けますが、実際の効果は生産拠点と為替ヘッジに左右されます。",
+      "技術的優位性、営業利益率、研究開発投資、資本効率を評価しましょう。"
+    ]
+  },
+  "representativeCompanies": [
+    {
+      "name": { "zh-TW": "索尼集團", "en": "Sony Group", "ja": "ソニーグループ" },
+      "ticker": "6758",
+      "exchange": "TSE",
+      "api": { "price": "J-Quants", "fundamental": "EDINET" }
+    },
+    {
+      "name": { "zh-TW": "基恩士", "en": "Keyence", "ja": "キーエンス" },
+      "ticker": "6861",
+      "exchange": "TSE",
+      "api": { "price": "J-Quants", "fundamental": "EDINET" }
+    },
+    {
+      "name": { "zh-TW": "日立製作所", "en": "Hitachi", "ja": "日立製作所" },
+      "ticker": "6501",
+      "exchange": "TSE",
+      "api": { "price": "J-Quants", "fundamental": "EDINET" }
+    }
+  ],
+  "allCompanies": [
+    { "name": { "zh-TW": "索尼集團", "en": "Sony Group", "ja": "ソニーグループ" }, "ticker": "6758", "exchange": "TSE" },
+    { "name": { "zh-TW": "基恩士", "en": "Keyence", "ja": "キーエンス" }, "ticker": "6861", "exchange": "TSE" },
+    { "name": { "zh-TW": "日立製作所", "en": "Hitachi", "ja": "日立製作所" }, "ticker": "6501", "exchange": "TSE" },
+    { "name": { "zh-TW": "三菱電機", "en": "Mitsubishi Electric", "ja": "三菱電機" }, "ticker": "6503", "exchange": "TSE" },
+    { "name": { "zh-TW": "松下控股", "en": "Panasonic Holdings", "ja": "パナソニック ホールディングス" }, "ticker": "6752", "exchange": "TSE" },
+    { "name": { "zh-TW": "村田製作所", "en": "Murata Manufacturing", "ja": "村田製作所" }, "ticker": "6981", "exchange": "TSE" }
+  ]
+}

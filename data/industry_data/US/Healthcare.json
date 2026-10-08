@@ -1,0 +1,52 @@
+{
+  "market": "US",
+  "industry": "Healthcare",
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "人口老化與醫療需求提供長期支撐，但製藥、保險與醫療器材的風險結構不同。",
+      "新藥研發仰賴臨床試驗與監管核准，失敗或延遲可能大幅影響估值。",
+      "專利到期、學名藥競爭與藥價政策可能壓縮收入和利潤。",
+      "評估研發管線、產品集中度、給付政策與資產負債表，而非將整個產業視為低風險。"
+    ],
+    "en": [
+      "Aging populations and healthcare demand provide long-term support, but pharmaceuticals, insurance, and medical devices have different risk profiles.",
+      "Drug development depends on clinical trials and regulatory approvals; failures or delays can materially affect valuations.",
+      "Patent expirations, generic competition, and drug-pricing policies may reduce revenue and profitability.",
+      "Evaluate development pipelines, product concentration, reimbursement policies, and balance sheets rather than assuming the entire sector is low-risk."
+    ],
+    "ja": [
+      "高齢化と医療需要は長期的な支えとなりますが、製薬、保険、医療機器ではリスクが異なります。",
+      "新薬開発は臨床試験と承認に依存し、失敗や遅延が企業価値に大きく影響する場合があります。",
+      "特許切れ、後発医薬品との競争、薬価政策は売上と利益を圧迫する可能性があります。",
+      "業界全体を低リスクと考えず、開発品目、製品への依存度、償還政策、財務状況を評価しましょう。"
+    ]
+  },
+  "representativeCompanies": [
+    {
+      "name": { "zh-TW": "嬌生", "en": "Johnson & Johnson", "ja": "ジョンソン・エンド・ジョンソン" },
+      "ticker": "JNJ",
+      "exchange": "NYSE",
+      "api": { "price": "Alpha Vantage", "fundamental": "SEC EDGAR" }
+    },
+    {
+      "name": { "zh-TW": "禮來", "en": "Eli Lilly and Company", "ja": "イーライリリー" },
+      "ticker": "LLY",
+      "exchange": "NYSE",
+      "api": { "price": "Alpha Vantage", "fundamental": "SEC EDGAR" }
+    },
+    {
+      "name": { "zh-TW": "聯合健康集團", "en": "UnitedHealth Group", "ja": "ユナイテッドヘルス・グループ" },
+      "ticker": "UNH",
+      "exchange": "NYSE",
+      "api": { "price": "Alpha Vantage", "fundamental": "SEC EDGAR" }
+    }
+  ],
+  "allCompanies": [
+    { "name": { "zh-TW": "嬌生", "en": "Johnson & Johnson", "ja": "ジョンソン・エンド・ジョンソン" }, "ticker": "JNJ", "exchange": "NYSE" },
+    { "name": { "zh-TW": "禮來", "en": "Eli Lilly and Company", "ja": "イーライリリー" }, "ticker": "LLY", "exchange": "NYSE" },
+    { "name": { "zh-TW": "聯合健康集團", "en": "UnitedHealth Group", "ja": "ユナイテッドヘルス・グループ" }, "ticker": "UNH", "exchange": "NYSE" },
+    { "name": { "zh-TW": "艾伯維", "en": "AbbVie", "ja": "アッヴィ" }, "ticker": "ABBV", "exchange": "NYSE" },
+    { "name": { "zh-TW": "默克", "en": "Merck & Co.", "ja": "メルク" }, "ticker": "MRK", "exchange": "NYSE" },
+    { "name": { "zh-TW": "亞培", "en": "Abbott Laboratories", "ja": "アボット・ラボラトリーズ" }, "ticker": "ABT", "exchange": "NYSE" }
+  ]
+}

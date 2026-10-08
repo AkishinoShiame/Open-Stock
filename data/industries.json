@@ -1,0 +1,44 @@
+{
+  "Taiwan": [
+    {
+      "id": "IT",
+      "name": { "zh-TW": "資訊科技", "en": "Information Technology", "ja": "情報技術" },
+      "source": "TWSE/TPEx",
+      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+    },
+    {
+      "id": "Financials",
+      "name": { "zh-TW": "金融", "en": "Financials", "ja": "金融" },
+      "source": "TWSE/TPEx",
+      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+    }
+  ],
+  "US": [
+    {
+      "id": "IT",
+      "name": { "zh-TW": "資訊科技", "en": "Information Technology", "ja": "情報技術" },
+      "source": "GICS",
+      "api": { "price": "Alpha Vantage", "fundamental": "SEC EDGAR" }
+    },
+    {
+      "id": "Healthcare",
+      "name": { "zh-TW": "醫療保健", "en": "Healthcare", "ja": "ヘルスケア" },
+      "source": "GICS",
+      "api": { "price": "Alpha Vantage", "fundamental": "SEC EDGAR" }
+    }
+  ],
+  "Japan": [
+    {
+      "id": "Electric",
+      "name": { "zh-TW": "電氣機器", "en": "Electric Appliances", "ja": "電気機器" },
+      "source": "JPX",
+      "api": { "price": "J-Quants", "fundamental": "EDINET" }
+    },
+    {
+      "id": "Consumer",
+      "name": { "zh-TW": "消費", "en": "Consumer", "ja": "消費" },
+      "source": "JPX",
+      "api": { "price": "J-Quants", "fundamental": "EDINET" }
+    }
+  ]
+}

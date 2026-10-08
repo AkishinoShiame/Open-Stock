@@ -1,0 +1,52 @@
+{
+  "market": "US",
+  "industry": "IT",
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "軟體、雲端服務與半導體涵蓋不同商業模式，經常性收入與客戶黏著度值得關注。",
+      "AI 與企業數位化可帶動成長，但競爭、研發支出與資本支出也可能增加。",
+      "高成長公司的估值對利率與未來盈餘預期較敏感。",
+      "分析自由現金流、營業利益率、股權薪酬稀釋與監管風險。"
+    ],
+    "en": [
+      "Software, cloud services, and semiconductors span different business models; recurring revenue and customer retention are key considerations.",
+      "AI and enterprise digitization can support growth, while competition, research spending, and capital expenditure may also increase.",
+      "High-growth valuations are sensitive to interest rates and expectations for future earnings.",
+      "Analyze free cash flow, operating margins, stock-based compensation dilution, and regulatory risks."
+    ],
+    "ja": [
+      "ソフトウェア、クラウド、半導体は異なる事業モデルを持ち、継続収益と顧客維持率が重要です。",
+      "AIと企業のデジタル化は成長を支える一方、競争、研究開発費、設備投資も増える可能性があります。",
+      "高成長企業の評価は金利と将来利益への期待に敏感です。",
+      "フリーキャッシュフロー、営業利益率、株式報酬による希薄化、規制リスクを分析しましょう。"
+    ]
+  },
+  "representativeCompanies": [
+    {
+      "name": { "zh-TW": "蘋果", "en": "Apple", "ja": "アップル" },
+      "ticker": "AAPL",
+      "exchange": "NASDAQ",
+      "api": { "price": "Alpha Vantage", "fundamental": "SEC EDGAR" }
+    },
+    {
+      "name": { "zh-TW": "微軟", "en": "Microsoft", "ja": "マイクロソフト" },
+      "ticker": "MSFT",
+      "exchange": "NASDAQ",
+      "api": { "price": "Alpha Vantage", "fundamental": "SEC EDGAR" }
+    },
+    {
+      "name": { "zh-TW": "輝達", "en": "NVIDIA", "ja": "エヌビディア" },
+      "ticker": "NVDA",
+      "exchange": "NASDAQ",
+      "api": { "price": "Alpha Vantage", "fundamental": "SEC EDGAR" }
+    }
+  ],
+  "allCompanies": [
+    { "name": { "zh-TW": "蘋果", "en": "Apple", "ja": "アップル" }, "ticker": "AAPL", "exchange": "NASDAQ" },
+    { "name": { "zh-TW": "微軟", "en": "Microsoft", "ja": "マイクロソフト" }, "ticker": "MSFT", "exchange": "NASDAQ" },
+    { "name": { "zh-TW": "輝達", "en": "NVIDIA", "ja": "エヌビディア" }, "ticker": "NVDA", "exchange": "NASDAQ" },
+    { "name": { "zh-TW": "博通", "en": "Broadcom", "ja": "ブロードコム" }, "ticker": "AVGO", "exchange": "NASDAQ" },
+    { "name": { "zh-TW": "甲骨文", "en": "Oracle", "ja": "オラクル" }, "ticker": "ORCL", "exchange": "NYSE" },
+    { "name": { "zh-TW": "超微半導體", "en": "Advanced Micro Devices", "ja": "アドバンスト・マイクロ・デバイセズ" }, "ticker": "AMD", "exchange": "NASDAQ" }
+  ]
+}

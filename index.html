@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore industries across Taiwan, the US, and Japan with multilingual educational mock data.">
+  <title>產業探索 | Open Stock</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172c36;
+      --muted: #536974;
+      --green: #11634b;
+      --line: #dbe5e5;
+      --surface: #fff;
+      --canvas: #f4f7f7;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--canvas); color: var(--ink); font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    button, select { font: inherit; }
+    button, select, a { -webkit-tap-highlight-color: transparent; }
+    button, select { cursor: pointer; }
+    button:disabled, select:disabled { cursor: wait; opacity: .6; }
+    :focus-visible { outline: 3px solid #157fa0; outline-offset: 4px; }
+    [hidden] { display: none !important; }
+    .shell { max-width: 1160px; margin: auto; padding: 0 32px; }
+    .topbar { position: sticky; top: 0; z-index: 10; background: var(--surface); border-bottom: 1px solid var(--line); }
+    .topbar-inner { display: flex; justify-content: space-between; align-items: center; gap: 16px; min-height: 80px; }
+    .brand { display: inline-flex; align-items: center; gap: 12px; font-size: 19px; font-weight: 750; letter-spacing: -.5px; }
+    .brand-mark { display: grid; place-items: center; width: 36px; height: 36px; background: var(--green); color: #fff; border-radius: 11px; }
+    .header-controls { display: flex; align-items: center; justify-content: flex-end; gap: 22px; min-width: 0; }
+    .market-control { display: flex; align-items: center; gap: 12px; min-width: 0; }
+    .market-control .filter-label { margin: 0; flex-shrink: 0; white-space: nowrap; }
+    .industry-nav { border-top: 1px solid var(--line); }
+    .industry-nav-inner { display: flex; align-items: center; gap: 18px; padding-top: 12px; padding-bottom: 12px; }
+    .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+    select { max-width: 100%; border: 1px solid var(--line); border-radius: 9px; padding: 9px 32px 9px 12px; background: var(--surface); color: var(--ink); }
+    main { padding-top: 48px !important; padding-bottom: 40px !important; }
+    .eyebrow { color: var(--green); font-size: 12px; font-weight: 750; letter-spacing: .12em; margin: 0 0 12px; }
+    h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.25; letter-spacing: -1px; margin: 0 0 16px; }
+    .intro { color: var(--muted); max-width: 740px; margin: 0; }
+    .filter-label { display: block; margin-bottom: 10px; color: var(--muted); font-size: 13px; font-weight: 650; }
+    #market-selector { flex: 1; width: auto; min-width: 0; }
+    .industry-tags { display: flex; flex: 1; gap: 10px; overflow-x: auto; min-width: 0; padding: 6px; scrollbar-width: thin; }
+    .tag { flex-shrink: 0; white-space: nowrap; border: 1px solid var(--line); color: var(--muted); background: #fff; border-radius: 999px; padding: 9px 16px; transition: background .15s, border-color .15s; }
+    .tag:hover { border-color: var(--green); color: var(--green); }
+    .tag[data-available="false"] { border-style: dashed; }
+    .tag[aria-pressed="true"] { color: var(--green); background: #eaf5ef; border-color: #84b7a1; font-weight: 650; }
+    .section-heading { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 30px 0 20px; }
+    .intro { margin-bottom: 26px; }
+    .live-panel { margin-bottom: 24px; }
+    .live-toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+    .live-panel .panel-note { margin: 12px 0 0; }
+    .live-status { font-size: 13px; margin: 12px 0 0; }
+    .live-status[data-kind="error"] { color: #873420; }
+    .quote { margin: 12px 0 0; font-size: 13px; }
+    .quote-detail { display: block; font-size: 11px; color: var(--muted); overflow-wrap: anywhere; }
+    .quote-missing { color: var(--muted); }
+    #all-title { scroll-margin-top: 240px; }
+    h2 { font-size: 25px; letter-spacing: -.5px; margin: 0; }
+    .breadcrumb { color: var(--muted); font-size: 13px; margin: 0 0 5px; }
+    .badge { border: 1px solid var(--line); background: #fff; border-radius: 30px; padding: 5px 12px; color: var(--muted); font-size: 12px; white-space: nowrap; }
+    .overview-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 24px; align-items: start; }
+    .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 26px; }
+    h3 { margin: 0 0 8px; font-size: 18px; }
+    .panel-note { color: var(--muted); font-size: 13px; margin: 0 0 22px; }
+    .characteristics { list-style: none; padding: 0; margin: 22px 0 0; counter-reset: point; }
+    .characteristics li { counter-increment: point; display: grid; grid-template-columns: 28px 1fr; gap: 12px; font-size: 14px; padding: 0 0 18px; }
+    .characteristics li:last-child { padding-bottom: 0; }
+    .characteristics li::before { content: counter(point, decimal-leading-zero); color: var(--green); font-size: 12px; font-weight: 700; padding-top: 3px; }
+    .companies { display: grid; gap: 12px; }
+    .company-card { border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+    .company-top { display: flex; justify-content: space-between; align-items: start; gap: 14px; }
+    .company-name { font-size: 16px; margin: 0 0 4px; overflow-wrap: anywhere; }
+    .ticker { font: 700 14px/1.5 ui-monospace, Consolas, monospace; color: var(--green); background: #edf6f1; border-radius: 6px; padding: 4px 8px; }
+    .exchange { color: var(--muted); font-size: 12px; margin: 0; }
+    .api-info { display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; border-top: 1px solid var(--line); padding-top: 10px; margin: 12px 0 0; font-size: 12px; }
+    .api-info dt { color: var(--muted); }
+    .api-info dd { margin: 0; text-align: right; }
+    .primary-button, .secondary-button { border-radius: 9px; padding: 11px 18px; font-size: 14px; font-weight: 650; }
+    .primary-button { width: 100%; margin-top: 20px; border: 1px solid var(--green); background: var(--green); color: #fff; }
+    .primary-button:hover { background: #0b4e3b; }
+    .secondary-button { border: 1px solid var(--line); background: #fff; color: var(--ink); }
+    .secondary-button:hover { background: #eaf5ef; }
+    .expanded-heading { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-bottom: 18px; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; }
+    caption { text-align: left; color: var(--muted); font-size: 13px; margin-bottom: 18px; }
+    th { color: var(--muted); font-weight: 650; font-size: 12px; background: var(--canvas); }
+    th, td { padding: 14px; border-bottom: 1px solid var(--line); }
+    td:nth-child(2) { font-family: ui-monospace, Consolas, monospace; color: var(--green); }
+    tbody tr:last-child td { border-bottom: 0; }
+    .sources { display: flex; flex-wrap: wrap; gap: 8px 22px; padding: 18px 0 0; font-size: 12px; color: var(--muted); }
+    .disclaimer { border-top: 1px solid var(--line); margin-top: 28px; padding-top: 18px; color: var(--muted); font-size: 12px; }
+    .status { border: 1px solid var(--line); background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 20px; }
+    .status[data-kind="error"] { background: #fff4f1; border-color: #d7a89c; color: #873420; }
+    .status p { margin: 0; }
+    #retry-button { margin-top: 12px; }
+    .skip-link { position: fixed; top: -100px; left: 16px; background: #fff; color: var(--green); padding: 12px; z-index: 20; }
+    .skip-link:focus { top: 12px; }
+    footer { color: var(--muted); font-size: 12px; padding-bottom: 28px !important; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+    @media (max-width: 800px) {
+      .overview-grid { grid-template-columns: 1fr; }
+      .topbar-inner { flex-wrap: wrap; padding-top: 16px; padding-bottom: 16px; }
+      .header-controls { flex-wrap: wrap; gap: 12px; }
+    }
+    @media (max-width: 480px) {
+      .shell { padding-left: 18px; padding-right: 18px; }
+      .header-controls { width: 100%; justify-content: space-between; }
+      .market-control { width: 100%; }
+      .industry-nav-inner { gap: 8px; }
+      main { padding-top: 30px !important; }
+      .panel { padding: 20px; }
+      .section-heading { align-items: start; }
+      .company-top { flex-wrap: wrap; }
+      .tag { padding: 9px 12px; }
+      #all-title { scroll-margin-top: 330px; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">跳至主要內容</a>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <div class="brand"><span class="brand-mark" role="img" aria-label="Open Stock">↗</span><span>Open Stock</span></div>
+      <div class="header-controls">
+        <div class="market-control">
+          <label class="filter-label" id="market-label" for="market-selector" data-i18n="market">股票市場</label>
+          <select id="market-selector" disabled></select>
+        </div>
+      </div>
+    </div>
+    <nav class="industry-nav" aria-labelledby="industry-label">
+      <div class="shell industry-nav-inner">
+        <span class="visually-hidden" id="industry-label" data-i18n="industry">產業</span>
+        <div id="industry-tags" class="industry-tags" role="group" aria-labelledby="industry-label"></div>
+      </div>
+    </nav>
+  </header>
+  <main class="shell" id="main" tabindex="-1">
+    <p class="eyebrow" data-i18n="eyebrow">跨市場・產業指南</p>
+    <h1 data-i18n="title">從產業出發，探索投資世界。</h1>
+    <p class="intro" data-i18n="intro">認識台灣、美國與日本的產業特性與代表企業，建立你的研究起點。</p>
+    <p class="panel-note" data-i18n="industryAvailability">虛線產業尚無靜態資料；日本保留原有分類。</p>
+    <div id="status" class="status" role="status" aria-live="polite" aria-atomic="true">
+      <p id="status-message">正在載入資料…</p>
+      <button id="retry-button" class="secondary-button" type="button" data-i18n="retry" hidden>重試</button>
+    </div>
+    <section id="industry-content" aria-labelledby="industry-title" aria-busy="true" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="breadcrumb" id="market-name"></p>
+          <h2 id="industry-title"></h2>
+        </div>
+        <span class="badge" data-i18n="mockBadge">示範資料</span>
+      </div>
+      <section class="panel live-panel" aria-labelledby="live-title">
+        <div class="live-toolbar">
+          <h3 id="live-title" data-i18n="liveTitle">最新行情</h3>
+          <button id="fetch-live-button" class="secondary-button" type="button" data-i18n="fetchLive">取得最新資料</button>
+        </div>
+        <p class="panel-note" data-i18n="liveNote">台灣為最近交易日收盤價；美日為 Yahoo 非官方行情，可能延遲。僅更新畫面，不更動 JSON。</p>
+        <p class="panel-note" data-i18n="liveAccessNote">免費不代表允許瀏覽器存取；TWSE、TPEx 與 Yahoo 可能因 CORS 封鎖此頁的請求。純靜態網站無法保證取得行情。</p>
+        <p class="panel-note" data-i18n="fundamentalNote">SEC EDGAR 不支援瀏覽器跨來源請求；EDINET v2 需要 API 金鑰。本頁不取得即時財報，也不使用代理或付費 API。</p>
+        <p id="live-status" class="live-status" role="status" aria-live="polite" aria-atomic="true"></p>
+      </section>
+      <div id="representative-view" class="overview-grid">
+        <section class="panel" aria-labelledby="characteristics-title">
+          <h3 id="characteristics-title" data-i18n="characteristics">投資特性</h3>
+          <p class="panel-note" data-i18n="characteristicsNote">了解驅動因素，也看見潛在風險。</p>
+          <ul id="characteristics-list" class="characteristics"></ul>
+        </section>
+        <section class="panel" aria-labelledby="representative-title">
+          <h3 id="representative-title" data-i18n="representatives">代表企業</h3>
+          <p class="panel-note" data-i18n="representativesNote">精選研究起點，非投資推薦。</p>
+          <div id="representative-companies" class="companies"></div>
+          <button id="show-all-button" class="primary-button" type="button" data-i18n="showAll">顯示完整公司清單</button>
+        </section>
+      </div>
+      <section id="all-view" class="panel" aria-labelledby="all-title" hidden>
+        <div class="expanded-heading">
+          <h3 id="all-title" tabindex="-1" data-i18n="allCompanies">完整公司清單</h3>
+          <button id="back-button" class="secondary-button" type="button" data-i18n="back">返回代表企業檢視</button>
+        </div>
+        <div id="all-companies" class="table-wrap"></div>
+      </section>
+      <div id="sources" class="sources"></div>
+    </section>
+    <p class="disclaimer" data-i18n="disclaimer">僅供學習與示範，非投資建議。完整清單僅涵蓋本示範資料集，並非所有上市公司。行情按需載入，可能延遲或受 API 限制；靜態分類與上市資訊未即時更新。</p>
+    <noscript><p>請啟用 JavaScript。 / Please enable JavaScript. / JavaScript を有効にしてください。</p></noscript>
+  </main>
+  <footer class="shell">
+    <span>Open Stock</span>
+    <span data-i18n="footer">3 個市場・6 個產業資料集・一個研究起點</span>
+  </footer>
+  <script>
+    "use strict";
+
+    const translations = {
+      "zh-TW": {
+        pageTitle: "產業探索 | Open Stock", skip: "跳至主要內容",
+        eyebrow: "跨市場・產業指南", title: "從產業出發，探索投資世界。",
+        intro: "認識台灣、美國與日本的產業特性與代表企業，建立你的研究起點。",
+        market: "股票市場", industry: "產業", mockBadge: "示範資料",
+        industryAvailability: "虛線產業尚無靜態資料；日本保留原有分類。",
+        noDataset: "此市場的所選產業尚無靜態資料。請選擇實線產業；不會以其他產業的資料替代。",
+        fetchLive: "取得最新資料", liveTitle: "最新行情", latestPrice: "最新價格",
+        liveNote: "台灣為最近交易日收盤價；美日為 Yahoo 非官方行情，可能延遲。僅更新畫面，不更動 JSON。",
+        liveAccessNote: "免費不代表允許瀏覽器存取；TWSE、TPEx 與 Yahoo 可能因 CORS 封鎖此頁的請求。純靜態網站無法保證取得行情。",
+        fundamentalNote: "SEC EDGAR 不支援瀏覽器跨來源請求；EDINET v2 需要 API 金鑰。本頁不取得即時財報，也不使用代理或付費 API。",
+        liveIdle: "尚未取得行情。", liveLoading: "正在取得行情…",
+        liveSummary: "已取得 {loaded}/{total} 家公司行情。", liveFailed: "行情取得失敗。請使用按鈕重試。",
+        liveError: "API 無法存取、逾時、回傳無效資料或封鎖瀏覽器跨來源請求。",
+        missingQuote: "無可用行情", notFetched: "尚未取得", asOf: "資料時間",
+        unknownDate: "來源未提供時間", fetchedAt: "取得時間",
+        characteristics: "投資特性", characteristicsNote: "了解驅動因素，也看見潛在風險。",
+        representatives: "代表企業", representativesNote: "精選研究起點，非投資推薦。",
+        showAll: "顯示完整公司清單", back: "返回代表企業檢視", allCompanies: "完整公司清單",
+        company: "公司", ticker: "股票代碼", exchange: "交易所",
+        priceAPI: "行情 API", fundamentalAPI: "基本面 API", source: "分類參考",
+        loading: "正在載入資料…", loadError: "無法載入資料。請確認網路連線與 JSON 檔案後重試。",
+        fileProtocol: "請透過 HTTP 靜態伺服器或 GitHub Pages 開啟此頁；直接開啟本機檔案無法載入 JSON。",
+        retry: "重試", count: "此示範資料集共 {count} 家公司",
+        disclaimer: "僅供學習與示範，非投資建議。完整清單僅涵蓋本示範資料集，並非所有上市公司。行情按需載入，可能延遲或受 API 限制；靜態分類與上市資訊未即時更新。",
+        footer: "3 個市場・6 個產業資料集・一個研究起點"
+      },
+      en: {
+        pageTitle: "Industry Explorer | Open Stock", skip: "Skip to main content",
+        eyebrow: "CROSS-MARKET INDUSTRY GUIDE", title: "A world of investing. An industry at a time.",
+        intro: "Explore industry characteristics and representative companies in Taiwan, the US, and Japan. Find your starting point for research.",
+        market: "Stock Country", industry: "Industry", mockBadge: "Demo data",
+        industryAvailability: "Dashed chips have no static dataset yet. Japan retains its original categories.",
+        noDataset: "No static dataset exists for this market and industry yet. Select a solid chip; another industry's data will not be substituted.",
+        fetchLive: "Fetch Live Data", liveTitle: "Latest quotes", latestPrice: "Latest price",
+        liveNote: "Taiwan: latest trading-day closing prices. US/Japan: unofficial Yahoo quotes, possibly delayed. Updates the UI only; JSON stays unchanged.",
+        liveAccessNote: "Free APIs do not guarantee browser access. TWSE, TPEx, and Yahoo may block this page via CORS; a static site cannot guarantee quote retrieval.",
+        fundamentalNote: "SEC EDGAR does not support browser CORS requests; EDINET v2 requires an API key. Live filings are not fetched. No proxies or paid APIs are used.",
+        liveIdle: "Quotes have not been fetched.", liveLoading: "Fetching quotes…",
+        liveSummary: "Fetched quotes for {loaded}/{total} companies.", liveFailed: "Quote fetch failed. Use the button to retry.",
+        liveError: "The API is inaccessible, timed out, returned invalid data, or blocked browser cross-origin requests.",
+        missingQuote: "No quote available", notFetched: "Not fetched", asOf: "Data as of",
+        unknownDate: "No timestamp supplied", fetchedAt: "Fetched at",
+        characteristics: "Investment characteristics", characteristicsNote: "Understand the drivers. Recognize the risks.",
+        representatives: "Representative companies", representativesNote: "Selected research starting points, not recommendations.",
+        showAll: "Show full list of companies", back: "Back to representative view", allCompanies: "Full company list",
+        company: "Company", ticker: "Ticker", exchange: "Exchange",
+        priceAPI: "Price API", fundamentalAPI: "Fundamental API", source: "Classification reference",
+        loading: "Loading data…", loadError: "Unable to load data. Check your connection and the JSON files, then retry.",
+        fileProtocol: "Serve this page over HTTP or GitHub Pages; opening a local file directly cannot load the JSON data.",
+        retry: "Retry", count: "{count} companies in this demo dataset",
+        disclaimer: "For education and demonstration only, not investment advice. The full list covers this demo dataset, not every listed company. Quotes are fetched on demand and may be delayed or unavailable due to API restrictions. Static classifications and listings are not updated in real time.",
+        footer: "3 markets · 6 industry datasets · One research starting point"
+      },
+      ja: {
+        pageTitle: "業種エクスプローラー | Open Stock", skip: "メインコンテンツへ移動",
+        eyebrow: "市場を横断する業種ガイド", title: "業種から、投資の世界を広げよう。",
+        intro: "台湾、米国、日本の業種特性と代表企業を知り、企業研究の第一歩を踏み出しましょう。",
+        market: "株の売り場", industry: "業種", mockBadge: "デモデータ",
+        industryAvailability: "破線の業種には静的データがありません。日本の元の分類も維持しています。",
+        noDataset: "この市場と業種の静的データはまだありません。実線の業種を選択してください。他の業種のデータで代用しません。",
+        fetchLive: "最新データを取得", liveTitle: "最新の株価", latestPrice: "最新価格",
+        liveNote: "台湾は直近取引日の終値、米国と日本はYahoo非公式の株価で、遅延する場合があります。画面のみを更新し、JSONは変更しません。",
+        liveAccessNote: "無料APIでもブラウザーから利用できるとは限りません。TWSE、TPEx、YahooはCORSで遮断する場合があり、静的サイトでは株価取得を保証できません。",
+        fundamentalNote: "SEC EDGARはブラウザーのCORSリクエストに非対応で、EDINET v2にはAPIキーが必要です。財務データは取得せず、プロキシや有料APIも使用しません。",
+        liveIdle: "株価は未取得です。", liveLoading: "株価を取得中…",
+        liveSummary: "{total}社中{loaded}社の株価を取得しました。", liveFailed: "株価を取得できませんでした。ボタンで再試行してください。",
+        liveError: "APIにアクセスできない、タイムアウト、無効なデータ、またはブラウザーのクロスオリジン制限が原因です。",
+        missingQuote: "株価データなし", notFetched: "未取得", asOf: "データ日時",
+        unknownDate: "日時の提供なし", fetchedAt: "取得日時",
+        characteristics: "投資特性", characteristicsNote: "成長要因を知り、リスクを理解する。",
+        representatives: "代表企業", representativesNote: "企業研究の参考例です。投資推奨ではありません。",
+        showAll: "企業の全リストを表示", back: "代表企業の表示に戻る", allCompanies: "企業の全リスト",
+        company: "企業", ticker: "銘柄コード", exchange: "取引所",
+        priceAPI: "株価 API", fundamentalAPI: "財務 API", source: "分類参考",
+        loading: "データを読み込み中…", loadError: "データを読み込めません。接続と JSON ファイルを確認し、再試行してください。",
+        fileProtocol: "HTTP の静的サーバーまたは GitHub Pages で開いてください。ローカルファイルを直接開くと JSON を読み込めません。",
+        retry: "再試行", count: "このデモデータには {count} 社が含まれます",
+        disclaimer: "学習・デモ用であり、投資助言ではありません。全リストはこのデモデータの全企業であり、全上場企業ではありません。株価は手動取得で、遅延やAPI制限により利用できない場合があります。静的な分類と上場情報はリアルタイムでは更新されません。",
+        footer: "3 市場・6 業種データセット・企業研究の第一歩"
+      }
+    };
+    const marketLanguages = { Taiwan: "zh-TW", US: "en", Japan: "ja" };
+    const industryNavigation = [
+      { id: "IT", name: { "zh-TW": "資訊科技", en: "Information Technology", ja: "情報技術" } },
+      { id: "Financials", name: { "zh-TW": "金融", en: "Financials", ja: "金融" } },
+      { id: "Healthcare", name: { "zh-TW": "醫療保健", en: "Healthcare", ja: "ヘルスケア" } },
+      { id: "Energy", name: { "zh-TW": "能源", en: "Energy", ja: "エネルギー" } },
+      { id: "Industrials", name: { "zh-TW": "工業", en: "Industrials", ja: "工業" } },
+      { id: "ConsumerDiscretionary", name: { "zh-TW": "非必需消費", en: "Consumer Discretionary", ja: "一般消費財" } },
+      { id: "ConsumerStaples", name: { "zh-TW": "必需消費", en: "Consumer Staples", ja: "生活必需品" } },
+      { id: "CommunicationServices", name: { "zh-TW": "通訊服務", en: "Communication Services", ja: "通信サービス" } },
+      { id: "Materials", name: { "zh-TW": "原物料", en: "Materials", ja: "素材" } },
+      { id: "RealEstate", name: { "zh-TW": "房地產", en: "Real Estate", ja: "不動産" } },
+      { id: "Utilities", name: { "zh-TW": "公用事業", en: "Utilities", ja: "公益事業" } }
+    ];
+    const quoteSources = {
+      TWSE: { url: "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL", name: "TWSE OpenAPI", code: "Code", price: "ClosingPrice" },
+      TPEx: { url: "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_daily_close_quotes", name: "TPEx OpenAPI", code: "SecuritiesCompanyCode", price: "Close" }
+    };
+    const state = {
+      language: "zh-TW", market: "Taiwan", industry: "IT", view: "representative",
+      languages: [], markets: [], industries: {}, data: null,
+      initialized: false, loading: true, errorKey: null, requestId: 0,
+      quotes: new Map(), livePhase: "idle", liveErrors: [], liveFetchedAt: null,
+      liveRequestId: 0, liveController: null
+    };
+    const jsonCache = new Map();
+    const byId = (id) => document.getElementById(id);
+    const t = (key) => translations[state.language][key];
+    const localized = (value) => value[state.language];
+    const companyKey = (company) => `${company.exchange}:${company.ticker}`;
+
+    function navigationIndustries() {
+      const entries = state.industries[state.market] || [];
+      return [...industryNavigation, ...entries.filter((industry) =>
+        !industryNavigation.some((entry) => entry.id === industry.id))];
+    }
+
+    async function loadJSON(file) {
+      if (!jsonCache.has(file)) {
+        const request = (async () => {
+          const controller = new AbortController();
+          const timeout = setTimeout(() => controller.abort(), 15000);
+          try {
+            const response = await fetch(file, { signal: controller.signal });
+            if (!response.ok) throw new Error(`HTTP ${response.status}: ${file}`);
+            return await response.json();
+          } finally {
+            clearTimeout(timeout);
+          }
+        })();
+        jsonCache.set(file, request);
+        request.catch(() => jsonCache.delete(file));
+      }
+      return jsonCache.get(file);
+    }
+
+    function requireData(condition, message) {
+      if (!condition) throw new Error(`Invalid dataset: ${message}`);
+    }
+
+    function hasLocalizedText(value) {
+      return value && state.languages.every((language) =>
+        typeof value[language] === "string" && value[language].trim().length > 0);
+    }
+
+    function hasAPI(value) {
+      return value && typeof value.price === "string" && value.price.trim().length > 0 &&
+        typeof value.fundamental === "string" && value.fundamental.trim().length > 0;
+    }
+
+    function validateConfig(languages, markets, industries) {
+      requireData(Array.isArray(languages.languages) && languages.languages.length === 3 &&
+        new Set(languages.languages).size === 3 &&
+        languages.languages.every((language) => Object.hasOwn(translations, language)), "languages");
+      state.languages = languages.languages;
+      requireData(Array.isArray(markets.markets) && markets.markets.length > 0, "markets");
+      const marketIds = new Set();
+      for (const market of markets.markets) {
+        requireData(/^[A-Za-z0-9_-]+$/.test(market.id) && !marketIds.has(market.id) &&
+          hasLocalizedText(market.name) && Object.hasOwn(marketLanguages, market.id) &&
+          state.languages.includes(marketLanguages[market.id]), "market entry");
+        marketIds.add(market.id);
+        const entries = industries[market.id];
+        requireData(Array.isArray(entries) && entries.length > 0, `industries for ${market.id}`);
+        const industryIds = new Set();
+        for (const industry of entries) {
+          requireData(/^[A-Za-z0-9_-]+$/.test(industry.id) && !industryIds.has(industry.id) &&
+            hasLocalizedText(industry.name) && typeof industry.source === "string" &&
+            hasAPI(industry.api), `industry entry for ${market.id}`);
+          industryIds.add(industry.id);
+        }
+      }
+    }
+
+    function validateIndustryData(data, market, industry) {
+      requireData(data.market === market && data.industry === industry, "market/industry mismatch");
+      requireData(data.investmentCharacteristics && state.languages.every((language) => {
+        const items = data.investmentCharacteristics[language];
+        return Array.isArray(items) && items.length > 0 &&
+          items.every((item) => typeof item === "string" && item.trim().length > 0);
+      }), "investment characteristics");
+      for (const key of ["representativeCompanies", "allCompanies"]) {
+        requireData(Array.isArray(data[key]) && data[key].length > 0, key);
+        const ids = new Set();
+        for (const company of data[key]) {
+          requireData(hasLocalizedText(company.name) && typeof company.ticker === "string" &&
+            company.ticker.trim().length > 0 && typeof company.exchange === "string" &&
+            company.exchange.trim().length > 0, `${key} company`);
+          const id = `${company.exchange}:${company.ticker}`;
+          requireData(!ids.has(id), `${key} duplicate ticker`);
+          ids.add(id);
+          if (key === "representativeCompanies") requireData(hasAPI(company.api), "company API");
+        }
+      }
+      requireData(data.representativeCompanies.every((company) =>
+        data.allCompanies.some((entry) => entry.ticker === company.ticker &&
+          entry.exchange === company.exchange)), "representatives missing from full list");
+    }
+
+    function element(tag, className, text) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text !== undefined) node.textContent = text;
+      return node;
+    }
+
+    function renderMarketSelector() {
+      const select = byId("market-selector");
+      const order = ["US", "Japan", "Taiwan"];
+      select.replaceChildren(...[...state.markets].sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id)).map((market) => {
+        const name = market.id === "US" && state.language === "en" ? "United State" : localized(market.name);
+        const option = element("option", "", name);
+        option.value = market.id;
+        return option;
+      }));
+      select.value = state.market;
+      select.disabled = false;
+    }
+
+    function renderIndustryTags() {
+      const scrollLeft = byId("industry-tags").scrollLeft;
+      byId("industry-tags").replaceChildren(...navigationIndustries().map((industry) => {
+        const button = element("button", "tag", localized(industry.name));
+        button.type = "button";
+        button.dataset.industry = industry.id;
+        const available = state.industries[state.market].some((entry) => entry.id === industry.id);
+        button.dataset.available = String(available);
+        if (!available) button.title = t("noDataset");
+        button.setAttribute("aria-pressed", String(industry.id === state.industry));
+        button.addEventListener("click", () => switchIndustry(industry.id));
+        return button;
+      }));
+      byId("industry-tags").scrollLeft = scrollLeft;
+      byId("industry-tags").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest", inline: "nearest" });
+    }
+
+    function renderStatus() {
+      const visible = state.loading || Boolean(state.errorKey);
+      byId("status").hidden = !visible;
+      byId("status").dataset.kind = state.errorKey ? "error" : "loading";
+      byId("status-message").textContent = t(state.errorKey || "loading");
+      byId("retry-button").hidden = !state.errorKey || state.errorKey === "noDataset";
+      byId("industry-content").hidden = visible || !state.data;
+      byId("industry-content").setAttribute("aria-busy", String(state.loading));
+    }
+
+    function renderStaticText() {
+      document.documentElement.lang = state.language;
+      document.title = t("pageTitle");
+      document.querySelectorAll("[data-i18n]").forEach((node) => {
+        node.textContent = t(node.dataset.i18n);
+      });
+      renderStatus();
+      renderLiveStatus();
+    }
+
+    function resetLiveData() {
+      state.liveRequestId++;
+      if (state.liveController) state.liveController.abort();
+      state.liveController = null;
+      state.quotes = new Map();
+      state.livePhase = "idle";
+      state.liveErrors = [];
+      state.liveFetchedAt = null;
+      renderLiveStatus();
+    }
+
+    function renderLiveStatus() {
+      const button = byId("fetch-live-button");
+      button.disabled = state.livePhase === "loading" || !state.data;
+      button.textContent = t(state.livePhase === "loading" ? "liveLoading" : "fetchLive");
+      const status = byId("live-status");
+      status.dataset.kind = state.liveErrors.length || state.livePhase === "error" ? "error" : "info";
+      if (state.livePhase === "idle" || state.livePhase === "loading") {
+        status.textContent = t(state.livePhase === "idle" ? "liveIdle" : "liveLoading");
+        return;
+      }
+      const messages = [state.livePhase === "error" ? t("liveFailed") :
+        t("liveSummary").replace("{loaded}", String(state.quotes.size))
+          .replace("{total}", String(state.data.allCompanies.length))];
+      if (state.liveErrors.length) messages.push(`${t("liveError")} ${state.liveErrors.join("; ")}`);
+      if (state.liveFetchedAt) {
+        messages.push(`${t("fetchedAt")}: ${new Intl.DateTimeFormat(state.language,
+          { dateStyle: "medium", timeStyle: "short" }).format(state.liveFetchedAt)}`);
+      }
+      status.textContent = messages.join(" ");
+    }
+
+    function renderQuote(company) {
+      const quote = state.quotes.get(companyKey(company));
+      const node = element("p", "quote");
+      if (!quote) {
+        node.classList.add("quote-missing");
+        node.textContent = t(state.livePhase === "idle" ? "notFetched" :
+          state.livePhase === "loading" ? "liveLoading" : "missingQuote");
+        return node;
+      }
+      const price = new Intl.NumberFormat(state.language, {
+        style: "currency", currency: quote.currency, currencyDisplay: "code",
+        minimumFractionDigits: 2, maximumFractionDigits: 2
+      }).format(quote.price);
+      node.append(element("strong", "", `${t("latestPrice")}: ${price}`));
+      const date = quote.asOf ? new Intl.DateTimeFormat(state.language,
+        quote.dateOnly ? { dateStyle: "medium", timeZone: "UTC" } :
+          { dateStyle: "medium", timeStyle: "short", timeZone: quote.timeZone }).format(quote.asOf) :
+        t("unknownDate");
+      node.append(element("span", "quote-detail", `${quote.source} · ${t("asOf")}: ${date}`));
+      return node;
+    }
+
+    async function requestLiveJSON(url, signal) {
+      const controller = new AbortController();
+      const abort = () => controller.abort();
+      signal.addEventListener("abort", abort, { once: true });
+      if (signal.aborted) controller.abort();
+      const timeout = setTimeout(abort, 15000);
+      try {
+        const response = await fetch(url, { signal: controller.signal, cache: "no-store", credentials: "omit" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}: ${url}`);
+        return await response.json();
+      } finally {
+        clearTimeout(timeout);
+        signal.removeEventListener("abort", abort);
+      }
+    }
+
+    function parseClosingPrice(value) {
+      if (typeof value !== "string" && typeof value !== "number") return null;
+      const text = String(value).trim();
+      if (!/^(?:\d+|\d{1,3}(?:,\d{3})+)(?:\.\d+)?$/.test(text)) return null;
+      const price = Number(text.replaceAll(",", ""));
+      return Number.isFinite(price) && price > 0 ? price : null;
+    }
+
+    function parseTradingDate(value) {
+      const text = String(value || "").replaceAll("/", "").replaceAll("-", "");
+      if (!/^\d{7,8}$/.test(text)) return null;
+      const yearLength = text.length - 4;
+      const year = Number(text.slice(0, yearLength)) + (yearLength === 3 ? 1911 : 0);
+      const month = Number(text.slice(yearLength, yearLength + 2));
+      const day = Number(text.slice(-2));
+      const date = new Date(Date.UTC(year, month - 1, day));
+      return year >= 2000 && date.getUTCFullYear() === year && date.getUTCMonth() === month - 1 &&
+        date.getUTCDate() === day ? date : null;
+    }
+
+    async function fetchTaiwanQuotes(companies, exchange, signal) {
+      const source = quoteSources[exchange];
+      if (!source) throw new Error(`Unsupported Taiwan exchange: ${exchange}`);
+      const rows = await requestLiveJSON(source.url, signal);
+      requireData(Array.isArray(rows) && rows.length > 0 &&
+        rows.some((row) => row && typeof row[source.code] === "string"), `${source.name} quote rows`);
+      const quotes = new Map();
+      const errors = [];
+      for (const company of companies) {
+        const row = rows.find((entry) => entry && entry[source.code] === company.ticker);
+        const price = row ? parseClosingPrice(row[source.price]) : null;
+        if (price === null) {
+          errors.push(`${source.name}: ${company.ticker}`);
+          console.error(`Missing or invalid ${source.name} close for ${company.ticker}`);
+          continue;
+        }
+        quotes.set(companyKey(company), {
+          price, currency: "TWD", source: source.name, asOf: parseTradingDate(row.Date), dateOnly: true
+        });
+      }
+      return { quotes, errors };
+    }
+
+    async function fetchYahooQuote(company, market, signal) {
+      const symbol = market === "Japan" ? `${company.ticker}.T` : company.ticker;
+      const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?interval=1d&range=1d`;
+      const data = await requestLiveJSON(url, signal);
+      const meta = data.chart?.result?.[0]?.meta;
+      const currency = market === "Japan" ? "JPY" : "USD";
+      requireData(!data.chart?.error && meta && meta.symbol === symbol && meta.currency === currency &&
+        typeof meta.regularMarketPrice === "number" && Number.isFinite(meta.regularMarketPrice) &&
+        meta.regularMarketPrice > 0 && Number.isFinite(meta.regularMarketTime) &&
+        meta.regularMarketTime > 0, `Yahoo Finance quote for ${symbol}`);
+      const asOf = new Date(meta.regularMarketTime * 1000);
+      requireData(Number.isFinite(asOf.getTime()), `Yahoo Finance timestamp for ${symbol}`);
+      return {
+        price: meta.regularMarketPrice, currency, source: "Yahoo Finance",
+        asOf, dateOnly: false, timeZone: market === "Japan" ? "Asia/Tokyo" : "America/New_York"
+      };
+    }
+
+    async function fetchLiveData() {
+      if (!state.data || state.livePhase === "loading") return;
+      const requestId = ++state.liveRequestId;
+      const market = state.market;
+      const companies = state.data.allCompanies;
+      const controller = new AbortController();
+      state.liveController = controller;
+      state.livePhase = "loading";
+      state.liveErrors = [];
+      state.quotes = new Map();
+      state.liveFetchedAt = null;
+      renderLiveStatus();
+      renderRepresentativeCompanies();
+      renderAllCompanies();
+      const quotes = new Map();
+      const errors = [];
+      if (market === "Taiwan") {
+        const exchanges = [...new Set(companies.map((company) => company.exchange))];
+        const results = await Promise.allSettled(exchanges.map((exchange) =>
+          fetchTaiwanQuotes(companies.filter((company) => company.exchange === exchange), exchange, controller.signal)));
+        if (requestId !== state.liveRequestId) return;
+        results.forEach((result, index) => {
+          if (result.status === "fulfilled") {
+            result.value.quotes.forEach((quote, key) => quotes.set(key, quote));
+            errors.push(...result.value.errors);
+          } else {
+            console.error(`Live quote request failed: ${exchanges[index]}`, result.reason);
+            errors.push(quoteSources[exchanges[index]]?.name || exchanges[index]);
+          }
+        });
+      } else {
+        // Sequential requests avoid a burst against the unofficial service.
+        for (const company of companies) {
+          if (requestId !== state.liveRequestId) return;
+          try {
+            quotes.set(companyKey(company), await fetchYahooQuote(company, market, controller.signal));
+          } catch (error) {
+            if (requestId !== state.liveRequestId) return;
+            console.error(`Yahoo Finance request failed: ${company.ticker}`, error);
+            errors.push(`Yahoo Finance: ${company.ticker}`);
+            // A transport-wide failure is unlikely to improve for the next ticker.
+            if (error instanceof TypeError || error.name === "AbortError") break;
+          }
+        }
+      }
+      if (requestId !== state.liveRequestId) return;
+      state.quotes = quotes;
+      state.liveErrors = errors;
+      state.livePhase = quotes.size ? "complete" : "error";
+      state.liveFetchedAt = quotes.size ? new Date() : null;
+      state.liveController = null;
+      renderRepresentativeCompanies();
+      renderAllCompanies();
+      renderLiveStatus();
+    }
+
+    function renderRepresentativeCompanies() {
+      byId("representative-companies").replaceChildren(...state.data.representativeCompanies.map((company) => {
+        const card = element("article", "company-card");
+        const top = element("div", "company-top");
+        const identity = element("div");
+        identity.append(element("h4", "company-name", localized(company.name)),
+          element("p", "exchange", `${t("exchange")}: ${company.exchange}`));
+        top.append(identity, element("span", "ticker", company.ticker));
+        const api = element("dl", "api-info");
+        api.append(element("dt", "", t("priceAPI")), element("dd", "", company.api.price),
+          element("dt", "", t("fundamentalAPI")), element("dd", "", company.api.fundamental));
+        card.append(top, api, renderQuote(company));
+        return card;
+      }));
+    }
+
+    function renderAllCompanies() {
+      const table = element("table");
+      const caption = element("caption", "", t("count").replace("{count}",
+        new Intl.NumberFormat(state.language).format(state.data.allCompanies.length)));
+      const head = element("thead");
+      const headRow = element("tr");
+      for (const key of ["company", "ticker", "exchange", "latestPrice"]) {
+        const cell = element("th", "", t(key));
+        cell.scope = "col";
+        headRow.append(cell);
+      }
+      head.append(headRow);
+      const body = element("tbody");
+      for (const company of state.data.allCompanies) {
+        const row = element("tr");
+        row.append(element("td", "", localized(company.name)), element("td", "", company.ticker),
+          element("td", "", company.exchange));
+        const quoteCell = element("td");
+        quoteCell.append(renderQuote(company));
+        row.append(quoteCell);
+        body.append(row);
+      }
+      table.append(caption, head, body);
+      byId("all-companies").replaceChildren(table);
+    }
+
+    function renderViews() {
+      const expanded = state.view === "all";
+      byId("representative-view").hidden = expanded;
+      byId("all-view").hidden = !expanded;
+    }
+
+    function renderLoadedData() {
+      const market = state.markets.find((entry) => entry.id === state.market);
+      const industry = state.industries[state.market].find((entry) => entry.id === state.industry);
+      byId("market-name").textContent = localized(market.name);
+      byId("industry-title").textContent = localized(industry.name);
+      byId("characteristics-list").replaceChildren(...state.data.investmentCharacteristics[state.language]
+        .map((text) => element("li", "", text)));
+      renderRepresentativeCompanies();
+      renderAllCompanies();
+      byId("sources").replaceChildren(
+        element("span", "", `${t("source")}: ${industry.source}`),
+        element("span", "", `${t("priceAPI")}: ${industry.api.price}`),
+        element("span", "", `${t("fundamentalAPI")}: ${industry.api.fundamental}`)
+      );
+      renderViews();
+      renderLiveStatus();
+    }
+
+    async function renderIndustryData() {
+      const requestId = ++state.requestId;
+      const { market, industry } = state;
+      state.loading = true;
+      state.errorKey = null;
+      state.data = null;
+      resetLiveData();
+      if (!state.industries[market].some((entry) => entry.id === industry)) {
+        state.loading = false;
+        state.errorKey = "noDataset";
+        renderStatus();
+        return;
+      }
+      renderStatus();
+      const path = `data/industry_data/${market}/${industry}.json`;
+      try {
+        const data = await loadJSON(path);
+        // A slower previous selection must never overwrite the current market.
+        if (requestId !== state.requestId) return;
+        validateIndustryData(data, market, industry);
+        state.data = data;
+        state.loading = false;
+        renderLoadedData();
+        renderStatus();
+      } catch (error) {
+        if (requestId !== state.requestId) return;
+        jsonCache.delete(path);
+        console.error(`Failed to load ${path}`, error);
+        state.loading = false;
+        state.errorKey = "loadError";
+        renderStatus();
+      }
+    }
+
+    function switchMarket(market) {
+      if (!state.markets.some((entry) => entry.id === market)) throw new Error(`Unsupported market: ${market}`);
+      state.market = market;
+      state.language = marketLanguages[market];
+      state.industry = state.industries[market][0].id;
+      state.view = "representative";
+      renderStaticText();
+      renderMarketSelector();
+      renderIndustryTags();
+      renderIndustryData();
+    }
+
+    function switchIndustry(industry) {
+      if (!navigationIndustries().some((entry) => entry.id === industry)) {
+        throw new Error(`Unsupported industry: ${industry}`);
+      }
+      state.industry = industry;
+      state.view = "representative";
+      // Update existing buttons to preserve keyboard focus on the selected tag.
+      byId("industry-tags").querySelectorAll("button").forEach((button) => {
+        button.setAttribute("aria-pressed", String(button.dataset.industry === industry));
+      });
+      byId("industry-tags").querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: "nearest", inline: "nearest" });
+      renderIndustryData();
+    }
+
+    async function initialize() {
+      state.loading = true;
+      state.errorKey = null;
+      renderStaticText();
+      if (location.protocol === "file:") {
+        state.loading = false;
+        state.errorKey = "fileProtocol";
+        renderStatus();
+        return;
+      }
+      const paths = ["data/languages.json", "data/markets.json", "data/industries.json"];
+      try {
+        const [languages, markets, industries] = await Promise.all(paths.map(loadJSON));
+        validateConfig(languages, markets, industries);
+        state.markets = markets.markets;
+        state.industries = industries;
+        state.market = state.markets[0].id;
+        state.language = marketLanguages[state.market];
+        state.industry = state.industries[state.market][0].id;
+        state.initialized = true;
+        renderStaticText();
+        renderMarketSelector();
+        renderIndustryTags();
+        await renderIndustryData();
+      } catch (error) {
+        paths.forEach((path) => jsonCache.delete(path));
+        console.error("Failed to initialize industry explorer", error);
+        state.loading = false;
+        state.errorKey = "loadError";
+        renderStatus();
+      }
+    }
+
+    byId("market-selector").addEventListener("change", (event) => switchMarket(event.target.value));
+    byId("show-all-button").addEventListener("click", () => {
+      state.view = "all";
+      renderViews();
+      byId("all-title").focus();
+    });
+    byId("back-button").addEventListener("click", () => {
+      state.view = "representative";
+      renderViews();
+      byId("show-all-button").focus();
+    });
+    byId("retry-button").addEventListener("click", () => {
+      if (state.initialized) renderIndustryData();
+      else initialize();
+    });
+    byId("fetch-live-button").addEventListener("click", fetchLiveData);
+    initialize();
+  </script>
+</body>
+</html>

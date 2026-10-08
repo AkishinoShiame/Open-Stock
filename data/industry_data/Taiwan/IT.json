@@ -1,0 +1,52 @@
+{
+  "market": "Taiwan",
+  "industry": "IT",
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "半導體製造與電子代工在全球供應鏈中扮演重要角色，需求受全球科技支出影響。",
+      "AI、高效能運算與先進製程帶來長期機會，但資本支出高且產品週期快速。",
+      "出口比重高，需留意匯率、地緣政治與客戶集中風險。",
+      "評估營收成長、毛利率、產能利用率與自由現金流，不宜只看本益比。"
+    ],
+    "en": [
+      "Semiconductor manufacturing and electronics assembly play major roles in global supply chains; demand follows global technology spending.",
+      "AI, high-performance computing, and advanced manufacturing offer long-term opportunities, but capital intensity and rapid product cycles matter.",
+      "High export exposure creates currency, geopolitical, and customer-concentration risks.",
+      "Evaluate revenue growth, gross margins, capacity utilization, and free cash flow rather than relying on valuation multiples alone."
+    ],
+    "ja": [
+      "半導体製造と電子機器の受託製造は世界の供給網で重要な役割を担い、需要は世界の技術投資に左右されます。",
+      "AI、高性能計算、先端製造プロセスは長期的な機会を生む一方、多額の設備投資と短い製品周期に注意が必要です。",
+      "輸出依存度が高く、為替、地政学、顧客集中のリスクがあります。",
+      "株価収益率だけでなく、売上成長率、粗利益率、設備稼働率、フリーキャッシュフローを確認しましょう。"
+    ]
+  },
+  "representativeCompanies": [
+    {
+      "name": { "zh-TW": "台積電", "en": "TSMC", "ja": "台湾積体電路製造（TSMC）" },
+      "ticker": "2330",
+      "exchange": "TWSE",
+      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+    },
+    {
+      "name": { "zh-TW": "聯發科", "en": "MediaTek", "ja": "メディアテック" },
+      "ticker": "2454",
+      "exchange": "TWSE",
+      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+    },
+    {
+      "name": { "zh-TW": "鴻海精密", "en": "Hon Hai Precision Industry", "ja": "鴻海精密工業" },
+      "ticker": "2317",
+      "exchange": "TWSE",
+      "api": { "price": "TWSE OpenAPI", "fundamental": "MOPS" }
+    }
+  ],
+  "allCompanies": [
+    { "name": { "zh-TW": "台積電", "en": "TSMC", "ja": "台湾積体電路製造（TSMC）" }, "ticker": "2330", "exchange": "TWSE" },
+    { "name": { "zh-TW": "聯發科", "en": "MediaTek", "ja": "メディアテック" }, "ticker": "2454", "exchange": "TWSE" },
+    { "name": { "zh-TW": "鴻海精密", "en": "Hon Hai Precision Industry", "ja": "鴻海精密工業" }, "ticker": "2317", "exchange": "TWSE" },
+    { "name": { "zh-TW": "聯華電子", "en": "United Microelectronics", "ja": "聯華電子（UMC）" }, "ticker": "2303", "exchange": "TWSE" },
+    { "name": { "zh-TW": "廣達電腦", "en": "Quanta Computer", "ja": "クアンタ・コンピュータ" }, "ticker": "2382", "exchange": "TWSE" },
+    { "name": { "zh-TW": "華碩電腦", "en": "ASUSTeK Computer", "ja": "華碩電脳（ASUS）" }, "ticker": "2357", "exchange": "TWSE" }
+  ]
+}

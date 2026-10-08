@@ -1,0 +1,7 @@
+{
+  "markets": [
+    { "id": "Taiwan", "name": { "zh-TW": "台灣", "en": "Taiwan", "ja": "台湾" } },
+    { "id": "US", "name": { "zh-TW": "美國", "en": "United States", "ja": "米国" } },
+    { "id": "Japan", "name": { "zh-TW": "日本", "en": "Japan", "ja": "日本" } }
+  ]
+}

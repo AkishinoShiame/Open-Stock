@@ -1,0 +1,52 @@
+{
+  "market": "Japan",
+  "industry": "Consumer",
+  "investmentCharacteristics": {
+    "zh-TW": [
+      "此示範將零售、食品與個人用品合併為消費主題，並非單一正式 JPX 產業分類。",
+      "消費信心、薪資成長與觀光需求影響銷售；民生必需品與非必需品的景氣敏感度不同。",
+      "品牌力、海外拓展與定價能力有助成長，但原料、物流與人力成本可能壓縮利潤。",
+      "評估同店銷售、營業利益率、庫存周轉與海外市場執行能力。"
+    ],
+    "en": [
+      "This demo groups retail, food, and personal-care businesses into a consumer theme, not a single official JPX industry classification.",
+      "Consumer confidence, wage growth, and tourism affect sales; staples and discretionary goods have different cyclical sensitivity.",
+      "Brands, overseas expansion, and pricing power may support growth, while materials, logistics, and labor costs can compress margins.",
+      "Evaluate same-store sales, operating margins, inventory turnover, and execution in overseas markets."
+    ],
+    "ja": [
+      "このデモでは小売、食品、日用品を消費関連テーマとしてまとめており、JPXの単一の正式業種分類ではありません。",
+      "消費者心理、賃金上昇、観光需要が売上に影響し、生活必需品と裁量的な消費財では景気感応度が異なります。",
+      "ブランド力、海外展開、価格決定力は成長を支えますが、原材料、物流、人件費は利益率を圧迫する可能性があります。",
+      "既存店売上、営業利益率、在庫回転率、海外市場での事業遂行力を評価しましょう。"
+    ]
+  },
+  "representativeCompanies": [
+    {
+      "name": { "zh-TW": "迅銷", "en": "Fast Retailing", "ja": "ファーストリテイリング" },
+      "ticker": "9983",
+      "exchange": "TSE",
+      "api": { "price": "J-Quants", "fundamental": "EDINET" }
+    },
+    {
+      "name": { "zh-TW": "花王", "en": "Kao", "ja": "花王" },
+      "ticker": "4452",
+      "exchange": "TSE",
+      "api": { "price": "J-Quants", "fundamental": "EDINET" }
+    },
+    {
+      "name": { "zh-TW": "味之素", "en": "Ajinomoto", "ja": "味の素" },
+      "ticker": "2802",
+      "exchange": "TSE",
+      "api": { "price": "J-Quants", "fundamental": "EDINET" }
+    }
+  ],
+  "allCompanies": [
+    { "name": { "zh-TW": "迅銷", "en": "Fast Retailing", "ja": "ファーストリテイリング" }, "ticker": "9983", "exchange": "TSE" },
+    { "name": { "zh-TW": "花王", "en": "Kao", "ja": "花王" }, "ticker": "4452", "exchange": "TSE" },
+    { "name": { "zh-TW": "味之素", "en": "Ajinomoto", "ja": "味の素" }, "ticker": "2802", "exchange": "TSE" },
+    { "name": { "zh-TW": "資生堂", "en": "Shiseido", "ja": "資生堂" }, "ticker": "4911", "exchange": "TSE" },
+    { "name": { "zh-TW": "永旺", "en": "AEON", "ja": "イオン" }, "ticker": "8267", "exchange": "TSE" },
+    { "name": { "zh-TW": "朝日集團控股", "en": "Asahi Group Holdings", "ja": "アサヒグループホールディングス" }, "ticker": "2502", "exchange": "TSE" }
+  ]
+}
